@@ -1,23 +1,25 @@
 import urllib.request
 import urllib.error
 
-ids_to_test = {
-    "oatmeal_1": "https://images.unsplash.com/photo-1505576399279-565b52d4ac71?w=600&auto=format&fit=crop&q=80",
-    "oatmeal_2": "https://images.unsplash.com/photo-1517686469429-8faf88b9f7cf?w=600&auto=format&fit=crop&q=80",
-    "oatmeal_3": "https://images.unsplash.com/photo-1490645935967-10de6ba17061?w=600&auto=format&fit=crop&q=80",
-    "oatmeal_4": "https://images.unsplash.com/photo-1574894709920-11b28e7367e3?w=600&auto=format&fit=crop&q=80",
-    "oatmeal_5": "https://images.unsplash.com/photo-1501156938622-7a59f137667e?w=600&auto=format&fit=crop&q=80",
-    "oatmeal_6": "https://images.unsplash.com/photo-1551248429-40975aa4de74?w=600&auto=format&fit=crop&q=80",
-    "oatmeal_7": "https://images.unsplash.com/photo-1590080875515-8a3a8dc5735e?w=600&auto=format&fit=crop&q=80",
+# Candidates for grilled cheese / plain cheese toast
+candidates = {
+    "grilled_cheese_1": "https://images.unsplash.com/photo-1528735602780-2552fd46c7af?w=600&auto=format&fit=crop&q=80",
+    "grilled_cheese_2": "https://images.unsplash.com/photo-1528736235302-52922df5c122?w=600&auto=format&fit=crop&q=80",
+    "toast_butter_1": "https://images.unsplash.com/photo-1538220856186-0be0e085984d?w=600&auto=format&fit=crop&q=80",
+    "toast_plain_1": "https://images.unsplash.com/photo-1600271886742-f049cd451bba?w=600&auto=format&fit=crop&q=80",
+    "toast_plain_2": "https://images.unsplash.com/photo-1592417817098-8f3d6eb19675?w=600&auto=format&fit=crop&q=80",
 }
 
-print("Testing oatmeal IDs...")
-for k, url in ids_to_test.items():
-    req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64)'})
+print("Verifying candidate image URLs...")
+for name, url in candidates.items():
+    req = urllib.request.Request(
+        url,
+        headers={'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64)'}
+    )
     try:
-        with urllib.request.urlopen(req, timeout=3) as res:
-            print(f"{k}: SUCCESS (Status {res.getcode()})")
+        with urllib.request.urlopen(req, timeout=5) as res:
+            print(f"{name}: SUCCESS (200)")
     except urllib.error.HTTPError as e:
-        print(f"{k}: FAILED (HTTP Error {e.code})")
+        print(f"{name}: FAILED (HTTP {e.code})")
     except Exception as e:
-        print(f"{k}: ERROR ({str(e)})")
+        print(f"{name}: ERROR ({str(e)})")

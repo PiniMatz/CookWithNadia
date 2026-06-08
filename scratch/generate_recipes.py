@@ -4,6 +4,12 @@ import os
 def get_specific_image(name, default_img):
     name_lower = name.lower()
     
+    # 0.5 Shakshuka (שקשוקה)
+    if "שקשוקה" in name_lower:
+        if "ירוק" in name_lower or "ירוקה" in name_lower or "תרד" in name_lower:
+            return "https://images.unsplash.com/photo-1504754524776-8f4f37790ca0?w=600&auto=format&fit=crop&q=80"
+        return "src/images/shakshuka.png"
+        
     # 1. Soups (מרק)
     if "מרק" in name_lower:
         if "עדשים כתומות" in name_lower or "עדשים אדומות" in name_lower:
@@ -24,11 +30,9 @@ def get_specific_image(name, default_img):
         
     # 1.5 Omelettes and Eggs (אומלט, חביתה, מקושקשת, ביצה, ביצים)
     if any(x in name_lower for x in ["אומלט", "חביתה", "מקושקשת", "ביצה", "ביצים"]):
-        if "שקשוקה" in name_lower:
-            return "src/images/shakshuka.png"
-        elif "תרד" in name_lower or "ירוק" in name_lower or "ירוקה" in name_lower:
+        if "תרד" in name_lower or "ירוק" in name_lower or "ירוקה" in name_lower:
             return "https://images.unsplash.com/photo-1504754524776-8f4f37790ca0?w=600&auto=format&fit=crop&q=80"
-        return "https://images.unsplash.com/photo-1494597564530-871f2b93ac55?w=600&auto=format&fit=crop&q=80"
+        return "https://images.unsplash.com/photo-1498654896293-37aacf113fd9?w=600&auto=format&fit=crop&q=80"
         
     # 2. Salads (סלט)
     if "סלט" in name_lower:
@@ -50,7 +54,7 @@ def get_specific_image(name, default_img):
         
     # 2.5 Oatmeal & Muesli & Smoothie Bowls (קוואקר, מוזלי, שייק, סמוטי)
     if "קוואקר" in name_lower or "דייסה" in name_lower:
-        return "https://images.unsplash.com/photo-1505576399279-565b52d4ac71?w=600&auto=format&fit=crop&q=80"
+        return "https://images.unsplash.com/photo-1551248429-40975aa4de74?w=600&auto=format&fit=crop&q=80"
     if "מוזלי" in name_lower:
         return "https://images.unsplash.com/photo-1488477181946-6428a0291777?w=600&auto=format&fit=crop&q=80"
     if "סמוטי" in name_lower or "שייק" in name_lower:
@@ -68,11 +72,11 @@ def get_specific_image(name, default_img):
         
     # 4. Toast / Sandwiches (טוסט, כריך)
     if "טוסט" in name_lower or "כריך" in name_lower:
-        if "קפרזה" in name_lower or "עגבניות" in name_lower:
-            return "https://images.unsplash.com/photo-1572656631137-7935297eff55?w=600&auto=format&fit=crop&q=80"
+        if "קפרזה" in name_lower or "עגבניות" in name_lower or "פסטו" in name_lower or "מוצרלה" in name_lower:
+            return "https://images.unsplash.com/photo-1533089860892-a7c6f0a88666?w=600&auto=format&fit=crop&q=80"
         elif "אבוקדו" in name_lower:
-            return "https://images.unsplash.com/photo-1588137378633-dea1336ce1e2?w=600&auto=format&fit=crop&q=80"
-        return "https://images.unsplash.com/photo-1525351484163-7529414344d8?w=600&auto=format&fit=crop&q=80"
+            return "https://images.unsplash.com/photo-1541532713592-79a0317b6b77?w=600&auto=format&fit=crop&q=80"
+        return "https://images.unsplash.com/photo-1528735602780-2552fd46c7af?w=600&auto=format&fit=crop&q=80"
         
     # 5. Baking/Pastry (בורקס, מאפינס, פוקאצ'ה)
     if "בורקס" in name_lower or "מאפינס" in name_lower or "פוקאצ'ה" in name_lower or "ברוסקטה" in name_lower:
@@ -85,7 +89,7 @@ def get_specific_image(name, default_img):
         elif "פוקאצ'ה" in name_lower:
             return "https://images.unsplash.com/photo-1549931319-a545dcf3bc73?w=600&auto=format&fit=crop&q=80"
         elif "ברוסקטה" in name_lower:
-            return "https://images.unsplash.com/photo-1572656631137-7935297eff55?w=600&auto=format&fit=crop&q=80"
+            return "https://images.unsplash.com/photo-1533089860892-a7c6f0a88666?w=600&auto=format&fit=crop&q=80"
         return "src/images/pastry.png"
         
     # 6. Meat/Poultry Dishes (בקר, עוף, פרגית, שווארמה, קבב, המבורגר, עראייס, שניצל)
@@ -125,10 +129,6 @@ def get_specific_image(name, default_img):
     # 10. Pizza (פיצה)
     if "פיצה" in name_lower:
         return "src/images/pizza.png"
-        
-    # 11. Shakshuka (שקשוקה)
-    if "שקשוקה" in name_lower:
-        return "src/images/shakshuka.png"
         
     # 12. Curry / Legume Stews / Chili
     if any(x in name_lower for x in ["קארי", "צ'ילי", "תבשיל עדשים", "תבשיל שעועית", "דאל", "חרירה"]):
