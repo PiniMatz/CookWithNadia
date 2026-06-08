@@ -14,10 +14,10 @@ def get_specific_image(name, default_img):
             return "https://images.unsplash.com/photo-1476718406336-bb5a9690ee2a?w=600&auto=format&fit=crop&q=80"
         elif "עוף" in name_lower:
             return "https://images.unsplash.com/photo-1603105037880-880cd4edfb0d?w=600&auto=format&fit=crop&q=80"
-        elif "בצל" in name_lower:
-            return "https://images.unsplash.com/photo-1620418029653-62383c3167be?w=600&auto=format&fit=crop&q=80"
         elif "תירס" in name_lower:
-            return "https://images.unsplash.com/photo-1616501268290-a54872c5be7f?w=600&auto=format&fit=crop&q=80"
+            return "https://images.unsplash.com/photo-1603105037880-880cd4edfb0d?w=600&auto=format&fit=crop&q=80"
+        elif "בצל" in name_lower:
+            return "https://images.unsplash.com/photo-1476718406336-bb5a9690ee2a?w=600&auto=format&fit=crop&q=80"
         elif "שעועית" in name_lower:
             return "https://images.unsplash.com/photo-1541832676-9b763b0239ab?w=600&auto=format&fit=crop&q=80"
         return "src/images/soup_green.png"
@@ -27,7 +27,7 @@ def get_specific_image(name, default_img):
         if "שקשוקה" in name_lower:
             return "src/images/shakshuka.png"
         elif "תרד" in name_lower or "ירוק" in name_lower or "ירוקה" in name_lower:
-            return "https://images.unsplash.com/photo-1510629900089-733f19867055?w=600&auto=format&fit=crop&q=80"
+            return "https://images.unsplash.com/photo-1504754524776-8f4f37790ca0?w=600&auto=format&fit=crop&q=80"
         return "https://images.unsplash.com/photo-1494597564530-871f2b93ac55?w=600&auto=format&fit=crop&q=80"
         
     # 2. Salads (סלט)
@@ -48,6 +48,14 @@ def get_specific_image(name, default_img):
             return "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=600&auto=format&fit=crop&q=80"
         return "src/images/salad_fresh.png"
         
+    # 2.5 Oatmeal & Muesli & Smoothie Bowls (קוואקר, מוזלי, שייק, סמוטי)
+    if "קוואקר" in name_lower or "דייסה" in name_lower:
+        return "https://images.unsplash.com/photo-1505576399279-565b52d4ac71?w=600&auto=format&fit=crop&q=80"
+    if "מוזלי" in name_lower:
+        return "https://images.unsplash.com/photo-1488477181946-6428a0291777?w=600&auto=format&fit=crop&q=80"
+    if "סמוטי" in name_lower or "שייק" in name_lower:
+        return "https://images.unsplash.com/photo-1505253716362-afaea1d3d1af?w=600&auto=format&fit=crop&q=80"
+        
     # 3. Pancakes/Crepes (פנקייק, קרפ)
     if "פנקייק" in name_lower or "קרפ" in name_lower or "לביבות גבינה" in name_lower or "סירניקי" in name_lower:
         if "חלבון" in name_lower or "בננה" in name_lower or "כוסמין" in name_lower:
@@ -63,8 +71,8 @@ def get_specific_image(name, default_img):
         if "קפרזה" in name_lower or "עגבניות" in name_lower:
             return "https://images.unsplash.com/photo-1572656631137-7935297eff55?w=600&auto=format&fit=crop&q=80"
         elif "אבוקדו" in name_lower:
-            return "https://images.unsplash.com/photo-1603046891744-1f76eb10aec1?w=600&auto=format&fit=crop&q=80"
-        return "https://images.unsplash.com/photo-1603046891744-1f76eb10aec1?w=600&auto=format&fit=crop&q=80"
+            return "https://images.unsplash.com/photo-1588137378633-dea1336ce1e2?w=600&auto=format&fit=crop&q=80"
+        return "https://images.unsplash.com/photo-1525351484163-7529414344d8?w=600&auto=format&fit=crop&q=80"
         
     # 5. Baking/Pastry (בורקס, מאפינס, פוקאצ'ה)
     if "בורקס" in name_lower or "מאפינס" in name_lower or "פוקאצ'ה" in name_lower or "ברוסקטה" in name_lower:
@@ -73,7 +81,7 @@ def get_specific_image(name, default_img):
         elif "אוכמניות" in name_lower:
             return "https://images.unsplash.com/photo-1607958996333-41aef7caefaa?w=600&auto=format&fit=crop&q=80"
         elif "בננה" in name_lower:
-            return "https://images.unsplash.com/photo-1558961309-dbdf03d2ed22?w=600&auto=format&fit=crop&q=80"
+            return "https://images.unsplash.com/photo-1509440159596-0249088772ff?w=600&auto=format&fit=crop&q=80"
         elif "פוקאצ'ה" in name_lower:
             return "https://images.unsplash.com/photo-1549931319-a545dcf3bc73?w=600&auto=format&fit=crop&q=80"
         elif "ברוסקטה" in name_lower:
@@ -85,13 +93,13 @@ def get_specific_image(name, default_img):
         if "שניצל" in name_lower:
             return "https://images.unsplash.com/photo-1562967914-608f82629710?w=600&auto=format&fit=crop&q=80"
         elif "שווארמה" in name_lower:
-            return "https://images.unsplash.com/photo-1626700051175-6518c4793f4f?w=600&auto=format&fit=crop&q=80"
+            return "https://images.unsplash.com/photo-1529042410759-befb1204b468?w=600&auto=format&fit=crop&q=80"
         elif "קבב" in name_lower or "שיפודי" in name_lower:
             return "https://images.unsplash.com/photo-1529042410759-befb1204b468?w=600&auto=format&fit=crop&q=80"
         elif "המבורגר" in name_lower:
             return "src/images/burger.png"
         elif "עראייס" in name_lower:
-            return "https://images.unsplash.com/photo-1626700051175-6518c4793f4f?w=600&auto=format&fit=crop&q=80"
+            return "https://images.unsplash.com/photo-1529042410759-befb1204b468?w=600&auto=format&fit=crop&q=80"
         elif "קדירת" in name_lower or "בקר" in name_lower or "צלי" in name_lower:
             return "src/images/beef_stew.png"
         return "src/images/chicken_broccoli.png"
