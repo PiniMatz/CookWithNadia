@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>נדיה מבשלת - עוזר הבישול החכם שלך</title>
+    
+    <!-- Meta tags for SEO -->
+    <meta name="description" content="מערכת חכמה להצעת מתכונים על פי רכיבים זמינים, ערכים תזונתיים וזמן הכנה. הדרך הקלה לבשל נכון ובריא.">
+    <meta name="author" content="נדיה מבשלת">
+    
+    <!-- Google Fonts: Rubik & Varela Round -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&family=Varela+Round&display=swap" rel="stylesheet">
+    
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="src/css/style.css">
+    
+    <!-- Lucide Icons CDN -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+    <div class="app-container">
+        
+        <!-- Sidebar / Filter Panel -->
+        <aside class="sidebar glass">
+            <div class="brand">
+                <div class="logo">
+                    <span class="logo-icon">🍳</span>
+                    <h1>נדיה מבשלת</h1>
+                </div>
+                <p class="tagline">עוזר הבישול החכם שלך</p>
+            </div>
+            
+            <hr class="divider">
+            
+            <div class="filter-section">
+                <h3><i data-lucide="shopping-basket"></i> רכיבים במקרר (עד 5)</h3>
+                <div class="search-container">
+                    <input type="text" id="ingredient-search" placeholder="חפש רכיב להוספה..." autocomplete="off">
+                    <div id="search-suggestions" class="suggestions-box hidden"></div>
+                </div>
+                
+                <div class="selected-tags-container">
+                    <div class="tag-group">
+                        <span class="group-label">להכליל (פלוס):</span>
+                        <div id="include-tags" class="tags-list">
+                            <!-- Selected include tags will appear here -->
+                        </div>
+                    </div>
+                    
+                    <div class="tag-group">
+                        <span class="group-label">להוציא (מינוס):</span>
+                        <div id="exclude-tags" class="tags-list">
+                            <!-- Selected exclude tags will appear here -->
+                        </div>
+                    </div>
+                </div>
+
+                <div class="popular-ingredients-container">
+                    <span class="sub-label">רכיבים נפוצים:</span>
+                    <div id="popular-ingredients" class="popular-grid">
+                        <!-- Popular ingredients badges -->
+                    </div>
+                </div>
+                
+                <div class="fuzzy-option">
+                    <label class="switch-container">
+                        <input type="checkbox" id="fuzzy-match-toggle" checked>
+                        <span class="slider"></span>
+                        <span class="switch-label">הצג התאמה חלקית (50% ומעלה)</span>
+                    </label>
+                </div>
+            </div>
+            
+            <hr class="divider">
+            
+            <div class="filter-section">
+                <h3><i data-lucide="sparkles"></i> העדפות תזונה (מאקרו)</h3>
+                <div class="preset-filters-grid">
+                    <button class="preset-btn" data-preset="high-protein">
+                        <i data-lucide="dumbbell"></i>
+                        <span>עשיר בחלבון</span>
+                    </button>
+                    <button class="preset-btn" data-preset="low-carb">
+                        <i data-lucide="leaf"></i>
+                        <span>דל פחמימות</span>
+                    </button>
+                    <button class="preset-btn" data-preset="low-calorie">
+                        <i data-lucide="flame"></i>
+                        <span>דל קלוריות</span>
+                    </button>
+                    <button class="preset-btn" data-preset="vegan">
+                        <i data-lucide="sprout"></i>
+                        <span>טבעוני</span>
+                    </button>
+                </div>
+            </div>
+            
+            <hr class="divider">
+            
+            <div class="filter-section">
+                <h3><i data-lucide="egg"></i> מקור חלבון עיקרי</h3>
+                <div class="protein-filters-grid">
+                    <button class="protein-btn" data-protein="עוף">עוף / פרגית</button>
+                    <button class="protein-btn" data-protein="בקר">בשר בקר</button>
+                    <button class="protein-btn" data-protein="דגים">דגים / סלמון</button>
+                    <button class="protein-btn" data-protein="גבינות וביצים">גבינות וביצים</button>
+                    <button class="protein-btn" data-protein="טופו">טופו / טבעוני</button>
+                </div>
+            </div>
+            
+            <hr class="divider">
+            
+            <div class="filter-section">
+                <h3><i data-lucide="utensils"></i> סוג הארוחה</h3>
+                <div class="meal-filters-grid">
+                    <button class="meal-btn" data-meal="בוקר">בוקר</button>
+                    <button class="meal-btn" data-meal="צהריים">צהריים</button>
+                    <button class="meal-btn" data-meal="ערב">ערב</button>
+                </div>
+            </div>
+            
+            <hr class="divider">
+            
+            <div class="filter-section">
+                <h3><i data-lucide="clock"></i> זמן הכנה</h3>
+                <div class="time-filters-grid">
+                    <button class="time-btn" data-time="quick">מהיר (עד 30 דק')</button>
+                    <button class="time-btn" data-time="medium">בינוני (עד שעה)</button>
+                    <button class="time-btn" data-time="slow">בישול ארוך / לילה</button>
+                </div>
+            </div>
+            
+            <hr class="divider">
+            
+            <button id="clear-filters-btn" class="clear-btn glass">
+                <i data-lucide="rotate-ccw"></i>
+                <span>אפס את כל המסננים</span>
+            </button>
+        </aside>
+        
+        <!-- Main Content Area -->
+        <main class="main-content">
+            <!-- Header bar with search and stats -->
+            <header class="main-header glass">
+                <div class="search-bar-wrapper">
+                    <i data-lucide="search" class="search-icon"></i>
+                    <input type="text" id="recipe-search" placeholder="חפש מתכון לפי שם...">
+                </div>
+                <div class="stats-counter">
+                    <span id="recipes-count-text">נמצאו 0 מתכונים</span>
+                </div>
+            </header>
+            
+            <!-- Recipes Grid -->
+            <section class="recipes-section">
+                <div id="recipes-grid" class="recipes-grid">
+                    <!-- Dynamic recipe cards will be rendered here -->
+                </div>
+                
+                <!-- Empty State -->
+                <div id="empty-state" class="empty-state glass hidden">
+                    <i data-lucide="search-x" class="empty-icon"></i>
+                    <h2>אופס! לא נמצאו מתכונים מתאימים</h2>
+                    <p>נסו להסיר חלק מהרכיבים שביקשתם, לשנות את הגדרות המאקרו או לבטל את הסינונים השונים.</p>
+                    <button id="empty-reset-btn" class="action-btn">נקה סינונים והתחל מחדש</button>
+                </div>
+            </section>
+        </main>
+        
+    </div>
+    
+    <!-- Recipe Details Modal -->
+    <div id="recipe-modal" class="modal-overlay hidden">
+        <div class="modal-content glass">
+            <button class="close-modal-btn" id="close-modal-btn">
+                <i data-lucide="x"></i>
+            </button>
+            
+            <div class="modal-body" id="modal-body-content">
+                <!-- Content generated dynamically via JavaScript -->
+            </div>
+        </div>
+    </div>
+    
+    <!-- Main Script -->
+    <script src="src/js/app.js"></script>
+</body>
+</html>

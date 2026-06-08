@@ -1,0 +1,18 @@
+{
+  "name": "nadia-mevashelet",
+  "version": "1.0.0",
+  "description": "Smart cooking aid in Hebrew - נדיה מבשלת",
+  "main": "index.html",
+  "scripts": {
+    "dev": "npx -y http-server -p 3000"
+  },
+  "keywords": [
+    "cooking",
+    "recipes",
+    "hebrew",
+    "macros",
+    "helper"
+  ],
+  "author": "Antigravity",
+  "license": "ISC"
+}
