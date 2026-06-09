@@ -402,12 +402,35 @@ function filterAndRenderRecipes() {
             return { ...recipe, score: 0, isFilteredOut: true };
         }
         
-        // 2. Text Search Query Filter
+        // 2. Text Search Query Filter with Hebrew-aware fuzzy word matching
         if (state.recipeSearchQuery !== '') {
-            const query = state.recipeSearchQuery.toLowerCase();
-            const nameMatch = recipe.name.toLowerCase().includes(query);
-            const descMatch = recipe.description.toLowerCase().includes(query);
-            if (!nameMatch && !descMatch) {
+            const query = state.recipeSearchQuery.toLowerCase().trim();
+            const queryWords = query.split(/\s+/).filter(w => w.length > 0);
+            const recipeText = `${recipe.name} ${recipe.description} ${recipe.tags.join(' ')}`.toLowerCase();
+            
+            // Helper to check if a single query word matches any part of the recipe text with Hebrew prefix/stem flexibility
+            const isWordMatched = (qWord) => {
+                if (recipeText.includes(qWord)) return true;
+                
+                // Clean non-alphanumeric (like brackets or punctuation)
+                const qWordClean = qWord.replace(/[^\u0590-\u05fe\w]/g, '');
+                if (qWordClean.length < 3) return false;
+                
+                // Extract words from recipe text and check for similarities
+                const words = recipeText.split(/[^\u0590-\u05fe\w]+/).filter(w => w.length > 0);
+                for (const w of words) {
+                    if (w.includes(qWordClean) || qWordClean.includes(w)) return true;
+                    // Common root prefix match (e.g. sharing first 4 letters for long words)
+                    if (w.length >= 4 && qWordClean.length >= 4) {
+                        if (w.substring(0, 4) === qWordClean.substring(0, 4)) return true;
+                    }
+                }
+                return false;
+            };
+            
+            // A recipe matches if ALL query words are matched in any order
+            const allWordsMatched = queryWords.every(word => isWordMatched(word));
+            if (!allWordsMatched) {
                 return { ...recipe, score: 0, isFilteredOut: true };
             }
         }
