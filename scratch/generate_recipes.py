@@ -1,6 +1,167 @@
 # -*- coding: utf-8 -*-
 import json
 import os
+
+def get_ingredient_amount_and_unit(name, category):
+    name_clean = name.strip()
+    
+    defaults = {
+        "אבוקדו": ("1", "יחידה"),
+        "אבקת חלבון": ("1", "כף מדידה"),
+        "אגוזי מלך": ("1/4", "כוס"),
+        "אגוזים": ("1/4", "כוס"),
+        "אוכמניות": ("1/2", "כוס"),
+        "אורז": ("1", "כוס"),
+        "בוטנים": ("1/4", "כוס"),
+        "בזיליקום": ("5-6", "עלים"),
+        "בטטה": ("1", "יחידה בינונית"),
+        "ביצים": ("2", "יחידות"),
+        "בננה": ("1", "יחידה"),
+        "בצל": ("1", "יחידה"),
+        "בצל ירוק": ("2", "גבעולים"),
+        "בצק עלים": ("250", "גרם"),
+        "בקר טחון": ("400", "גרם"),
+        "בקר לבישול ארוך": ("500", "גרם"),
+        "ברוקולי": ("1", "ראש קטן"),
+        "ג'ינג'ר": ("1", "כפית מגורר"),
+        "גבינה בולגרית": ("100", "גרם"),
+        "גבינה לבנה": ("1", "גביע (250 גרם)"),
+        "גבינה צהובה": ("2", "פרוסות"),
+        "גבינת מוצרלה": ("100", "גרם"),
+        "גבינת פטה": ("100", "גרם"),
+        "גזר": ("2", "יחידות"),
+        "גרגירי חומוס מונבטים": ("1", "כוס"),
+        "גרנולה": ("1", "כוס"),
+        "דבש": ("2", "כפות"),
+        "דג לבן טחון": ("300", "גרם"),
+        "דפי לזניה": ("6", "יחידות"),
+        "זיתים": ("10", "יחידות"),
+        "זעתר": ("1", "כפית"),
+        "זרעי צ'יה": ("2", "כפות"),
+        "חומוס": ("1", "כוס"),
+        "חזה עוף": ("300", "גרם"),
+        "חלב": ("1", "כוס"),
+        "חמאה": ("30", "גרם"),
+        "חמאת בוטנים": ("3", "כפות"),
+        "חמוציות": ("1/4", "כוס"),
+        "חרדל": ("1", "כפית"),
+        "טונה": ("1", "קופסה"),
+        "טופו": ("1", "חבילה (300 גרם)"),
+        "טחינה": ("3", "כפות"),
+        "יוגורט": ("1", "גביע (150 גרם)"),
+        "יין אדום": ("1/2", "כוס"),
+        "כוסברה": ("1/2", "צרור"),
+        "כורכום": ("1/2", "כפית"),
+        "כמון": ("1/2", "כפית"),
+        "לחם": ("2", "פרוסות"),
+        "לימון": ("1/2", "יחידה"),
+        "מיונז": ("1", "כף"),
+        "מייפל": ("2", "כפות"),
+        "מלח": ("1/2", "כפית"),
+        "מלפפון חמוץ": ("1", "יחידה"),
+        "סוכר": ("2", "כפות"),
+        "סוכר קוקוס": ("2", "כפות"),
+        "סולת": ("1/2", "כוס"),
+        "סילאן": ("2", "כפות"),
+        "עגבניות": ("3", "יחידות"),
+        "עדשים חומות": ("1", "כוס"),
+        "עדשים חומות מונבטות": ("1.5", "כוסות"),
+        "עדשים ירוקות": ("1", "כוס"),
+        "עדשים ירוקות מונבטות": ("1.5", "כוסות"),
+        "עדשים כתומות": ("1", "כוס"),
+        "עדשים כתומות מונבטות": ("1.5", "כוסות"),
+        "עדשים שחורות": ("1", "כוס"),
+        "עדשים שחורות מונבטות": ("1.5", "כוסות"),
+        "עוף בתנור": ("500", "גרם"),
+        "פטרוזיליה": ("1/2", "צרור"),
+        "פטריות": ("1", "סלסלה"),
+        "פילה סלמון": ("2", "נתחים (כ-300 גרם)"),
+        "פיסטוק": ("2", "כפות"),
+        "פירורי לחם": ("1/2", "כוס"),
+        "פירות": ("1", "כוס"),
+        "פירות יער": ("1/2", "כוס"),
+        "פלפל אדום": ("1", "יחידה"),
+        "פסטה": ("200", "גרם"),
+        "פסטו": ("1", "כף"),
+        "פפריקה": ("1", "כפית"),
+        "פרגיות": ("400", "גרם"),
+        "פרמזן": ("2", "כפות"),
+        "צנוברים": ("2", "כפות"),
+        "קוקוס": ("1/2", "כוס"),
+        "קורנפלור": ("2", "כפות"),
+        "קינואה": ("1", "כוס"),
+        "קינמון": ("1/2", "כפית"),
+        "קישואים": ("2", "יחידות"),
+        "קמח": ("1", "כוס"),
+        "קמח כוסמין": ("1.5", "כוסות"),
+        "קמח שקדים": ("1", "כוס"),
+        "קקאו": ("2", "כפות"),
+        "רוטב סויה": ("2", "כפות"),
+        "רוטב עגבניות": ("1", "כוס"),
+        "רסק תפוחים": ("1/2", "כוס"),
+        "שום": ("3", "שיניים"),
+        "שומשום": ("2", "כפות"),
+        "שוקולד": ("50", "גרם"),
+        "שיבולת שועל": ("1", "כוס"),
+        "שמיר": ("3-4", "גבעולים"),
+        "שמן זית": ("2", "כפות"),
+        "שמן קוקוס": ("1", "כף"),
+        "שמן שומשום": ("1", "כף"),
+        "שמנת לבישול": ("1", "מיכל (250 מ\"ל)"),
+        "שעועית אדומה": ("1", "כוס"),
+        "שעועית אדומה מונבטת": ("1.5", "כוסות"),
+        "שעועית ירוקה": ("200", "גרם"),
+        "שעועית לבנה": ("1", "כוס"),
+        "שעועית לבנה מונבטת": ("1.5", "כוסות"),
+        "שעועית מאש מונבטת": ("1.5", "כוסות"),
+        "שקדים": ("1/4", "כוס"),
+        "תבלינים": ("1", "כפית"),
+        "תמצית וניל": ("1", "כפית"),
+        "תמרים": ("5", "יחידות"),
+        "תפוחי אדמה": ("2", "יחידות"),
+        "תפוחים": ("1", "יחידה"),
+        "תרד": ("2", "כוסות")
+    }
+    
+    amount, unit = defaults.get(name_clean, ("1", "מנה"))
+    
+    if category in ["צהריים, ערב", "ערב"] and category != "בוקר":
+        if unit == "גרם":
+            if amount == "100": amount = "200"
+            elif amount == "200": amount = "400"
+            elif amount == "250": amount = "500"
+            elif amount == "300": amount = "500"
+            elif amount == "400": amount = "600"
+            elif amount == "500": amount = "800"
+        elif unit == "כוס":
+            if amount == "1": amount = "2"
+            elif amount == "1.5": amount = "3"
+            elif amount == "1/2": amount = "1"
+            elif amount == "1/4": amount = "1/2"
+        elif unit == "כוסות":
+            if amount == "1.5": amount = "3"
+        elif unit == "יחידה":
+            if amount == "1": amount = "2"
+        elif unit == "יחידות":
+            if amount == "2": amount = "4"
+            elif amount == "3": amount = "5"
+            elif amount == "5": amount = "8"
+            elif amount == "6": amount = "10"
+        elif "כוס" in unit:
+            if amount == "1.5": amount = "3"
+            elif amount == "1": amount = "2"
+        elif unit == "כפות":
+            if amount == "2": amount = "4"
+            elif amount == "3": amount = "5"
+        elif unit == "שיניים":
+            if amount == "3": amount = "5"
+            elif amount == "4": amount = "6"
+        elif "נתחים" in unit:
+            amount = "4"
+            unit = "נתחים (כ-600 גרם)"
+            
+    return amount, unit
+
 def get_specific_image(name, default_img):
     name_lower = name.lower()
     
@@ -534,7 +695,10 @@ breakfast_items = [
 for idx, item in enumerate(breakfast_items):
     name, ing_list, primary, cals, prot, carb, fat, img, tags = item
     ing_split = ing_list.split(",")
-    ingredients_objs = [{"name": x, "amount": "1", "unit": "מנה"} for x in ing_split]
+    ingredients_objs = []
+    for x in ing_split:
+        amount, unit = get_ingredient_amount_and_unit(x, "בוקר")
+        ingredients_objs.append({"name": x, "amount": amount, "unit": unit})
     recipes.append({
         "id": 100 + idx,
         "name": name,
@@ -654,7 +818,10 @@ lunch_dinner_items = [
 for idx, item in enumerate(lunch_dinner_items):
     name, ing_list, primary, cals, prot, carb, fat, img, tags = item
     ing_split = ing_list.split(",")
-    ingredients_objs = [{"name": x, "amount": "1.5", "unit": "מנות"} for x in ing_split]
+    ingredients_objs = []
+    for x in ing_split:
+        amount, unit = get_ingredient_amount_and_unit(x, "צהריים, ערב")
+        ingredients_objs.append({"name": x, "amount": amount, "unit": unit})
     recipes.append({
         "id": 200 + idx,
         "name": name,
@@ -734,13 +901,17 @@ sprouted_items = [
 for idx, item in enumerate(sprouted_items):
     name, ing_list, primary, cals, prot, carb, fat, img, tags = item
     ing_split = ing_list.split(",")
-    ingredients_objs = [{"name": x, "amount": "1", "unit": "כוס"} for x in ing_split]
     
     # 35 items for Lunch (צהריים, ערב), 15 for Dinner/Breakfast only
     if idx < 35:
         category = "צהריים, ערב"
     else:
         category = "ערב" if idx % 2 == 0 else "בוקר"
+        
+    ingredients_objs = []
+    for x in ing_split:
+        amount, unit = get_ingredient_amount_and_unit(x, category)
+        ingredients_objs.append({"name": x, "amount": amount, "unit": unit})
         
     recipes.append({
         "id": 400 + idx,
@@ -801,7 +972,10 @@ snack_items = [
 for idx, item in enumerate(snack_items):
     name, ing_list, primary, cals, prot, carb, fat, img, tags = item
     ing_split = ing_list.split(",")
-    ingredients_objs = [{"name": x, "amount": "1", "unit": "יחידה"} for x in ing_split]
+    ingredients_objs = []
+    for x in ing_split:
+        amount, unit = get_ingredient_amount_and_unit(x, "ביניים")
+        ingredients_objs.append({"name": x, "amount": amount, "unit": unit})
     
     recipes.append({
         "id": 500 + idx,

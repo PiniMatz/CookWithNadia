@@ -875,33 +875,33 @@
     "ingredients": [
       {
         "name": "ביצים",
-        "amount": "1",
-        "unit": "מנה"
+        "amount": "2",
+        "unit": "יחידות"
       },
       {
         "name": "תרד",
-        "amount": "1",
-        "unit": "מנה"
+        "amount": "2",
+        "unit": "כוסות"
       },
       {
         "name": "שמנת לבישול",
         "amount": "1",
-        "unit": "מנה"
+        "unit": "מיכל (250 מ\"ל)"
       },
       {
         "name": "גבינת פטה",
-        "amount": "1",
-        "unit": "מנה"
+        "amount": "100",
+        "unit": "גרם"
       },
       {
         "name": "חמאה",
-        "amount": "1",
-        "unit": "מנה"
+        "amount": "30",
+        "unit": "גרם"
       },
       {
         "name": "שום",
-        "amount": "1",
-        "unit": "מנה"
+        "amount": "3",
+        "unit": "שיניים"
       }
     ],
     "instructions": [
@@ -942,27 +942,27 @@
       {
         "name": "אבקת חלבון",
         "amount": "1",
-        "unit": "מנה"
+        "unit": "כף מדידה"
       },
       {
         "name": "שיבולת שועל",
         "amount": "1",
-        "unit": "מנה"
+        "unit": "כוס"
       },
       {
         "name": "ביצים",
-        "amount": "1",
-        "unit": "מנה"
+        "amount": "2",
+        "unit": "יחידות"
       },
       {
         "name": "בננה",
         "amount": "1",
-        "unit": "מנה"
+        "unit": "יחידה"
       },
       {
         "name": "חלב",
         "amount": "1",
-        "unit": "מנה"
+        "unit": "כוס"
       }
     ],
     "instructions": [
@@ -1004,27 +1004,27 @@
       {
         "name": "שיבולת שועל",
         "amount": "1",
-        "unit": "מנה"
+        "unit": "כוס"
       },
       {
         "name": "חלב",
         "amount": "1",
-        "unit": "מנה"
+        "unit": "כוס"
       },
       {
         "name": "קינמון",
-        "amount": "1",
-        "unit": "מנה"
+        "amount": "1/2",
+        "unit": "כפית"
       },
       {
         "name": "דבש",
-        "amount": "1",
-        "unit": "מנה"
+        "amount": "2",
+        "unit": "כפות"
       },
       {
         "name": "בננה",
         "amount": "1",
-        "unit": "מנה"
+        "unit": "יחידה"
       }
     ],
     "instructions": [
@@ -1065,22 +1065,22 @@
       {
         "name": "יוגורט",
         "amount": "1",
-        "unit": "מנה"
+        "unit": "גביע (150 גרם)"
       },
       {
         "name": "גרנולה",
         "amount": "1",
-        "unit": "מנה"
+        "unit": "כוס"
       },
       {
         "name": "פירות",
         "amount": "1",
-        "unit": "מנה"
+        "unit": "כוס"
       },
       {
         "name": "דבש",
-        "amount": "1",
-        "unit": "מנה"
+        "amount": "2",
+        "unit": "כפות"
       }
     ],
     "instructions": [
@@ -1120,23 +1120,23 @@
     "ingredients": [
       {
         "name": "ביצים",
-        "amount": "1",
-        "unit": "מנה"
+        "amount": "2",
+        "unit": "יחידות"
       },
       {
         "name": "תרד",
-        "amount": "1",
-        "unit": "מנה"
+        "amount": "2",
+        "unit": "כוסות"
       },
       {
         "name": "גבינה בולגרית",
-        "amount": "1",
-        "unit": "מנה"
+        "amount": "100",
+        "unit": "גרם"
       },
       {
         "name": "שמן זית",
-        "amount": "1",
-        "unit": "מנה"
+        "amount": "2",
+        "unit": "כפות"
       }
     ],
     "instructions": [
@@ -1176,23 +1176,23 @@
     "ingredients": [
       {
         "name": "לחם",
-        "amount": "1",
-        "unit": "מנה"
+        "amount": "2",
+        "unit": "פרוסות"
       },
       {
         "name": "גבינת מוצרלה",
-        "amount": "1",
-        "unit": "מנה"
+        "amount": "100",
+        "unit": "גרם"
       },
       {
         "name": "עגבניות",
-        "amount": "1",
-        "unit": "מנה"
+        "amount": "3",
+        "unit": "יחידות"
       },
       {
         "name": "פסטו",
         "amount": "1",
-        "unit": "מנה"
+        "unit": "כף"
       }
     ],
     "instructions": [
@@ -1231,23 +1231,23 @@
     "ingredients": [
       {
         "name": "ביצים",
-        "amount": "1",
-        "unit": "מנה"
+        "amount": "2",
+        "unit": "יחידות"
       },
       {
         "name": "שמנת לבישול",
         "amount": "1",
-        "unit": "מנה"
+        "unit": "מיכל (250 מ\"ל)"
       },
       {
         "name": "בצל ירוק",
-        "amount": "1",
-        "unit": "מנה"
+        "amount": "2",
+        "unit": "גבעולים"
       },
       {
         "name": "חמאה",
-        "amount": "1",
-        "unit": "מנה"
+        "amount": "30",
+        "unit": "גרם"
       }
     ],
     "instructions": [
@@ -1286,23 +1286,23 @@
     "ingredients": [
       {
         "name": "לחם",
-        "amount": "1",
-        "unit": "מנה"
+        "amount": "2",
+        "unit": "פרוסות"
       },
       {
         "name": "גבינה צהובה",
-        "amount": "1",
-        "unit": "מנה"
+        "amount": "2",
+        "unit": "פרוסות"
       },
       {
         "name": "שמן זית",
-        "amount": "1",
-        "unit": "מנה"
+        "amount": "2",
+        "unit": "כפות"
       },
       {
         "name": "זעתר",
         "amount": "1",
-        "unit": "מנה"
+        "unit": "כפית"
       }
     ],
     "instructions": [
@@ -1341,23 +1341,23 @@
     "ingredients": [
       {
         "name": "ביצים",
-        "amount": "1",
-        "unit": "מנה"
+        "amount": "2",
+        "unit": "יחידות"
       },
       {
         "name": "מיונז",
         "amount": "1",
-        "unit": "מנה"
+        "unit": "כף"
       },
       {
         "name": "בצל ירוק",
-        "amount": "1",
-        "unit": "מנה"
+        "amount": "2",
+        "unit": "גבעולים"
       },
       {
         "name": "חרדל",
         "amount": "1",
-        "unit": "מנה"
+        "unit": "כפית"
       }
     ],
     "instructions": [
@@ -1398,27 +1398,27 @@
       {
         "name": "טונה",
         "amount": "1",
-        "unit": "מנה"
+        "unit": "קופסה"
       },
       {
         "name": "מיונז",
         "amount": "1",
-        "unit": "מנה"
+        "unit": "כף"
       },
       {
         "name": "בצל",
         "amount": "1",
-        "unit": "מנה"
+        "unit": "יחידה"
       },
       {
         "name": "מלפפון חמוץ",
         "amount": "1",
-        "unit": "מנה"
+        "unit": "יחידה"
       },
       {
         "name": "לימון",
-        "amount": "1",
-        "unit": "מנה"
+        "amount": "1/2",
+        "unit": "יחידה"
       }
     ],
     "instructions": [
@@ -1459,27 +1459,27 @@
       {
         "name": "בננה",
         "amount": "1",
-        "unit": "מנה"
+        "unit": "יחידה"
       },
       {
         "name": "תרד",
-        "amount": "1",
-        "unit": "מנה"
+        "amount": "2",
+        "unit": "כוסות"
       },
       {
         "name": "חלב",
         "amount": "1",
-        "unit": "מנה"
+        "unit": "כוס"
       },
       {
         "name": "טחינה",
-        "amount": "1",
-        "unit": "מנה"
+        "amount": "3",
+        "unit": "כפות"
       },
       {
         "name": "דבש",
-        "amount": "1",
-        "unit": "מנה"
+        "amount": "2",
+        "unit": "כפות"
       }
     ],
     "instructions": [
@@ -1519,23 +1519,23 @@
     "ingredients": [
       {
         "name": "בצק עלים",
-        "amount": "1",
-        "unit": "מנה"
+        "amount": "250",
+        "unit": "גרם"
       },
       {
         "name": "תרד",
-        "amount": "1",
-        "unit": "מנה"
+        "amount": "2",
+        "unit": "כוסות"
       },
       {
         "name": "גבינת פטה",
-        "amount": "1",
-        "unit": "מנה"
+        "amount": "100",
+        "unit": "גרם"
       },
       {
         "name": "ביצים",
-        "amount": "1",
-        "unit": "מנה"
+        "amount": "2",
+        "unit": "יחידות"
       }
     ],
     "instructions": [
@@ -1574,22 +1574,22 @@
       {
         "name": "יוגורט",
         "amount": "1",
-        "unit": "מנה"
+        "unit": "גביע (150 גרם)"
       },
       {
         "name": "שמן זית",
-        "amount": "1",
-        "unit": "מנה"
+        "amount": "2",
+        "unit": "כפות"
       },
       {
         "name": "זעתר",
         "amount": "1",
-        "unit": "מנה"
+        "unit": "כפית"
       },
       {
         "name": "מלח",
-        "amount": "1",
-        "unit": "מנה"
+        "amount": "1/2",
+        "unit": "כפית"
       }
     ],
     "instructions": [
@@ -1628,23 +1628,23 @@
     "ingredients": [
       {
         "name": "ביצים",
-        "amount": "1",
-        "unit": "מנה"
+        "amount": "2",
+        "unit": "יחידות"
       },
       {
         "name": "תפוחי אדמה",
-        "amount": "1",
-        "unit": "מנה"
+        "amount": "2",
+        "unit": "יחידות"
       },
       {
         "name": "בצל",
         "amount": "1",
-        "unit": "מנה"
+        "unit": "יחידה"
       },
       {
         "name": "פטרוזיליה",
-        "amount": "1",
-        "unit": "מנה"
+        "amount": "1/2",
+        "unit": "צרור"
       }
     ],
     "instructions": [
@@ -1682,23 +1682,23 @@
     "ingredients": [
       {
         "name": "זרעי צ'יה",
-        "amount": "1",
-        "unit": "מנה"
+        "amount": "2",
+        "unit": "כפות"
       },
       {
         "name": "חלב",
         "amount": "1",
-        "unit": "מנה"
+        "unit": "כוס"
       },
       {
         "name": "דבש",
-        "amount": "1",
-        "unit": "מנה"
+        "amount": "2",
+        "unit": "כפות"
       },
       {
         "name": "פירות",
         "amount": "1",
-        "unit": "מנה"
+        "unit": "כוס"
       }
     ],
     "instructions": [
@@ -1739,28 +1739,28 @@
     "ingredients": [
       {
         "name": "לחם",
-        "amount": "1",
-        "unit": "מנה"
+        "amount": "2",
+        "unit": "פרוסות"
       },
       {
         "name": "ביצים",
-        "amount": "1",
-        "unit": "מנה"
+        "amount": "2",
+        "unit": "יחידות"
       },
       {
         "name": "חלב",
         "amount": "1",
-        "unit": "מנה"
+        "unit": "כוס"
       },
       {
         "name": "חמאה",
-        "amount": "1",
-        "unit": "מנה"
+        "amount": "30",
+        "unit": "גרם"
       },
       {
         "name": "סוכר",
-        "amount": "1",
-        "unit": "מנה"
+        "amount": "2",
+        "unit": "כפות"
       }
     ],
     "instructions": [
@@ -1800,22 +1800,22 @@
       {
         "name": "גבינה לבנה",
         "amount": "1",
-        "unit": "מנה"
+        "unit": "גביע (250 גרם)"
       },
       {
         "name": "קמח",
         "amount": "1",
-        "unit": "מנה"
+        "unit": "כוס"
       },
       {
         "name": "ביצים",
-        "amount": "1",
-        "unit": "מנה"
+        "amount": "2",
+        "unit": "יחידות"
       },
       {
         "name": "סוכר",
-        "amount": "1",
-        "unit": "מנה"
+        "amount": "2",
+        "unit": "כפות"
       }
     ],
     "instructions": [
@@ -1854,28 +1854,28 @@
     "ingredients": [
       {
         "name": "ביצים",
-        "amount": "1",
-        "unit": "מנה"
+        "amount": "2",
+        "unit": "יחידות"
       },
       {
         "name": "לחם",
-        "amount": "1",
-        "unit": "מנה"
+        "amount": "2",
+        "unit": "פרוסות"
       },
       {
         "name": "תרד",
-        "amount": "1",
-        "unit": "מנה"
+        "amount": "2",
+        "unit": "כוסות"
       },
       {
         "name": "חמאה",
-        "amount": "1",
-        "unit": "מנה"
+        "amount": "30",
+        "unit": "גרם"
       },
       {
         "name": "שום",
-        "amount": "1",
-        "unit": "מנה"
+        "amount": "3",
+        "unit": "שיניים"
       }
     ],
     "instructions": [
@@ -1914,22 +1914,22 @@
       {
         "name": "אבוקדו",
         "amount": "1",
-        "unit": "מנה"
+        "unit": "יחידה"
       },
       {
         "name": "ביצים",
-        "amount": "1",
-        "unit": "מנה"
+        "amount": "2",
+        "unit": "יחידות"
       },
       {
         "name": "בצל",
         "amount": "1",
-        "unit": "מנה"
+        "unit": "יחידה"
       },
       {
         "name": "לימון",
-        "amount": "1",
-        "unit": "מנה"
+        "amount": "1/2",
+        "unit": "יחידה"
       }
     ],
     "instructions": [
@@ -1969,22 +1969,22 @@
       {
         "name": "בננה",
         "amount": "1",
-        "unit": "מנה"
+        "unit": "יחידה"
       },
       {
         "name": "שיבולת שועל",
         "amount": "1",
-        "unit": "מנה"
+        "unit": "כוס"
       },
       {
         "name": "ביצים",
-        "amount": "1",
-        "unit": "מנה"
+        "amount": "2",
+        "unit": "יחידות"
       },
       {
         "name": "דבש",
-        "amount": "1",
-        "unit": "מנה"
+        "amount": "2",
+        "unit": "כפות"
       }
     ],
     "instructions": [
@@ -2023,23 +2023,23 @@
     "ingredients": [
       {
         "name": "לחם",
-        "amount": "1",
-        "unit": "מנה"
+        "amount": "2",
+        "unit": "פרוסות"
       },
       {
         "name": "אבוקדו",
         "amount": "1",
-        "unit": "מנה"
+        "unit": "יחידה"
       },
       {
         "name": "ביצים",
-        "amount": "1",
-        "unit": "מנה"
+        "amount": "2",
+        "unit": "יחידות"
       },
       {
         "name": "שמן זית",
-        "amount": "1",
-        "unit": "מנה"
+        "amount": "2",
+        "unit": "כפות"
       }
     ],
     "instructions": [
@@ -2079,22 +2079,22 @@
       {
         "name": "קמח",
         "amount": "1",
-        "unit": "מנה"
+        "unit": "כוס"
       },
       {
         "name": "ביצים",
-        "amount": "1",
-        "unit": "מנה"
+        "amount": "2",
+        "unit": "יחידות"
       },
       {
         "name": "גבינה לבנה",
         "amount": "1",
-        "unit": "מנה"
+        "unit": "גביע (250 גרם)"
       },
       {
         "name": "זיתים",
-        "amount": "1",
-        "unit": "מנה"
+        "amount": "10",
+        "unit": "יחידות"
       }
     ],
     "instructions": [
@@ -2132,23 +2132,23 @@
     "ingredients": [
       {
         "name": "עגבניות",
-        "amount": "1",
-        "unit": "מנה"
+        "amount": "3",
+        "unit": "יחידות"
       },
       {
         "name": "גבינת פטה",
-        "amount": "1",
-        "unit": "מנה"
+        "amount": "100",
+        "unit": "גרם"
       },
       {
         "name": "זיתים",
-        "amount": "1",
-        "unit": "מנה"
+        "amount": "10",
+        "unit": "יחידות"
       },
       {
         "name": "שמן זית",
-        "amount": "1",
-        "unit": "מנה"
+        "amount": "2",
+        "unit": "כפות"
       }
     ],
     "instructions": [
@@ -2188,22 +2188,22 @@
       {
         "name": "שיבולת שועל",
         "amount": "1",
-        "unit": "מנה"
+        "unit": "כוס"
       },
       {
         "name": "דבש",
-        "amount": "1",
-        "unit": "מנה"
+        "amount": "2",
+        "unit": "כפות"
       },
       {
         "name": "בוטנים",
-        "amount": "1",
-        "unit": "מנה"
+        "amount": "1/4",
+        "unit": "כוס"
       },
       {
         "name": "שוקולד",
-        "amount": "1",
-        "unit": "מנה"
+        "amount": "50",
+        "unit": "גרם"
       }
     ],
     "instructions": [
@@ -2242,22 +2242,22 @@
       {
         "name": "אבקת חלבון",
         "amount": "1",
-        "unit": "מנה"
+        "unit": "כף מדידה"
       },
       {
         "name": "חלב",
         "amount": "1",
-        "unit": "מנה"
+        "unit": "כוס"
       },
       {
         "name": "בננה",
         "amount": "1",
-        "unit": "מנה"
+        "unit": "יחידה"
       },
       {
         "name": "תמרים",
-        "amount": "1",
-        "unit": "מנה"
+        "amount": "5",
+        "unit": "יחידות"
       }
     ],
     "instructions": [
@@ -2296,23 +2296,23 @@
     "ingredients": [
       {
         "name": "תרד",
-        "amount": "1",
-        "unit": "מנה"
+        "amount": "2",
+        "unit": "כוסות"
       },
       {
         "name": "גבינת פטה",
-        "amount": "1",
-        "unit": "מנה"
+        "amount": "100",
+        "unit": "גרם"
       },
       {
         "name": "ביצים",
-        "amount": "1",
-        "unit": "מנה"
+        "amount": "2",
+        "unit": "יחידות"
       },
       {
         "name": "קמח",
         "amount": "1",
-        "unit": "מנה"
+        "unit": "כוס"
       }
     ],
     "instructions": [
@@ -2350,18 +2350,18 @@
     "ingredients": [
       {
         "name": "בצק עלים",
-        "amount": "1",
-        "unit": "מנה"
+        "amount": "250",
+        "unit": "גרם"
       },
       {
         "name": "גבינה לבנה",
         "amount": "1",
-        "unit": "מנה"
+        "unit": "גביע (250 גרם)"
       },
       {
         "name": "ביצים",
-        "amount": "1",
-        "unit": "מנה"
+        "amount": "2",
+        "unit": "יחידות"
       }
     ],
     "instructions": [
@@ -2401,27 +2401,27 @@
       {
         "name": "חלב",
         "amount": "1",
-        "unit": "מנה"
+        "unit": "כוס"
       },
       {
         "name": "סולת",
-        "amount": "1",
-        "unit": "מנה"
+        "amount": "1/2",
+        "unit": "כוס"
       },
       {
         "name": "חמאה",
-        "amount": "1",
-        "unit": "מנה"
+        "amount": "30",
+        "unit": "גרם"
       },
       {
         "name": "סוכר",
-        "amount": "1",
-        "unit": "מנה"
+        "amount": "2",
+        "unit": "כפות"
       },
       {
         "name": "קינמון",
-        "amount": "1",
-        "unit": "מנה"
+        "amount": "1/2",
+        "unit": "כפית"
       }
     ],
     "instructions": [
@@ -2460,23 +2460,23 @@
     "ingredients": [
       {
         "name": "קמח כוסמין",
-        "amount": "1",
-        "unit": "מנה"
+        "amount": "1.5",
+        "unit": "כוסות"
       },
       {
         "name": "חלב",
         "amount": "1",
-        "unit": "מנה"
+        "unit": "כוס"
       },
       {
         "name": "ביצים",
-        "amount": "1",
-        "unit": "מנה"
+        "amount": "2",
+        "unit": "יחידות"
       },
       {
         "name": "מייפל",
-        "amount": "1",
-        "unit": "מנה"
+        "amount": "2",
+        "unit": "כפות"
       }
     ],
     "instructions": [
@@ -2517,27 +2517,27 @@
       {
         "name": "קמח",
         "amount": "1",
-        "unit": "מנה"
+        "unit": "כוס"
       },
       {
         "name": "חלב",
         "amount": "1",
-        "unit": "מנה"
+        "unit": "כוס"
       },
       {
         "name": "ביצים",
-        "amount": "1",
-        "unit": "מנה"
+        "amount": "2",
+        "unit": "יחידות"
       },
       {
         "name": "שוקולד",
-        "amount": "1",
-        "unit": "מנה"
+        "amount": "50",
+        "unit": "גרם"
       },
       {
         "name": "סוכר",
-        "amount": "1",
-        "unit": "מנה"
+        "amount": "2",
+        "unit": "כפות"
       }
     ],
     "instructions": [
@@ -2576,23 +2576,23 @@
     "ingredients": [
       {
         "name": "ביצים",
-        "amount": "1",
-        "unit": "מנה"
+        "amount": "2",
+        "unit": "יחידות"
       },
       {
         "name": "פטרוזיליה",
-        "amount": "1",
-        "unit": "מנה"
+        "amount": "1/2",
+        "unit": "צרור"
       },
       {
         "name": "בצל",
         "amount": "1",
-        "unit": "מנה"
+        "unit": "יחידה"
       },
       {
         "name": "שמן זית",
-        "amount": "1",
-        "unit": "מנה"
+        "amount": "2",
+        "unit": "כפות"
       }
     ],
     "instructions": [
@@ -2631,23 +2631,23 @@
     "ingredients": [
       {
         "name": "לחם",
-        "amount": "1",
-        "unit": "מנה"
+        "amount": "2",
+        "unit": "פרוסות"
       },
       {
         "name": "פילה סלמון",
-        "amount": "1",
-        "unit": "מנה"
+        "amount": "2",
+        "unit": "נתחים (כ-300 גרם)"
       },
       {
         "name": "גבינה לבנה",
         "amount": "1",
-        "unit": "מנה"
+        "unit": "גביע (250 גרם)"
       },
       {
         "name": "בצל",
         "amount": "1",
-        "unit": "מנה"
+        "unit": "יחידה"
       }
     ],
     "instructions": [
@@ -2685,23 +2685,23 @@
     "ingredients": [
       {
         "name": "ביצים",
-        "amount": "1",
-        "unit": "מנה"
+        "amount": "2",
+        "unit": "יחידות"
       },
       {
         "name": "גבינה לבנה",
         "amount": "1",
-        "unit": "מנה"
+        "unit": "גביע (250 גרם)"
       },
       {
         "name": "פטריות",
         "amount": "1",
-        "unit": "מנה"
+        "unit": "סלסלה"
       },
       {
         "name": "בצל",
         "amount": "1",
-        "unit": "מנה"
+        "unit": "יחידה"
       }
     ],
     "instructions": [
@@ -2741,22 +2741,22 @@
       {
         "name": "פטריות",
         "amount": "1",
-        "unit": "מנה"
+        "unit": "סלסלה"
       },
       {
         "name": "בצל",
         "amount": "1",
-        "unit": "מנה"
+        "unit": "יחידה"
       },
       {
         "name": "גבינת פטה",
-        "amount": "1",
-        "unit": "מנה"
+        "amount": "100",
+        "unit": "גרם"
       },
       {
         "name": "שמן זית",
-        "amount": "1",
-        "unit": "מנה"
+        "amount": "2",
+        "unit": "כפות"
       }
     ],
     "instructions": [
@@ -2797,27 +2797,27 @@
       {
         "name": "טופו",
         "amount": "1",
-        "unit": "מנה"
+        "unit": "חבילה (300 גרם)"
       },
       {
         "name": "עגבניות",
-        "amount": "1",
-        "unit": "מנה"
+        "amount": "3",
+        "unit": "יחידות"
       },
       {
         "name": "שום",
-        "amount": "1",
-        "unit": "מנה"
+        "amount": "3",
+        "unit": "שיניים"
       },
       {
         "name": "בצל",
         "amount": "1",
-        "unit": "מנה"
+        "unit": "יחידה"
       },
       {
         "name": "שמן זית",
-        "amount": "1",
-        "unit": "מנה"
+        "amount": "2",
+        "unit": "כפות"
       }
     ],
     "instructions": [
@@ -2858,27 +2858,27 @@
       {
         "name": "טופו",
         "amount": "1",
-        "unit": "מנה"
+        "unit": "חבילה (300 גרם)"
       },
       {
         "name": "תרד",
-        "amount": "1",
-        "unit": "מנה"
+        "amount": "2",
+        "unit": "כוסות"
       },
       {
         "name": "בצל",
         "amount": "1",
-        "unit": "מנה"
+        "unit": "יחידה"
       },
       {
         "name": "שמן זית",
-        "amount": "1",
-        "unit": "מנה"
+        "amount": "2",
+        "unit": "כפות"
       },
       {
         "name": "כורכום",
-        "amount": "1",
-        "unit": "מנה"
+        "amount": "1/2",
+        "unit": "כפית"
       }
     ],
     "instructions": [
@@ -2919,22 +2919,22 @@
       {
         "name": "אבוקדו",
         "amount": "1",
-        "unit": "מנה"
+        "unit": "יחידה"
       },
       {
         "name": "ביצים",
-        "amount": "1",
-        "unit": "מנה"
+        "amount": "2",
+        "unit": "יחידות"
       },
       {
         "name": "שמן זית",
-        "amount": "1",
-        "unit": "מנה"
+        "amount": "2",
+        "unit": "כפות"
       },
       {
         "name": "מלח",
-        "amount": "1",
-        "unit": "מנה"
+        "amount": "1/2",
+        "unit": "כפית"
       }
     ],
     "instructions": [
@@ -2975,27 +2975,27 @@
       {
         "name": "קמח",
         "amount": "1",
-        "unit": "מנה"
+        "unit": "כוס"
       },
       {
         "name": "חלב",
         "amount": "1",
-        "unit": "מנה"
+        "unit": "כוס"
       },
       {
         "name": "ביצים",
-        "amount": "1",
-        "unit": "מנה"
+        "amount": "2",
+        "unit": "יחידות"
       },
       {
         "name": "חמאה",
-        "amount": "1",
-        "unit": "מנה"
+        "amount": "30",
+        "unit": "גרם"
       },
       {
         "name": "סוכר",
-        "amount": "1",
-        "unit": "מנה"
+        "amount": "2",
+        "unit": "כפות"
       }
     ],
     "instructions": [
@@ -3035,27 +3035,27 @@
       {
         "name": "קמח",
         "amount": "1",
-        "unit": "מנה"
+        "unit": "כוס"
       },
       {
         "name": "אוכמניות",
-        "amount": "1",
-        "unit": "מנה"
+        "amount": "1/2",
+        "unit": "כוס"
       },
       {
         "name": "ביצים",
-        "amount": "1",
-        "unit": "מנה"
+        "amount": "2",
+        "unit": "יחידות"
       },
       {
         "name": "חלב",
         "amount": "1",
-        "unit": "מנה"
+        "unit": "כוס"
       },
       {
         "name": "סוכר",
-        "amount": "1",
-        "unit": "מנה"
+        "amount": "2",
+        "unit": "כפות"
       }
     ],
     "instructions": [
@@ -3092,18 +3092,18 @@
     "ingredients": [
       {
         "name": "לחם",
-        "amount": "1",
-        "unit": "מנה"
+        "amount": "2",
+        "unit": "פרוסות"
       },
       {
         "name": "גבינה צהובה",
-        "amount": "1",
-        "unit": "מנה"
+        "amount": "2",
+        "unit": "פרוסות"
       },
       {
         "name": "רוטב עגבניות",
         "amount": "1",
-        "unit": "מנה"
+        "unit": "כוס"
       }
     ],
     "instructions": [
@@ -3143,22 +3143,22 @@
       {
         "name": "בננה",
         "amount": "1",
-        "unit": "מנה"
+        "unit": "יחידה"
       },
       {
         "name": "שיבולת שועל",
         "amount": "1",
-        "unit": "מנה"
+        "unit": "כוס"
       },
       {
         "name": "חלב",
         "amount": "1",
-        "unit": "מנה"
+        "unit": "כוס"
       },
       {
         "name": "ביצים",
-        "amount": "1",
-        "unit": "מנה"
+        "amount": "2",
+        "unit": "יחידות"
       }
     ],
     "instructions": [
@@ -3198,23 +3198,23 @@
     "ingredients": [
       {
         "name": "לחם",
-        "amount": "1",
-        "unit": "מנה"
+        "amount": "2",
+        "unit": "פרוסות"
       },
       {
         "name": "ביצים",
-        "amount": "1",
-        "unit": "מנה"
+        "amount": "2",
+        "unit": "יחידות"
       },
       {
         "name": "גבינה לבנה",
         "amount": "1",
-        "unit": "מנה"
+        "unit": "גביע (250 גרם)"
       },
       {
         "name": "בצל ירוק",
-        "amount": "1",
-        "unit": "מנה"
+        "amount": "2",
+        "unit": "גבעולים"
       }
     ],
     "instructions": [
@@ -3254,28 +3254,28 @@
     "ingredients": [
       {
         "name": "קישואים",
-        "amount": "1",
-        "unit": "מנה"
+        "amount": "2",
+        "unit": "יחידות"
       },
       {
         "name": "פטריות",
         "amount": "1",
-        "unit": "מנה"
+        "unit": "סלסלה"
       },
       {
         "name": "ביצים",
-        "amount": "1",
-        "unit": "מנה"
+        "amount": "2",
+        "unit": "יחידות"
       },
       {
         "name": "קמח",
         "amount": "1",
-        "unit": "מנה"
+        "unit": "כוס"
       },
       {
         "name": "בצל",
         "amount": "1",
-        "unit": "מנה"
+        "unit": "יחידה"
       }
     ],
     "instructions": [
@@ -3315,28 +3315,28 @@
     "ingredients": [
       {
         "name": "לחם",
-        "amount": "1",
-        "unit": "מנה"
+        "amount": "2",
+        "unit": "פרוסות"
       },
       {
         "name": "טונה",
         "amount": "1",
-        "unit": "מנה"
+        "unit": "קופסה"
       },
       {
         "name": "ביצים",
-        "amount": "1",
-        "unit": "מנה"
+        "amount": "2",
+        "unit": "יחידות"
       },
       {
         "name": "תפוחי אדמה",
-        "amount": "1",
-        "unit": "מנה"
+        "amount": "2",
+        "unit": "יחידות"
       },
       {
         "name": "עגבניות",
-        "amount": "1",
-        "unit": "מנה"
+        "amount": "3",
+        "unit": "יחידות"
       }
     ],
     "instructions": [
@@ -3376,27 +3376,27 @@
       {
         "name": "קמח",
         "amount": "1",
-        "unit": "מנה"
+        "unit": "כוס"
       },
       {
         "name": "ביצים",
-        "amount": "1",
-        "unit": "מנה"
+        "amount": "2",
+        "unit": "יחידות"
       },
       {
         "name": "חלב",
         "amount": "1",
-        "unit": "מנה"
+        "unit": "כוס"
       },
       {
         "name": "חמאה",
-        "amount": "1",
-        "unit": "מנה"
+        "amount": "30",
+        "unit": "גרם"
       },
       {
         "name": "שוקולד",
-        "amount": "1",
-        "unit": "מנה"
+        "amount": "50",
+        "unit": "גרם"
       }
     ],
     "instructions": [
@@ -3435,28 +3435,28 @@
     "ingredients": [
       {
         "name": "חזה עוף",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "500",
+        "unit": "גרם"
       },
       {
         "name": "ברוקולי",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "1",
+        "unit": "ראש קטן"
       },
       {
         "name": "פטריות",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "1",
+        "unit": "סלסלה"
       },
       {
         "name": "שום",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "5",
+        "unit": "שיניים"
       },
       {
         "name": "רוטב סויה",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "4",
+        "unit": "כפות"
       }
     ],
     "instructions": [
@@ -3496,23 +3496,23 @@
     "ingredients": [
       {
         "name": "פילה סלמון",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "4",
+        "unit": "נתחים (כ-600 גרם)"
       },
       {
         "name": "שום",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "5",
+        "unit": "שיניים"
       },
       {
         "name": "שמן זית",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "4",
+        "unit": "כפות"
       },
       {
         "name": "לימון",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "1/2",
+        "unit": "יחידה"
       }
     ],
     "instructions": [
@@ -3552,23 +3552,23 @@
     "ingredients": [
       {
         "name": "חזה עוף",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "500",
+        "unit": "גרם"
       },
       {
         "name": "ביצים",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "4",
+        "unit": "יחידות"
       },
       {
         "name": "פירורי לחם",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "1",
+        "unit": "כוס"
       },
       {
         "name": "קמח",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "2",
+        "unit": "כוס"
       }
     ],
     "instructions": [
@@ -3607,23 +3607,23 @@
     "ingredients": [
       {
         "name": "בקר טחון",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "600",
+        "unit": "גרם"
       },
       {
         "name": "בצל",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "2",
+        "unit": "יחידה"
       },
       {
         "name": "שום",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "5",
+        "unit": "שיניים"
       },
       {
         "name": "רוטב עגבניות",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "2",
+        "unit": "כוס"
       }
     ],
     "instructions": [
@@ -3661,23 +3661,23 @@
     "ingredients": [
       {
         "name": "דג לבן טחון",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "500",
+        "unit": "גרם"
       },
       {
         "name": "שמן זית",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "4",
+        "unit": "כפות"
       },
       {
         "name": "לימון",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "1/2",
+        "unit": "יחידה"
       },
       {
         "name": "שום",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "5",
+        "unit": "שיניים"
       }
     ],
     "instructions": [
@@ -3717,23 +3717,23 @@
     "ingredients": [
       {
         "name": "פרגיות",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "600",
+        "unit": "גרם"
       },
       {
         "name": "בצל",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "2",
+        "unit": "יחידה"
       },
       {
         "name": "שמן זית",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "4",
+        "unit": "כפות"
       },
       {
         "name": "תבלינים",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "1",
+        "unit": "כפית"
       }
     ],
     "instructions": [
@@ -3773,28 +3773,28 @@
     "ingredients": [
       {
         "name": "חזה עוף",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "500",
+        "unit": "גרם"
       },
       {
         "name": "דבש",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "4",
+        "unit": "כפות"
       },
       {
         "name": "חרדל",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "1",
+        "unit": "כפית"
       },
       {
         "name": "שום",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "5",
+        "unit": "שיניים"
       },
       {
         "name": "שמן זית",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "4",
+        "unit": "כפות"
       }
     ],
     "instructions": [
@@ -3832,23 +3832,23 @@
     "ingredients": [
       {
         "name": "פסטה",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "400",
+        "unit": "גרם"
       },
       {
         "name": "בקר טחון",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "600",
+        "unit": "גרם"
       },
       {
         "name": "רוטב עגבניות",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "2",
+        "unit": "כוס"
       },
       {
         "name": "בצל",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "2",
+        "unit": "יחידה"
       }
     ],
     "instructions": [
@@ -3888,28 +3888,28 @@
     "ingredients": [
       {
         "name": "קינואה",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "2",
+        "unit": "כוס"
       },
       {
         "name": "גזר",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "4",
+        "unit": "יחידות"
       },
       {
         "name": "קישואים",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "4",
+        "unit": "יחידות"
       },
       {
         "name": "בצל",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "2",
+        "unit": "יחידה"
       },
       {
         "name": "כורכום",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "1/2",
+        "unit": "כפית"
       }
     ],
     "instructions": [
@@ -3948,23 +3948,23 @@
     "ingredients": [
       {
         "name": "עוף בתנור",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "800",
+        "unit": "גרם"
       },
       {
         "name": "תפוחי אדמה",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "4",
+        "unit": "יחידות"
       },
       {
         "name": "שמן זית",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "4",
+        "unit": "כפות"
       },
       {
         "name": "בצל",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "2",
+        "unit": "יחידה"
       }
     ],
     "instructions": [
@@ -4002,23 +4002,23 @@
     "ingredients": [
       {
         "name": "אורז",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "2",
+        "unit": "כוס"
       },
       {
         "name": "עדשים חומות",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "2",
+        "unit": "כוס"
       },
       {
         "name": "בצל",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "2",
+        "unit": "יחידה"
       },
       {
         "name": "שמן זית",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "4",
+        "unit": "כפות"
       }
     ],
     "instructions": [
@@ -4057,23 +4057,23 @@
     "ingredients": [
       {
         "name": "בקר טחון",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "600",
+        "unit": "גרם"
       },
       {
         "name": "פטרוזיליה",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "1/2",
+        "unit": "צרור"
       },
       {
         "name": "בצל",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "2",
+        "unit": "יחידה"
       },
       {
         "name": "שום",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "5",
+        "unit": "שיניים"
       }
     ],
     "instructions": [
@@ -4112,23 +4112,23 @@
     "ingredients": [
       {
         "name": "חזה עוף",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "500",
+        "unit": "גרם"
       },
       {
         "name": "פרגיות",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "600",
+        "unit": "גרם"
       },
       {
         "name": "בצל",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "2",
+        "unit": "יחידה"
       },
       {
         "name": "תבלינים",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "1",
+        "unit": "כפית"
       }
     ],
     "instructions": [
@@ -4167,23 +4167,23 @@
     "ingredients": [
       {
         "name": "דג לבן טחון",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "500",
+        "unit": "גרם"
       },
       {
         "name": "רוטב עגבניות",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "2",
+        "unit": "כוס"
       },
       {
         "name": "שום",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "5",
+        "unit": "שיניים"
       },
       {
         "name": "כוסברה",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "1/2",
+        "unit": "צרור"
       }
     ],
     "instructions": [
@@ -4222,23 +4222,23 @@
     "ingredients": [
       {
         "name": "טופו",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "1",
+        "unit": "חבילה (300 גרם)"
       },
       {
         "name": "ברוקולי",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "1",
+        "unit": "ראש קטן"
       },
       {
         "name": "פטריות",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "1",
+        "unit": "סלסלה"
       },
       {
         "name": "רוטב סויה",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "4",
+        "unit": "כפות"
       }
     ],
     "instructions": [
@@ -4278,23 +4278,23 @@
     "ingredients": [
       {
         "name": "בקר לבישול ארוך",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "800",
+        "unit": "גרם"
       },
       {
         "name": "בצל",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "2",
+        "unit": "יחידה"
       },
       {
         "name": "גזר",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "4",
+        "unit": "יחידות"
       },
       {
         "name": "יין אדום",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "1",
+        "unit": "כוס"
       }
     ],
     "instructions": [
@@ -4333,23 +4333,23 @@
     "ingredients": [
       {
         "name": "בקר טחון",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "600",
+        "unit": "גרם"
       },
       {
         "name": "אורז",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "2",
+        "unit": "כוס"
       },
       {
         "name": "רוטב עגבניות",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "2",
+        "unit": "כוס"
       },
       {
         "name": "בצל",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "2",
+        "unit": "יחידה"
       }
     ],
     "instructions": [
@@ -4386,18 +4386,18 @@
     "ingredients": [
       {
         "name": "אורז",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "2",
+        "unit": "כוס"
       },
       {
         "name": "עדשים כתומות",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "2",
+        "unit": "כוס"
       },
       {
         "name": "רוטב עגבניות",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "2",
+        "unit": "כוס"
       }
     ],
     "instructions": [
@@ -4436,23 +4436,23 @@
     "ingredients": [
       {
         "name": "עוף בתנור",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "800",
+        "unit": "גרם"
       },
       {
         "name": "אורז",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "2",
+        "unit": "כוס"
       },
       {
         "name": "בצל",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "2",
+        "unit": "יחידה"
       },
       {
         "name": "שמן זית",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "4",
+        "unit": "כפות"
       }
     ],
     "instructions": [
@@ -4489,18 +4489,18 @@
     "ingredients": [
       {
         "name": "בקר לבישול ארוך",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "800",
+        "unit": "גרם"
       },
       {
         "name": "תפוחי אדמה",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "4",
+        "unit": "יחידות"
       },
       {
         "name": "בצל",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "2",
+        "unit": "יחידה"
       }
     ],
     "instructions": [
@@ -4540,28 +4540,28 @@
     "ingredients": [
       {
         "name": "בקר לבישול ארוך",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "800",
+        "unit": "גרם"
       },
       {
         "name": "שעועית לבנה",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "2",
+        "unit": "כוס"
       },
       {
         "name": "בצל",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "2",
+        "unit": "יחידה"
       },
       {
         "name": "שום",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "5",
+        "unit": "שיניים"
       },
       {
         "name": "רוטב עגבניות",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "2",
+        "unit": "כוס"
       }
     ],
     "instructions": [
@@ -4600,23 +4600,23 @@
     "ingredients": [
       {
         "name": "בקר טחון",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "600",
+        "unit": "גרם"
       },
       {
         "name": "בטטה",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "1",
+        "unit": "יחידה בינונית"
       },
       {
         "name": "בצל",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "2",
+        "unit": "יחידה"
       },
       {
         "name": "שמן זית",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "4",
+        "unit": "כפות"
       }
     ],
     "instructions": [
@@ -4654,23 +4654,23 @@
     "ingredients": [
       {
         "name": "עדשים ירוקות",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "2",
+        "unit": "כוס"
       },
       {
         "name": "קינואה",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "2",
+        "unit": "כוס"
       },
       {
         "name": "בצל",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "2",
+        "unit": "יחידה"
       },
       {
         "name": "שמן זית",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "4",
+        "unit": "כפות"
       }
     ],
     "instructions": [
@@ -4710,23 +4710,23 @@
     "ingredients": [
       {
         "name": "פילה סלמון",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "4",
+        "unit": "נתחים (כ-600 גרם)"
       },
       {
         "name": "רוטב סויה",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "4",
+        "unit": "כפות"
       },
       {
         "name": "שומשום",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "4",
+        "unit": "כפות"
       },
       {
         "name": "ג'ינג'ר",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "1",
+        "unit": "כפית מגורר"
       }
     ],
     "instructions": [
@@ -4765,23 +4765,23 @@
     "ingredients": [
       {
         "name": "פטריות",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "1",
+        "unit": "סלסלה"
       },
       {
         "name": "בצל",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "2",
+        "unit": "יחידה"
       },
       {
         "name": "שמן זית",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "4",
+        "unit": "כפות"
       },
       {
         "name": "תבלינים",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "1",
+        "unit": "כפית"
       }
     ],
     "instructions": [
@@ -4821,23 +4821,23 @@
     "ingredients": [
       {
         "name": "חזה עוף",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "500",
+        "unit": "גרם"
       },
       {
         "name": "מיונז",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "1",
+        "unit": "כף"
       },
       {
         "name": "בצל ירוק",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "2",
+        "unit": "גבעולים"
       },
       {
         "name": "לימון",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "1/2",
+        "unit": "יחידה"
       }
     ],
     "instructions": [
@@ -4876,23 +4876,23 @@
     "ingredients": [
       {
         "name": "קינואה",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "2",
+        "unit": "כוס"
       },
       {
         "name": "בטטה",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "1",
+        "unit": "יחידה בינונית"
       },
       {
         "name": "ברוקולי",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "1",
+        "unit": "ראש קטן"
       },
       {
         "name": "טחינה",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "5",
+        "unit": "כפות"
       }
     ],
     "instructions": [
@@ -4931,23 +4931,23 @@
     "ingredients": [
       {
         "name": "בקר טחון",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "600",
+        "unit": "גרם"
       },
       {
         "name": "בצל",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "2",
+        "unit": "יחידה"
       },
       {
         "name": "לחם",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "2",
+        "unit": "פרוסות"
       },
       {
         "name": "עגבניות",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "5",
+        "unit": "יחידות"
       }
     ],
     "instructions": [
@@ -4985,23 +4985,23 @@
     "ingredients": [
       {
         "name": "פטריות",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "1",
+        "unit": "סלסלה"
       },
       {
         "name": "עדשים שחורות",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "2",
+        "unit": "כוס"
       },
       {
         "name": "בצל",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "2",
+        "unit": "יחידה"
       },
       {
         "name": "קמח",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "2",
+        "unit": "כוס"
       }
     ],
     "instructions": [
@@ -5040,23 +5040,23 @@
     "ingredients": [
       {
         "name": "בקר טחון",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "600",
+        "unit": "גרם"
       },
       {
         "name": "עגבניות",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "5",
+        "unit": "יחידות"
       },
       {
         "name": "שום",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "5",
+        "unit": "שיניים"
       },
       {
         "name": "בצל",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "2",
+        "unit": "יחידה"
       }
     ],
     "instructions": [
@@ -5094,23 +5094,23 @@
     "ingredients": [
       {
         "name": "פרגיות",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "600",
+        "unit": "גרם"
       },
       {
         "name": "שום",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "5",
+        "unit": "שיניים"
       },
       {
         "name": "רוטב סויה",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "4",
+        "unit": "כפות"
       },
       {
         "name": "דבש",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "4",
+        "unit": "כפות"
       }
     ],
     "instructions": [
@@ -5149,28 +5149,28 @@
     "ingredients": [
       {
         "name": "אורז",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "2",
+        "unit": "כוס"
       },
       {
         "name": "ביצים",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "4",
+        "unit": "יחידות"
       },
       {
         "name": "בצל ירוק",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "2",
+        "unit": "גבעולים"
       },
       {
         "name": "גזר",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "4",
+        "unit": "יחידות"
       },
       {
         "name": "רוטב סויה",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "4",
+        "unit": "כפות"
       }
     ],
     "instructions": [
@@ -5209,23 +5209,23 @@
     "ingredients": [
       {
         "name": "בקר טחון",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "600",
+        "unit": "גרם"
       },
       {
         "name": "טחינה",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "5",
+        "unit": "כפות"
       },
       {
         "name": "בצל",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "2",
+        "unit": "יחידה"
       },
       {
         "name": "צנוברים",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "4",
+        "unit": "כפות"
       }
     ],
     "instructions": [
@@ -5264,23 +5264,23 @@
     "ingredients": [
       {
         "name": "בקר טחון",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "600",
+        "unit": "גרם"
       },
       {
         "name": "לחם",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "2",
+        "unit": "פרוסות"
       },
       {
         "name": "בצל",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "2",
+        "unit": "יחידה"
       },
       {
         "name": "פטרוזיליה",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "1/2",
+        "unit": "צרור"
       }
     ],
     "instructions": [
@@ -5319,23 +5319,23 @@
     "ingredients": [
       {
         "name": "פרגיות",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "600",
+        "unit": "גרם"
       },
       {
         "name": "סילאן",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "4",
+        "unit": "כפות"
       },
       {
         "name": "שמן זית",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "4",
+        "unit": "כפות"
       },
       {
         "name": "פפריקה",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "1",
+        "unit": "כפית"
       }
     ],
     "instructions": [
@@ -5373,18 +5373,18 @@
     "ingredients": [
       {
         "name": "בקר טחון",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "600",
+        "unit": "גרם"
       },
       {
         "name": "שעועית אדומה",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "2",
+        "unit": "כוס"
       },
       {
         "name": "רוטב עגבניות",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "2",
+        "unit": "כוס"
       }
     ],
     "instructions": [
@@ -5423,23 +5423,23 @@
     "ingredients": [
       {
         "name": "פרגיות",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "600",
+        "unit": "גרם"
       },
       {
         "name": "בצל",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "2",
+        "unit": "יחידה"
       },
       {
         "name": "גזר",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "4",
+        "unit": "יחידות"
       },
       {
         "name": "תפוחי אדמה",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "4",
+        "unit": "יחידות"
       }
     ],
     "instructions": [
@@ -5478,23 +5478,23 @@
     "ingredients": [
       {
         "name": "פסטה",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "400",
+        "unit": "גרם"
       },
       {
         "name": "חזה עוף",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "500",
+        "unit": "גרם"
       },
       {
         "name": "פסטו",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "1",
+        "unit": "כף"
       },
       {
         "name": "שום",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "5",
+        "unit": "שיניים"
       }
     ],
     "instructions": [
@@ -5534,28 +5534,28 @@
     "ingredients": [
       {
         "name": "טופו",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "1",
+        "unit": "חבילה (300 גרם)"
       },
       {
         "name": "קינואה",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "2",
+        "unit": "כוס"
       },
       {
         "name": "ברוקולי",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "1",
+        "unit": "ראש קטן"
       },
       {
         "name": "בטטה",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "1",
+        "unit": "יחידה בינונית"
       },
       {
         "name": "טחינה",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "5",
+        "unit": "כפות"
       }
     ],
     "instructions": [
@@ -5595,23 +5595,23 @@
     "ingredients": [
       {
         "name": "חזה עוף",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "500",
+        "unit": "גרם"
       },
       {
         "name": "בצל",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "2",
+        "unit": "יחידה"
       },
       {
         "name": "שמן זית",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "4",
+        "unit": "כפות"
       },
       {
         "name": "פפריקה",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "1",
+        "unit": "כפית"
       }
     ],
     "instructions": [
@@ -5651,23 +5651,23 @@
     "ingredients": [
       {
         "name": "בקר טחון",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "600",
+        "unit": "גרם"
       },
       {
         "name": "דפי לזניה",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "10",
+        "unit": "יחידות"
       },
       {
         "name": "רוטב עגבניות",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "2",
+        "unit": "כוס"
       },
       {
         "name": "גבינת מוצרלה",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "200",
+        "unit": "גרם"
       }
     ],
     "instructions": [
@@ -5706,23 +5706,23 @@
     "ingredients": [
       {
         "name": "דפי לזניה",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "10",
+        "unit": "יחידות"
       },
       {
         "name": "תרד",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "2",
+        "unit": "כוסות"
       },
       {
         "name": "גבינה לבנה",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "1",
+        "unit": "גביע (250 גרם)"
       },
       {
         "name": "גבינת מוצרלה",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "200",
+        "unit": "גרם"
       }
     ],
     "instructions": [
@@ -5761,28 +5761,28 @@
     "ingredients": [
       {
         "name": "פסטה",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "400",
+        "unit": "גרם"
       },
       {
         "name": "שמנת לבישול",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "1",
+        "unit": "מיכל (250 מ\"ל)"
       },
       {
         "name": "פטריות",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "1",
+        "unit": "סלסלה"
       },
       {
         "name": "בצל",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "2",
+        "unit": "יחידה"
       },
       {
         "name": "פרמזן",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "4",
+        "unit": "כפות"
       }
     ],
     "instructions": [
@@ -5822,28 +5822,28 @@
     "ingredients": [
       {
         "name": "פסטה",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "400",
+        "unit": "גרם"
       },
       {
         "name": "רוטב עגבניות",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "2",
+        "unit": "כוס"
       },
       {
         "name": "שום",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "5",
+        "unit": "שיניים"
       },
       {
         "name": "שמן זית",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "4",
+        "unit": "כפות"
       },
       {
         "name": "בזיליקום",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "5-6",
+        "unit": "עלים"
       }
     ],
     "instructions": [
@@ -5883,23 +5883,23 @@
     "ingredients": [
       {
         "name": "פסטה",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "400",
+        "unit": "גרם"
       },
       {
         "name": "שמנת לבישול",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "1",
+        "unit": "מיכל (250 מ\"ל)"
       },
       {
         "name": "רוטב עגבניות",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "2",
+        "unit": "כוס"
       },
       {
         "name": "שום",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "5",
+        "unit": "שיניים"
       }
     ],
     "instructions": [
@@ -5939,28 +5939,28 @@
     "ingredients": [
       {
         "name": "עדשים כתומות",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "2",
+        "unit": "כוס"
       },
       {
         "name": "גזר",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "4",
+        "unit": "יחידות"
       },
       {
         "name": "בצל",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "2",
+        "unit": "יחידה"
       },
       {
         "name": "כמון",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "1/2",
+        "unit": "כפית"
       },
       {
         "name": "שמן זית",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "4",
+        "unit": "כפות"
       }
     ],
     "instructions": [
@@ -6001,28 +6001,28 @@
     "ingredients": [
       {
         "name": "פסטה",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "400",
+        "unit": "גרם"
       },
       {
         "name": "רוטב עגבניות",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "2",
+        "unit": "כוס"
       },
       {
         "name": "גזר",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "4",
+        "unit": "יחידות"
       },
       {
         "name": "בצל",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "2",
+        "unit": "יחידה"
       },
       {
         "name": "קישואים",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "4",
+        "unit": "יחידות"
       }
     ],
     "instructions": [
@@ -6063,28 +6063,28 @@
     "ingredients": [
       {
         "name": "בצל",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "2",
+        "unit": "יחידה"
       },
       {
         "name": "לחם",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "2",
+        "unit": "פרוסות"
       },
       {
         "name": "גבינה צהובה",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "2",
+        "unit": "פרוסות"
       },
       {
         "name": "חמאה",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "30",
+        "unit": "גרם"
       },
       {
         "name": "יין אדום",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "1",
+        "unit": "כוס"
       }
     ],
     "instructions": [
@@ -6124,28 +6124,28 @@
     "ingredients": [
       {
         "name": "חזה עוף",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "500",
+        "unit": "גרם"
       },
       {
         "name": "פסטה",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "400",
+        "unit": "גרם"
       },
       {
         "name": "גזר",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "4",
+        "unit": "יחידות"
       },
       {
         "name": "בצל",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "2",
+        "unit": "יחידה"
       },
       {
         "name": "פטרוזיליה",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "1/2",
+        "unit": "צרור"
       }
     ],
     "instructions": [
@@ -6184,23 +6184,23 @@
     "ingredients": [
       {
         "name": "ביצים",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "4",
+        "unit": "יחידות"
       },
       {
         "name": "בצל",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "2",
+        "unit": "יחידה"
       },
       {
         "name": "שמן שומשום",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "1",
+        "unit": "כף"
       },
       {
         "name": "רוטב סויה",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "4",
+        "unit": "כפות"
       }
     ],
     "instructions": [
@@ -6240,28 +6240,28 @@
     "ingredients": [
       {
         "name": "בטטה",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "1",
+        "unit": "יחידה בינונית"
       },
       {
         "name": "גזר",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "4",
+        "unit": "יחידות"
       },
       {
         "name": "בצל",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "2",
+        "unit": "יחידה"
       },
       {
         "name": "שמן זית",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "4",
+        "unit": "כפות"
       },
       {
         "name": "ג'ינג'ר",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "1",
+        "unit": "כפית מגורר"
       }
     ],
     "instructions": [
@@ -6301,23 +6301,23 @@
     "ingredients": [
       {
         "name": "קמח",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "2",
+        "unit": "כוס"
       },
       {
         "name": "גבינת מוצרלה",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "200",
+        "unit": "גרם"
       },
       {
         "name": "רוטב עגבניות",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "2",
+        "unit": "כוס"
       },
       {
         "name": "שמן זית",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "4",
+        "unit": "כפות"
       }
     ],
     "instructions": [
@@ -6357,28 +6357,28 @@
     "ingredients": [
       {
         "name": "קמח",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "2",
+        "unit": "כוס"
       },
       {
         "name": "שמן זית",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "4",
+        "unit": "כפות"
       },
       {
         "name": "בצל",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "2",
+        "unit": "יחידה"
       },
       {
         "name": "עגבניות",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "5",
+        "unit": "יחידות"
       },
       {
         "name": "שום",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "5",
+        "unit": "שיניים"
       }
     ],
     "instructions": [
@@ -6418,28 +6418,28 @@
     "ingredients": [
       {
         "name": "בטטה",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "1",
+        "unit": "יחידה בינונית"
       },
       {
         "name": "גבינת פטה",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "200",
+        "unit": "גרם"
       },
       {
         "name": "ביצים",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "4",
+        "unit": "יחידות"
       },
       {
         "name": "קמח",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "2",
+        "unit": "כוס"
       },
       {
         "name": "בצל",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "2",
+        "unit": "יחידה"
       }
     ],
     "instructions": [
@@ -6478,28 +6478,28 @@
     "ingredients": [
       {
         "name": "פטריות",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "1",
+        "unit": "סלסלה"
       },
       {
         "name": "בצל",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "2",
+        "unit": "יחידה"
       },
       {
         "name": "גבינה לבנה",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "1",
+        "unit": "גביע (250 גרם)"
       },
       {
         "name": "ביצים",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "4",
+        "unit": "יחידות"
       },
       {
         "name": "קמח",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "2",
+        "unit": "כוס"
       }
     ],
     "instructions": [
@@ -6537,23 +6537,23 @@
     "ingredients": [
       {
         "name": "לחם",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "2",
+        "unit": "פרוסות"
       },
       {
         "name": "חזה עוף",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "500",
+        "unit": "גרם"
       },
       {
         "name": "בצל",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "2",
+        "unit": "יחידה"
       },
       {
         "name": "פלפל אדום",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "2",
+        "unit": "יחידה"
       }
     ],
     "instructions": [
@@ -6593,28 +6593,28 @@
     "ingredients": [
       {
         "name": "לחם",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "2",
+        "unit": "פרוסות"
       },
       {
         "name": "אבוקדו",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "2",
+        "unit": "יחידה"
       },
       {
         "name": "עגבניות",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "5",
+        "unit": "יחידות"
       },
       {
         "name": "בצל",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "2",
+        "unit": "יחידה"
       },
       {
         "name": "לימון",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "1/2",
+        "unit": "יחידה"
       }
     ],
     "instructions": [
@@ -6653,23 +6653,23 @@
     "ingredients": [
       {
         "name": "טונה",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "1",
+        "unit": "קופסה"
       },
       {
         "name": "ביצים",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "4",
+        "unit": "יחידות"
       },
       {
         "name": "תפוחי אדמה",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "4",
+        "unit": "יחידות"
       },
       {
         "name": "עגבניות",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "5",
+        "unit": "יחידות"
       }
     ],
     "instructions": [
@@ -6709,28 +6709,28 @@
     "ingredients": [
       {
         "name": "חזה עוף",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "500",
+        "unit": "גרם"
       },
       {
         "name": "לחם",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "2",
+        "unit": "פרוסות"
       },
       {
         "name": "שמן זית",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "4",
+        "unit": "כפות"
       },
       {
         "name": "שום",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "5",
+        "unit": "שיניים"
       },
       {
         "name": "לימון",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "1/2",
+        "unit": "יחידה"
       }
     ],
     "instructions": [
@@ -6768,23 +6768,23 @@
     "ingredients": [
       {
         "name": "פסטה",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "400",
+        "unit": "גרם"
       },
       {
         "name": "פסטו",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "1",
+        "unit": "כף"
       },
       {
         "name": "גבינת פטה",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "200",
+        "unit": "גרם"
       },
       {
         "name": "זיתים",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "10",
+        "unit": "יחידות"
       }
     ],
     "instructions": [
@@ -6823,23 +6823,23 @@
     "ingredients": [
       {
         "name": "עגבניות",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "5",
+        "unit": "יחידות"
       },
       {
         "name": "גבינת מוצרלה",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "200",
+        "unit": "גרם"
       },
       {
         "name": "בזיליקום",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "5-6",
+        "unit": "עלים"
       },
       {
         "name": "שמן זית",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "4",
+        "unit": "כפות"
       }
     ],
     "instructions": [
@@ -6880,28 +6880,28 @@
     "ingredients": [
       {
         "name": "בקר טחון",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "600",
+        "unit": "גרם"
       },
       {
         "name": "עגבניות",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "5",
+        "unit": "יחידות"
       },
       {
         "name": "שום",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "5",
+        "unit": "שיניים"
       },
       {
         "name": "בצל",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "2",
+        "unit": "יחידה"
       },
       {
         "name": "שמן זית",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "4",
+        "unit": "כפות"
       }
     ],
     "instructions": [
@@ -6939,23 +6939,23 @@
     "ingredients": [
       {
         "name": "טונה",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "1",
+        "unit": "קופסה"
       },
       {
         "name": "ביצים",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "4",
+        "unit": "יחידות"
       },
       {
         "name": "פירורי לחם",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "1",
+        "unit": "כוס"
       },
       {
         "name": "בצל",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "2",
+        "unit": "יחידה"
       }
     ],
     "instructions": [
@@ -6993,18 +6993,18 @@
     "ingredients": [
       {
         "name": "גבינה לבנה",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "1",
+        "unit": "גביע (250 גרם)"
       },
       {
         "name": "גבינת מוצרלה",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "200",
+        "unit": "גרם"
       },
       {
         "name": "רוטב עגבניות",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "2",
+        "unit": "כוס"
       }
     ],
     "instructions": [
@@ -7043,23 +7043,23 @@
     "ingredients": [
       {
         "name": "בטטה",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "1",
+        "unit": "יחידה בינונית"
       },
       {
         "name": "שמנת לבישול",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "1",
+        "unit": "מיכל (250 מ\"ל)"
       },
       {
         "name": "חמאה",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "30",
+        "unit": "גרם"
       },
       {
         "name": "שום",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "5",
+        "unit": "שיניים"
       }
     ],
     "instructions": [
@@ -7097,23 +7097,23 @@
     "ingredients": [
       {
         "name": "תפוחי אדמה",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "4",
+        "unit": "יחידות"
       },
       {
         "name": "חמאה",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "30",
+        "unit": "גרם"
       },
       {
         "name": "פרמזן",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "4",
+        "unit": "כפות"
       },
       {
         "name": "שום",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "5",
+        "unit": "שיניים"
       }
     ],
     "instructions": [
@@ -7151,23 +7151,23 @@
     "ingredients": [
       {
         "name": "תפוחי אדמה",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "4",
+        "unit": "יחידות"
       },
       {
         "name": "שמנת לבישול",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "1",
+        "unit": "מיכל (250 מ\"ל)"
       },
       {
         "name": "פטריות",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "1",
+        "unit": "סלסלה"
       },
       {
         "name": "בצל",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "2",
+        "unit": "יחידה"
       }
     ],
     "instructions": [
@@ -7206,23 +7206,23 @@
     "ingredients": [
       {
         "name": "ביצים",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "4",
+        "unit": "יחידות"
       },
       {
         "name": "גבינה לבנה",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "1",
+        "unit": "גביע (250 גרם)"
       },
       {
         "name": "קמח",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "2",
+        "unit": "כוס"
       },
       {
         "name": "חלב",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "2",
+        "unit": "כוס"
       }
     ],
     "instructions": [
@@ -7261,28 +7261,28 @@
     "ingredients": [
       {
         "name": "לחם",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "2",
+        "unit": "פרוסות"
       },
       {
         "name": "עגבניות",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "5",
+        "unit": "יחידות"
       },
       {
         "name": "שום",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "5",
+        "unit": "שיניים"
       },
       {
         "name": "שמן זית",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "4",
+        "unit": "כפות"
       },
       {
         "name": "בזיליקום",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "5-6",
+        "unit": "עלים"
       }
     ],
     "instructions": [
@@ -7322,23 +7322,23 @@
     "ingredients": [
       {
         "name": "ברוקולי",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "1",
+        "unit": "ראש קטן"
       },
       {
         "name": "ביצים",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "4",
+        "unit": "יחידות"
       },
       {
         "name": "פירורי לחם",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "1",
+        "unit": "כוס"
       },
       {
         "name": "שמן זית",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "4",
+        "unit": "כפות"
       }
     ],
     "instructions": [
@@ -7377,23 +7377,23 @@
     "ingredients": [
       {
         "name": "ביצים",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "4",
+        "unit": "יחידות"
       },
       {
         "name": "עגבניות",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "5",
+        "unit": "יחידות"
       },
       {
         "name": "גבינת פטה",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "200",
+        "unit": "גרם"
       },
       {
         "name": "שמן זית",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "4",
+        "unit": "כפות"
       }
     ],
     "instructions": [
@@ -7432,23 +7432,23 @@
     "ingredients": [
       {
         "name": "חומוס",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "2",
+        "unit": "כוס"
       },
       {
         "name": "בצל",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "2",
+        "unit": "יחידה"
       },
       {
         "name": "שום",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "5",
+        "unit": "שיניים"
       },
       {
         "name": "שמן זית",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "4",
+        "unit": "כפות"
       }
     ],
     "instructions": [
@@ -7487,23 +7487,23 @@
     "ingredients": [
       {
         "name": "לחם",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "2",
+        "unit": "פרוסות"
       },
       {
         "name": "פרגיות",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "600",
+        "unit": "גרם"
       },
       {
         "name": "שמן זית",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "4",
+        "unit": "כפות"
       },
       {
         "name": "שום",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "5",
+        "unit": "שיניים"
       }
     ],
     "instructions": [
@@ -7543,28 +7543,28 @@
     "ingredients": [
       {
         "name": "בצל",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "2",
+        "unit": "יחידה"
       },
       {
         "name": "גבינה צהובה",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "2",
+        "unit": "פרוסות"
       },
       {
         "name": "ביצים",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "4",
+        "unit": "יחידות"
       },
       {
         "name": "קמח",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "2",
+        "unit": "כוס"
       },
       {
         "name": "חמאה",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "30",
+        "unit": "גרם"
       }
     ],
     "instructions": [
@@ -7603,28 +7603,28 @@
     "ingredients": [
       {
         "name": "פסטה",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "400",
+        "unit": "גרם"
       },
       {
         "name": "גבינה צהובה",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "2",
+        "unit": "פרוסות"
       },
       {
         "name": "חלב",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "2",
+        "unit": "כוס"
       },
       {
         "name": "חמאה",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "30",
+        "unit": "גרם"
       },
       {
         "name": "קמח",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "2",
+        "unit": "כוס"
       }
     ],
     "instructions": [
@@ -7663,23 +7663,23 @@
     "ingredients": [
       {
         "name": "עגבניות",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "5",
+        "unit": "יחידות"
       },
       {
         "name": "בצל ירוק",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "2",
+        "unit": "גבעולים"
       },
       {
         "name": "לימון",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "1/2",
+        "unit": "יחידה"
       },
       {
         "name": "שמן זית",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "4",
+        "unit": "כפות"
       }
     ],
     "instructions": [
@@ -7718,23 +7718,23 @@
     "ingredients": [
       {
         "name": "גבינת פטה",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "200",
+        "unit": "גרם"
       },
       {
         "name": "בצל",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "2",
+        "unit": "יחידה"
       },
       {
         "name": "שמן זית",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "4",
+        "unit": "כפות"
       },
       {
         "name": "לימון",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "1/2",
+        "unit": "יחידה"
       }
     ],
     "instructions": [
@@ -7774,28 +7774,28 @@
     "ingredients": [
       {
         "name": "גזר",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "4",
+        "unit": "יחידות"
       },
       {
         "name": "בצל",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "2",
+        "unit": "יחידה"
       },
       {
         "name": "שום",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "5",
+        "unit": "שיניים"
       },
       {
         "name": "שמן זית",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "4",
+        "unit": "כפות"
       },
       {
         "name": "שמיר",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "3-4",
+        "unit": "גבעולים"
       }
     ],
     "instructions": [
@@ -7835,23 +7835,23 @@
     "ingredients": [
       {
         "name": "תפוחי אדמה",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "4",
+        "unit": "יחידות"
       },
       {
         "name": "ביצים",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "4",
+        "unit": "יחידות"
       },
       {
         "name": "גבינה צהובה",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "2",
+        "unit": "פרוסות"
       },
       {
         "name": "בצל",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "2",
+        "unit": "יחידה"
       }
     ],
     "instructions": [
@@ -7890,28 +7890,28 @@
     "ingredients": [
       {
         "name": "קינואה",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "2",
+        "unit": "כוס"
       },
       {
         "name": "פטריות",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "1",
+        "unit": "סלסלה"
       },
       {
         "name": "בצל",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "2",
+        "unit": "יחידה"
       },
       {
         "name": "שמן זית",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "4",
+        "unit": "כפות"
       },
       {
         "name": "שום",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "5",
+        "unit": "שיניים"
       }
     ],
     "instructions": [
@@ -7952,28 +7952,28 @@
     "ingredients": [
       {
         "name": "דג לבן טחון",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "500",
+        "unit": "גרם"
       },
       {
         "name": "שום",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "5",
+        "unit": "שיניים"
       },
       {
         "name": "שמן זית",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "4",
+        "unit": "כפות"
       },
       {
         "name": "לימון",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "1/2",
+        "unit": "יחידה"
       },
       {
         "name": "שמיר",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "3-4",
+        "unit": "גבעולים"
       }
     ],
     "instructions": [
@@ -8014,28 +8014,28 @@
     "ingredients": [
       {
         "name": "חזה עוף",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "500",
+        "unit": "גרם"
       },
       {
         "name": "בצל",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "2",
+        "unit": "יחידה"
       },
       {
         "name": "גזר",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "4",
+        "unit": "יחידות"
       },
       {
         "name": "תפוחי אדמה",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "4",
+        "unit": "יחידות"
       },
       {
         "name": "שמן זית",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "4",
+        "unit": "כפות"
       }
     ],
     "instructions": [
@@ -8075,28 +8075,28 @@
     "ingredients": [
       {
         "name": "פרגיות",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "600",
+        "unit": "גרם"
       },
       {
         "name": "אורז",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "2",
+        "unit": "כוס"
       },
       {
         "name": "בצל",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "2",
+        "unit": "יחידה"
       },
       {
         "name": "שמן זית",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "4",
+        "unit": "כפות"
       },
       {
         "name": "גזר",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "4",
+        "unit": "יחידות"
       }
     ],
     "instructions": [
@@ -8134,23 +8134,23 @@
     "ingredients": [
       {
         "name": "עדשים ירוקות",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "2",
+        "unit": "כוס"
       },
       {
         "name": "בצל",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "2",
+        "unit": "יחידה"
       },
       {
         "name": "שום",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "5",
+        "unit": "שיניים"
       },
       {
         "name": "רוטב עגבניות",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "2",
+        "unit": "כוס"
       }
     ],
     "instructions": [
@@ -8190,28 +8190,28 @@
     "ingredients": [
       {
         "name": "שעועית ירוקה",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "400",
+        "unit": "גרם"
       },
       {
         "name": "עגבניות",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "5",
+        "unit": "יחידות"
       },
       {
         "name": "בצל",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "2",
+        "unit": "יחידה"
       },
       {
         "name": "שום",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "5",
+        "unit": "שיניים"
       },
       {
         "name": "שמן זית",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "4",
+        "unit": "כפות"
       }
     ],
     "instructions": [
@@ -8253,28 +8253,28 @@
     "ingredients": [
       {
         "name": "בקר טחון",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "600",
+        "unit": "גרם"
       },
       {
         "name": "שעועית אדומה",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "2",
+        "unit": "כוס"
       },
       {
         "name": "בצל",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "2",
+        "unit": "יחידה"
       },
       {
         "name": "שום",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "5",
+        "unit": "שיניים"
       },
       {
         "name": "רוטב עגבניות",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "2",
+        "unit": "כוס"
       }
     ],
     "instructions": [
@@ -8314,28 +8314,28 @@
     "ingredients": [
       {
         "name": "שעועית לבנה",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "2",
+        "unit": "כוס"
       },
       {
         "name": "בצל",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "2",
+        "unit": "יחידה"
       },
       {
         "name": "פטרוזיליה",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "1/2",
+        "unit": "צרור"
       },
       {
         "name": "שמן זית",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "4",
+        "unit": "כפות"
       },
       {
         "name": "לימון",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "1/2",
+        "unit": "יחידה"
       }
     ],
     "instructions": [
@@ -8376,23 +8376,23 @@
     "ingredients": [
       {
         "name": "שעועית ירוקה",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "400",
+        "unit": "גרם"
       },
       {
         "name": "שמן שומשום",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "1",
+        "unit": "כף"
       },
       {
         "name": "שום",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "5",
+        "unit": "שיניים"
       },
       {
         "name": "שומשום",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "4",
+        "unit": "כפות"
       }
     ],
     "instructions": [
@@ -8433,28 +8433,28 @@
     "ingredients": [
       {
         "name": "בקר לבישול ארוך",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "800",
+        "unit": "גרם"
       },
       {
         "name": "שעועית אדומה",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "2",
+        "unit": "כוס"
       },
       {
         "name": "בצל",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "2",
+        "unit": "יחידה"
       },
       {
         "name": "שום",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "5",
+        "unit": "שיניים"
       },
       {
         "name": "גזר",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "4",
+        "unit": "יחידות"
       }
     ],
     "instructions": [
@@ -8494,28 +8494,28 @@
     "ingredients": [
       {
         "name": "שעועית לבנה",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "2",
+        "unit": "כוס"
       },
       {
         "name": "עגבניות",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "5",
+        "unit": "יחידות"
       },
       {
         "name": "שום",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "5",
+        "unit": "שיניים"
       },
       {
         "name": "בצל",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "2",
+        "unit": "יחידה"
       },
       {
         "name": "כמון",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "1/2",
+        "unit": "כפית"
       }
     ],
     "instructions": [
@@ -8556,28 +8556,28 @@
     "ingredients": [
       {
         "name": "שעועית ירוקה",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "400",
+        "unit": "גרם"
       },
       {
         "name": "שעועית אדומה",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "2",
+        "unit": "כוס"
       },
       {
         "name": "שעועית לבנה",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "2",
+        "unit": "כוס"
       },
       {
         "name": "בצל",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "2",
+        "unit": "יחידה"
       },
       {
         "name": "לימון",
-        "amount": "1.5",
-        "unit": "מנות"
+        "amount": "1/2",
+        "unit": "יחידה"
       }
     ],
     "instructions": [
@@ -8620,28 +8620,28 @@
     "ingredients": [
       {
         "name": "עדשים ירוקות מונבטות",
-        "amount": "1",
-        "unit": "כוס"
+        "amount": "3",
+        "unit": "כוסות"
       },
       {
         "name": "בצל",
-        "amount": "1",
-        "unit": "כוס"
+        "amount": "2",
+        "unit": "יחידה"
       },
       {
         "name": "שום",
-        "amount": "1",
-        "unit": "כוס"
+        "amount": "5",
+        "unit": "שיניים"
       },
       {
         "name": "רוטב סויה",
-        "amount": "1",
-        "unit": "כוס"
+        "amount": "4",
+        "unit": "כפות"
       },
       {
         "name": "ג'ינג'ר",
         "amount": "1",
-        "unit": "כוס"
+        "unit": "כפית מגורר"
       }
     ],
     "instructions": [
@@ -8685,23 +8685,23 @@
     "ingredients": [
       {
         "name": "פילה סלמון",
-        "amount": "1",
-        "unit": "כוס"
+        "amount": "4",
+        "unit": "נתחים (כ-600 גרם)"
       },
       {
         "name": "עדשים שחורות מונבטות",
-        "amount": "1",
-        "unit": "כוס"
+        "amount": "3",
+        "unit": "כוסות"
       },
       {
         "name": "שום",
-        "amount": "1",
-        "unit": "כוס"
+        "amount": "5",
+        "unit": "שיניים"
       },
       {
         "name": "שמן זית",
-        "amount": "1",
-        "unit": "כוס"
+        "amount": "4",
+        "unit": "כפות"
       }
     ],
     "instructions": [
@@ -8746,28 +8746,28 @@
     "ingredients": [
       {
         "name": "פרגיות",
-        "amount": "1",
-        "unit": "כוס"
+        "amount": "600",
+        "unit": "גרם"
       },
       {
         "name": "גרגירי חומוס מונבטים",
-        "amount": "1",
+        "amount": "2",
         "unit": "כוס"
       },
       {
         "name": "בצל",
-        "amount": "1",
-        "unit": "כוס"
+        "amount": "2",
+        "unit": "יחידה"
       },
       {
         "name": "גזר",
-        "amount": "1",
-        "unit": "כוס"
+        "amount": "4",
+        "unit": "יחידות"
       },
       {
         "name": "שום",
-        "amount": "1",
-        "unit": "כוס"
+        "amount": "5",
+        "unit": "שיניים"
       }
     ],
     "instructions": [
@@ -8810,22 +8810,22 @@
     "ingredients": [
       {
         "name": "בקר טחון",
-        "amount": "1",
-        "unit": "כוס"
+        "amount": "600",
+        "unit": "גרם"
       },
       {
         "name": "עדשים ירוקות מונבטות",
-        "amount": "1",
-        "unit": "כוס"
+        "amount": "3",
+        "unit": "כוסות"
       },
       {
         "name": "בצל",
-        "amount": "1",
-        "unit": "כוס"
+        "amount": "2",
+        "unit": "יחידה"
       },
       {
         "name": "רוטב עגבניות",
-        "amount": "1",
+        "amount": "2",
         "unit": "כוס"
       }
     ],
@@ -8868,23 +8868,23 @@
     "ingredients": [
       {
         "name": "שעועית מאש מונבטת",
-        "amount": "1",
-        "unit": "כוס"
+        "amount": "3",
+        "unit": "כוסות"
       },
       {
         "name": "בצל",
-        "amount": "1",
-        "unit": "כוס"
+        "amount": "2",
+        "unit": "יחידה"
       },
       {
         "name": "שום",
-        "amount": "1",
-        "unit": "כוס"
+        "amount": "5",
+        "unit": "שיניים"
       },
       {
         "name": "ג'ינג'ר",
         "amount": "1",
-        "unit": "כוס"
+        "unit": "כפית מגורר"
       }
     ],
     "instructions": [
@@ -8927,23 +8927,23 @@
     "ingredients": [
       {
         "name": "עדשים שחורות מונבטות",
-        "amount": "1",
-        "unit": "כוס"
+        "amount": "3",
+        "unit": "כוסות"
       },
       {
         "name": "בטטה",
         "amount": "1",
-        "unit": "כוס"
+        "unit": "יחידה בינונית"
       },
       {
         "name": "בצל",
-        "amount": "1",
-        "unit": "כוס"
+        "amount": "2",
+        "unit": "יחידה"
       },
       {
         "name": "שמן זית",
-        "amount": "1",
-        "unit": "כוס"
+        "amount": "4",
+        "unit": "כפות"
       }
     ],
     "instructions": [
@@ -8986,23 +8986,23 @@
     "ingredients": [
       {
         "name": "גרגירי חומוס מונבטים",
-        "amount": "1",
+        "amount": "2",
         "unit": "כוס"
       },
       {
         "name": "עדשים ירוקות מונבטות",
-        "amount": "1",
-        "unit": "כוס"
+        "amount": "3",
+        "unit": "כוסות"
       },
       {
         "name": "בצל",
-        "amount": "1",
-        "unit": "כוס"
+        "amount": "2",
+        "unit": "יחידה"
       },
       {
         "name": "עגבניות",
-        "amount": "1",
-        "unit": "כוס"
+        "amount": "5",
+        "unit": "יחידות"
       }
     ],
     "instructions": [
@@ -9046,23 +9046,23 @@
     "ingredients": [
       {
         "name": "חזה עוף",
-        "amount": "1",
-        "unit": "כוס"
+        "amount": "500",
+        "unit": "גרם"
       },
       {
         "name": "עדשים כתומות מונבטות",
-        "amount": "1",
-        "unit": "כוס"
+        "amount": "3",
+        "unit": "כוסות"
       },
       {
         "name": "בצל",
-        "amount": "1",
-        "unit": "כוס"
+        "amount": "2",
+        "unit": "יחידה"
       },
       {
         "name": "שום",
-        "amount": "1",
-        "unit": "כוס"
+        "amount": "5",
+        "unit": "שיניים"
       }
     ],
     "instructions": [
@@ -9105,23 +9105,23 @@
     "ingredients": [
       {
         "name": "עדשים ירוקות מונבטות",
-        "amount": "1",
-        "unit": "כוס"
+        "amount": "3",
+        "unit": "כוסות"
       },
       {
         "name": "פטריות",
         "amount": "1",
-        "unit": "כוס"
+        "unit": "סלסלה"
       },
       {
         "name": "ביצים",
-        "amount": "1",
-        "unit": "כוס"
+        "amount": "4",
+        "unit": "יחידות"
       },
       {
         "name": "גבינה לבנה",
         "amount": "1",
-        "unit": "כוס"
+        "unit": "גביע (250 גרם)"
       }
     ],
     "instructions": [
@@ -9164,23 +9164,23 @@
     "ingredients": [
       {
         "name": "שעועית אדומה מונבטת",
-        "amount": "1",
-        "unit": "כוס"
+        "amount": "3",
+        "unit": "כוסות"
       },
       {
         "name": "רוטב עגבניות",
-        "amount": "1",
+        "amount": "2",
         "unit": "כוס"
       },
       {
         "name": "בצל",
-        "amount": "1",
-        "unit": "כוס"
+        "amount": "2",
+        "unit": "יחידה"
       },
       {
         "name": "שום",
-        "amount": "1",
-        "unit": "כוס"
+        "amount": "5",
+        "unit": "שיניים"
       }
     ],
     "instructions": [
@@ -9224,23 +9224,23 @@
     "ingredients": [
       {
         "name": "גרגירי חומוס מונבטים",
-        "amount": "1",
+        "amount": "2",
         "unit": "כוס"
       },
       {
         "name": "ברוקולי",
         "amount": "1",
-        "unit": "כוס"
+        "unit": "ראש קטן"
       },
       {
         "name": "פטריות",
         "amount": "1",
-        "unit": "כוס"
+        "unit": "סלסלה"
       },
       {
         "name": "רוטב סויה",
-        "amount": "1",
-        "unit": "כוס"
+        "amount": "4",
+        "unit": "כפות"
       }
     ],
     "instructions": [
@@ -9284,23 +9284,23 @@
     "ingredients": [
       {
         "name": "עדשים שחורות מונבטות",
-        "amount": "1",
-        "unit": "כוס"
+        "amount": "3",
+        "unit": "כוסות"
       },
       {
         "name": "בצל",
-        "amount": "1",
-        "unit": "כוס"
+        "amount": "2",
+        "unit": "יחידה"
       },
       {
         "name": "שמן זית",
-        "amount": "1",
-        "unit": "כוס"
+        "amount": "4",
+        "unit": "כפות"
       },
       {
         "name": "סילאן",
-        "amount": "1",
-        "unit": "כוס"
+        "amount": "4",
+        "unit": "כפות"
       }
     ],
     "instructions": [
@@ -9344,22 +9344,22 @@
       {
         "name": "טופו",
         "amount": "1",
-        "unit": "כוס"
+        "unit": "חבילה (300 גרם)"
       },
       {
         "name": "עדשים ירוקות מונבטות",
-        "amount": "1",
-        "unit": "כוס"
+        "amount": "3",
+        "unit": "כוסות"
       },
       {
         "name": "בצל ירוק",
-        "amount": "1",
-        "unit": "כוס"
+        "amount": "2",
+        "unit": "גבעולים"
       },
       {
         "name": "טחינה",
-        "amount": "1",
-        "unit": "כוס"
+        "amount": "5",
+        "unit": "כפות"
       }
     ],
     "instructions": [
@@ -9403,23 +9403,23 @@
     "ingredients": [
       {
         "name": "דג לבן טחון",
-        "amount": "1",
-        "unit": "כוס"
+        "amount": "500",
+        "unit": "גרם"
       },
       {
         "name": "עדשים כתומות מונבטות",
-        "amount": "1",
-        "unit": "כוס"
+        "amount": "3",
+        "unit": "כוסות"
       },
       {
         "name": "לימון",
-        "amount": "1",
-        "unit": "כוס"
+        "amount": "1/2",
+        "unit": "יחידה"
       },
       {
         "name": "שום",
-        "amount": "1",
-        "unit": "כוס"
+        "amount": "5",
+        "unit": "שיניים"
       }
     ],
     "instructions": [
@@ -9462,23 +9462,23 @@
     "ingredients": [
       {
         "name": "קינואה",
-        "amount": "1",
+        "amount": "2",
         "unit": "כוס"
       },
       {
         "name": "עדשים שחורות מונבטות",
-        "amount": "1",
-        "unit": "כוס"
+        "amount": "3",
+        "unit": "כוסות"
       },
       {
         "name": "גרגירי חומוס מונבטים",
-        "amount": "1",
+        "amount": "2",
         "unit": "כוס"
       },
       {
         "name": "שמן זית",
-        "amount": "1",
-        "unit": "כוס"
+        "amount": "4",
+        "unit": "כפות"
       }
     ],
     "instructions": [
@@ -9521,23 +9521,23 @@
     "ingredients": [
       {
         "name": "קינואה",
-        "amount": "1",
+        "amount": "2",
         "unit": "כוס"
       },
       {
         "name": "עדשים ירוקות",
-        "amount": "1",
+        "amount": "2",
         "unit": "כוס"
       },
       {
         "name": "בצל ירוק",
-        "amount": "1",
-        "unit": "כוס"
+        "amount": "2",
+        "unit": "גבעולים"
       },
       {
         "name": "לימון",
-        "amount": "1",
-        "unit": "כוס"
+        "amount": "1/2",
+        "unit": "יחידה"
       }
     ],
     "instructions": [
@@ -9581,28 +9581,28 @@
     "ingredients": [
       {
         "name": "עדשים חומות מונבטות",
-        "amount": "1",
-        "unit": "כוס"
+        "amount": "3",
+        "unit": "כוסות"
       },
       {
         "name": "גזר",
-        "amount": "1",
-        "unit": "כוס"
+        "amount": "4",
+        "unit": "יחידות"
       },
       {
         "name": "בצל",
-        "amount": "1",
-        "unit": "כוס"
+        "amount": "2",
+        "unit": "יחידה"
       },
       {
         "name": "כמון",
-        "amount": "1",
-        "unit": "כוס"
+        "amount": "1/2",
+        "unit": "כפית"
       },
       {
         "name": "שמן זית",
-        "amount": "1",
-        "unit": "כוס"
+        "amount": "4",
+        "unit": "כפות"
       }
     ],
     "instructions": [
@@ -9646,23 +9646,23 @@
     "ingredients": [
       {
         "name": "גרגירי חומוס מונבטים",
-        "amount": "1",
+        "amount": "2",
         "unit": "כוס"
       },
       {
         "name": "פטרוזיליה",
-        "amount": "1",
-        "unit": "כוס"
+        "amount": "1/2",
+        "unit": "צרור"
       },
       {
         "name": "שום",
-        "amount": "1",
-        "unit": "כוס"
+        "amount": "5",
+        "unit": "שיניים"
       },
       {
         "name": "שמן זית",
-        "amount": "1",
-        "unit": "כוס"
+        "amount": "4",
+        "unit": "כפות"
       }
     ],
     "instructions": [
@@ -9705,23 +9705,23 @@
     "ingredients": [
       {
         "name": "עדשים ירוקות מונבטות",
-        "amount": "1",
-        "unit": "כוס"
+        "amount": "3",
+        "unit": "כוסות"
       },
       {
         "name": "עגבניות",
-        "amount": "1",
-        "unit": "כוס"
+        "amount": "5",
+        "unit": "יחידות"
       },
       {
         "name": "גבינת מוצרלה",
-        "amount": "1",
-        "unit": "כוס"
+        "amount": "200",
+        "unit": "גרם"
       },
       {
         "name": "בצל",
-        "amount": "1",
-        "unit": "כוס"
+        "amount": "2",
+        "unit": "יחידה"
       }
     ],
     "instructions": [
@@ -9763,23 +9763,23 @@
     "ingredients": [
       {
         "name": "עדשים שחורות מונבטות",
-        "amount": "1",
-        "unit": "כוס"
+        "amount": "3",
+        "unit": "כוסות"
       },
       {
         "name": "בצל",
-        "amount": "1",
-        "unit": "כוס"
+        "amount": "2",
+        "unit": "יחידה"
       },
       {
         "name": "שמן זית",
-        "amount": "1",
-        "unit": "כוס"
+        "amount": "4",
+        "unit": "כפות"
       },
       {
         "name": "שום",
-        "amount": "1",
-        "unit": "כוס"
+        "amount": "5",
+        "unit": "שיניים"
       }
     ],
     "instructions": [
@@ -9823,23 +9823,23 @@
     "ingredients": [
       {
         "name": "דג לבן טחון",
-        "amount": "1",
-        "unit": "כוס"
+        "amount": "500",
+        "unit": "גרם"
       },
       {
         "name": "שעועית ירוקה",
-        "amount": "1",
-        "unit": "כוס"
+        "amount": "400",
+        "unit": "גרם"
       },
       {
         "name": "עדשים ירוקות מונבטות",
-        "amount": "1",
-        "unit": "כוס"
+        "amount": "3",
+        "unit": "כוסות"
       },
       {
         "name": "לימון",
-        "amount": "1",
-        "unit": "כוס"
+        "amount": "1/2",
+        "unit": "יחידה"
       }
     ],
     "instructions": [
@@ -9883,22 +9883,22 @@
       {
         "name": "טופו",
         "amount": "1",
-        "unit": "כוס"
+        "unit": "חבילה (300 גרם)"
       },
       {
         "name": "עדשים ירוקות מונבטות",
-        "amount": "1",
-        "unit": "כוס"
+        "amount": "3",
+        "unit": "כוסות"
       },
       {
         "name": "גרגירי חומוס מונבטים",
-        "amount": "1",
+        "amount": "2",
         "unit": "כוס"
       },
       {
         "name": "ג'ינג'ר",
         "amount": "1",
-        "unit": "כוס"
+        "unit": "כפית מגורר"
       }
     ],
     "instructions": [
@@ -9941,23 +9941,23 @@
     "ingredients": [
       {
         "name": "עדשים ירוקות מונבטות",
-        "amount": "1",
-        "unit": "כוס"
+        "amount": "3",
+        "unit": "כוסות"
       },
       {
         "name": "בצל",
-        "amount": "1",
-        "unit": "כוס"
+        "amount": "2",
+        "unit": "יחידה"
       },
       {
         "name": "שמן זית",
-        "amount": "1",
-        "unit": "כוס"
+        "amount": "4",
+        "unit": "כפות"
       },
       {
         "name": "כמון",
-        "amount": "1",
-        "unit": "כוס"
+        "amount": "1/2",
+        "unit": "כפית"
       }
     ],
     "instructions": [
@@ -10001,21 +10001,21 @@
       {
         "name": "טופו",
         "amount": "1",
-        "unit": "כוס"
+        "unit": "חבילה (300 גרם)"
       },
       {
         "name": "עדשים כתומות מונבטות",
-        "amount": "1",
-        "unit": "כוס"
+        "amount": "3",
+        "unit": "כוסות"
       },
       {
         "name": "גזר",
-        "amount": "1",
-        "unit": "כוס"
+        "amount": "4",
+        "unit": "יחידות"
       },
       {
         "name": "קמח",
-        "amount": "1",
+        "amount": "2",
         "unit": "כוס"
       }
     ],
@@ -10060,28 +10060,28 @@
     "ingredients": [
       {
         "name": "עדשים ירוקות מונבטות",
-        "amount": "1",
-        "unit": "כוס"
+        "amount": "3",
+        "unit": "כוסות"
       },
       {
         "name": "גרגירי חומוס מונבטים",
-        "amount": "1",
+        "amount": "2",
         "unit": "כוס"
       },
       {
         "name": "גזר",
-        "amount": "1",
-        "unit": "כוס"
+        "amount": "4",
+        "unit": "יחידות"
       },
       {
         "name": "בצל",
-        "amount": "1",
-        "unit": "כוס"
+        "amount": "2",
+        "unit": "יחידה"
       },
       {
         "name": "שום",
-        "amount": "1",
-        "unit": "כוס"
+        "amount": "5",
+        "unit": "שיניים"
       }
     ],
     "instructions": [
@@ -10125,23 +10125,23 @@
     "ingredients": [
       {
         "name": "עדשים ירוקות מונבטות",
-        "amount": "1",
-        "unit": "כוס"
+        "amount": "3",
+        "unit": "כוסות"
       },
       {
         "name": "בצל",
-        "amount": "1",
-        "unit": "כוס"
+        "amount": "2",
+        "unit": "יחידה"
       },
       {
         "name": "שמן זית",
-        "amount": "1",
-        "unit": "כוס"
+        "amount": "4",
+        "unit": "כפות"
       },
       {
         "name": "לימון",
-        "amount": "1",
-        "unit": "כוס"
+        "amount": "1/2",
+        "unit": "יחידה"
       }
     ],
     "instructions": [
@@ -10184,23 +10184,23 @@
     "ingredients": [
       {
         "name": "עדשים ירוקות מונבטות",
-        "amount": "1",
-        "unit": "כוס"
+        "amount": "3",
+        "unit": "כוסות"
       },
       {
         "name": "תפוחי אדמה",
-        "amount": "1",
-        "unit": "כוס"
+        "amount": "4",
+        "unit": "יחידות"
       },
       {
         "name": "גזר",
-        "amount": "1",
-        "unit": "כוס"
+        "amount": "4",
+        "unit": "יחידות"
       },
       {
         "name": "בצל",
-        "amount": "1",
-        "unit": "כוס"
+        "amount": "2",
+        "unit": "יחידה"
       }
     ],
     "instructions": [
@@ -10243,23 +10243,23 @@
     "ingredients": [
       {
         "name": "פרגיות",
-        "amount": "1",
-        "unit": "כוס"
+        "amount": "600",
+        "unit": "גרם"
       },
       {
         "name": "עדשים ירוקות מונבטות",
-        "amount": "1",
-        "unit": "כוס"
+        "amount": "3",
+        "unit": "כוסות"
       },
       {
         "name": "בצל",
-        "amount": "1",
-        "unit": "כוס"
+        "amount": "2",
+        "unit": "יחידה"
       },
       {
         "name": "פטרוזיליה",
-        "amount": "1",
-        "unit": "כוס"
+        "amount": "1/2",
+        "unit": "צרור"
       }
     ],
     "instructions": [
@@ -10302,23 +10302,23 @@
     "ingredients": [
       {
         "name": "פסטה",
-        "amount": "1",
-        "unit": "כוס"
+        "amount": "400",
+        "unit": "גרם"
       },
       {
         "name": "עדשים שחורות מונבטות",
-        "amount": "1",
-        "unit": "כוס"
+        "amount": "3",
+        "unit": "כוסות"
       },
       {
         "name": "שום",
-        "amount": "1",
-        "unit": "כוס"
+        "amount": "5",
+        "unit": "שיניים"
       },
       {
         "name": "שמן זית",
-        "amount": "1",
-        "unit": "כוס"
+        "amount": "4",
+        "unit": "כפות"
       }
     ],
     "instructions": [
@@ -10362,22 +10362,22 @@
       {
         "name": "טופו",
         "amount": "1",
-        "unit": "כוס"
+        "unit": "חבילה (300 גרם)"
       },
       {
         "name": "שעועית אדומה מונבטת",
-        "amount": "1",
-        "unit": "כוס"
+        "amount": "3",
+        "unit": "כוסות"
       },
       {
         "name": "ברוקולי",
         "amount": "1",
-        "unit": "כוס"
+        "unit": "ראש קטן"
       },
       {
         "name": "בטטה",
         "amount": "1",
-        "unit": "כוס"
+        "unit": "יחידה בינונית"
       }
     ],
     "instructions": [
@@ -10421,23 +10421,23 @@
     "ingredients": [
       {
         "name": "קינואה",
-        "amount": "1",
+        "amount": "2",
         "unit": "כוס"
       },
       {
         "name": "עדשים כתומות מונבטות",
-        "amount": "1",
-        "unit": "כוס"
+        "amount": "3",
+        "unit": "כוסות"
       },
       {
         "name": "גזר",
-        "amount": "1",
-        "unit": "כוס"
+        "amount": "4",
+        "unit": "יחידות"
       },
       {
         "name": "כורכום",
-        "amount": "1",
-        "unit": "כוס"
+        "amount": "1/2",
+        "unit": "כפית"
       }
     ],
     "instructions": [
@@ -10480,23 +10480,23 @@
     "ingredients": [
       {
         "name": "עדשים חומות מונבטות",
-        "amount": "1",
-        "unit": "כוס"
+        "amount": "3",
+        "unit": "כוסות"
       },
       {
         "name": "גזר",
-        "amount": "1",
-        "unit": "כוס"
+        "amount": "4",
+        "unit": "יחידות"
       },
       {
         "name": "בצל",
-        "amount": "1",
-        "unit": "כוס"
+        "amount": "2",
+        "unit": "יחידה"
       },
       {
         "name": "שום",
-        "amount": "1",
-        "unit": "כוס"
+        "amount": "5",
+        "unit": "שיניים"
       }
     ],
     "instructions": [
@@ -10539,23 +10539,23 @@
     "ingredients": [
       {
         "name": "ביצים",
-        "amount": "1",
-        "unit": "כוס"
+        "amount": "4",
+        "unit": "יחידות"
       },
       {
         "name": "עדשים ירוקות מונבטות",
-        "amount": "1",
-        "unit": "כוס"
+        "amount": "3",
+        "unit": "כוסות"
       },
       {
         "name": "עגבניות",
-        "amount": "1",
-        "unit": "כוס"
+        "amount": "5",
+        "unit": "יחידות"
       },
       {
         "name": "גבינת פטה",
-        "amount": "1",
-        "unit": "כוס"
+        "amount": "200",
+        "unit": "גרם"
       }
     ],
     "instructions": [
@@ -10598,22 +10598,22 @@
     "ingredients": [
       {
         "name": "עדשים ירוקות מונבטות",
-        "amount": "1",
-        "unit": "כוס"
+        "amount": "3",
+        "unit": "כוסות"
       },
       {
         "name": "תרד",
-        "amount": "1",
-        "unit": "כוס"
+        "amount": "2",
+        "unit": "כוסות"
       },
       {
         "name": "שום",
-        "amount": "1",
-        "unit": "כוס"
+        "amount": "5",
+        "unit": "שיניים"
       },
       {
         "name": "רוטב עגבניות",
-        "amount": "1",
+        "amount": "2",
         "unit": "כוס"
       }
     ],
@@ -10657,23 +10657,23 @@
     "ingredients": [
       {
         "name": "עדשים כתומות מונבטות",
-        "amount": "1",
-        "unit": "כוס"
+        "amount": "3",
+        "unit": "כוסות"
       },
       {
         "name": "ברוקולי",
         "amount": "1",
-        "unit": "כוס"
+        "unit": "ראש קטן"
       },
       {
         "name": "קמח",
-        "amount": "1",
+        "amount": "2",
         "unit": "כוס"
       },
       {
         "name": "בצל",
-        "amount": "1",
-        "unit": "כוס"
+        "amount": "2",
+        "unit": "יחידה"
       }
     ],
     "instructions": [
@@ -10716,23 +10716,23 @@
     "ingredients": [
       {
         "name": "עדשים כתומות מונבטות",
-        "amount": "1",
-        "unit": "כוס"
+        "amount": "1.5",
+        "unit": "כוסות"
       },
       {
         "name": "בצל ירוק",
-        "amount": "1",
-        "unit": "כוס"
+        "amount": "2",
+        "unit": "גבעולים"
       },
       {
         "name": "לימון",
-        "amount": "1",
-        "unit": "כוס"
+        "amount": "1/2",
+        "unit": "יחידה"
       },
       {
         "name": "שמן זית",
-        "amount": "1",
-        "unit": "כוס"
+        "amount": "2",
+        "unit": "כפות"
       }
     ],
     "instructions": [
@@ -10775,18 +10775,18 @@
     "ingredients": [
       {
         "name": "בקר לבישול ארוך",
-        "amount": "1",
-        "unit": "כוס"
+        "amount": "800",
+        "unit": "גרם"
       },
       {
         "name": "עדשים ירוקות מונבטות",
-        "amount": "1",
-        "unit": "כוס"
+        "amount": "3",
+        "unit": "כוסות"
       },
       {
         "name": "בצל",
-        "amount": "1",
-        "unit": "כוס"
+        "amount": "2",
+        "unit": "יחידה"
       },
       {
         "name": "יין אדום",
@@ -10834,23 +10834,23 @@
     "ingredients": [
       {
         "name": "עדשים כתומות מונבטות",
-        "amount": "1",
-        "unit": "כוס"
+        "amount": "1.5",
+        "unit": "כוסות"
       },
       {
         "name": "פטריות",
         "amount": "1",
-        "unit": "כוס"
+        "unit": "סלסלה"
       },
       {
         "name": "בצל",
         "amount": "1",
-        "unit": "כוס"
+        "unit": "יחידה"
       },
       {
         "name": "שמן זית",
-        "amount": "1",
-        "unit": "כוס"
+        "amount": "2",
+        "unit": "כפות"
       }
     ],
     "instructions": [
@@ -10893,23 +10893,23 @@
     "ingredients": [
       {
         "name": "עדשים ירוקות מונבטות",
-        "amount": "1",
-        "unit": "כוס"
+        "amount": "3",
+        "unit": "כוסות"
       },
       {
         "name": "פטריות",
         "amount": "1",
-        "unit": "כוס"
+        "unit": "סלסלה"
       },
       {
         "name": "שום",
-        "amount": "1",
-        "unit": "כוס"
+        "amount": "5",
+        "unit": "שיניים"
       },
       {
         "name": "שמן זית",
-        "amount": "1",
-        "unit": "כוס"
+        "amount": "4",
+        "unit": "כפות"
       }
     ],
     "instructions": [
@@ -10953,23 +10953,23 @@
     "ingredients": [
       {
         "name": "שעועית מאש מונבטת",
-        "amount": "1",
-        "unit": "כוס"
+        "amount": "1.5",
+        "unit": "כוסות"
       },
       {
         "name": "עגבניות",
-        "amount": "1",
-        "unit": "כוס"
+        "amount": "3",
+        "unit": "יחידות"
       },
       {
         "name": "שום",
-        "amount": "1",
-        "unit": "כוס"
+        "amount": "3",
+        "unit": "שיניים"
       },
       {
         "name": "בצל",
         "amount": "1",
-        "unit": "כוס"
+        "unit": "יחידה"
       }
     ],
     "instructions": [
@@ -11013,23 +11013,23 @@
     "ingredients": [
       {
         "name": "פילה סלמון",
-        "amount": "1",
-        "unit": "כוס"
+        "amount": "4",
+        "unit": "נתחים (כ-600 גרם)"
       },
       {
         "name": "שעועית מאש מונבטת",
-        "amount": "1",
-        "unit": "כוס"
+        "amount": "3",
+        "unit": "כוסות"
       },
       {
         "name": "שמנת לבישול",
         "amount": "1",
-        "unit": "כוס"
+        "unit": "מיכל (250 מ\"ל)"
       },
       {
         "name": "ג'ינג'ר",
         "amount": "1",
-        "unit": "כוס"
+        "unit": "כפית מגורר"
       }
     ],
     "instructions": [
@@ -11072,8 +11072,8 @@
     "ingredients": [
       {
         "name": "פרגיות",
-        "amount": "1",
-        "unit": "כוס"
+        "amount": "400",
+        "unit": "גרם"
       },
       {
         "name": "גרגירי חומוס מונבטים",
@@ -11083,12 +11083,12 @@
       {
         "name": "בצל",
         "amount": "1",
-        "unit": "כוס"
+        "unit": "יחידה"
       },
       {
         "name": "שום",
-        "amount": "1",
-        "unit": "כוס"
+        "amount": "3",
+        "unit": "שיניים"
       }
     ],
     "instructions": [
@@ -11130,23 +11130,23 @@
     "ingredients": [
       {
         "name": "אורז",
-        "amount": "1",
+        "amount": "2",
         "unit": "כוס"
       },
       {
         "name": "עדשים שחורות מונבטות",
-        "amount": "1",
-        "unit": "כוס"
+        "amount": "3",
+        "unit": "כוסות"
       },
       {
         "name": "בצל",
-        "amount": "1",
-        "unit": "כוס"
+        "amount": "2",
+        "unit": "יחידה"
       },
       {
         "name": "שמן זית",
-        "amount": "1",
-        "unit": "כוס"
+        "amount": "4",
+        "unit": "כפות"
       }
     ],
     "instructions": [
@@ -11195,17 +11195,17 @@
       {
         "name": "בטטה",
         "amount": "1",
-        "unit": "כוס"
+        "unit": "יחידה בינונית"
       },
       {
         "name": "בצל",
         "amount": "1",
-        "unit": "כוס"
+        "unit": "יחידה"
       },
       {
         "name": "טחינה",
-        "amount": "1",
-        "unit": "כוס"
+        "amount": "3",
+        "unit": "כפות"
       }
     ],
     "instructions": [
@@ -11248,23 +11248,23 @@
     "ingredients": [
       {
         "name": "עדשים כתומות מונבטות",
-        "amount": "1",
-        "unit": "כוס"
+        "amount": "3",
+        "unit": "כוסות"
       },
       {
         "name": "ג'ינג'ר",
         "amount": "1",
-        "unit": "כוס"
+        "unit": "כפית מגורר"
       },
       {
         "name": "בצל",
-        "amount": "1",
-        "unit": "כוס"
+        "amount": "2",
+        "unit": "יחידה"
       },
       {
         "name": "שמן זית",
-        "amount": "1",
-        "unit": "כוס"
+        "amount": "4",
+        "unit": "כפות"
       }
     ],
     "instructions": [
@@ -11307,23 +11307,23 @@
     "ingredients": [
       {
         "name": "עדשים ירוקות מונבטות",
-        "amount": "1",
-        "unit": "כוס"
+        "amount": "1.5",
+        "unit": "כוסות"
       },
       {
         "name": "בטטה",
         "amount": "1",
-        "unit": "כוס"
+        "unit": "יחידה בינונית"
       },
       {
         "name": "גזר",
-        "amount": "1",
-        "unit": "כוס"
+        "amount": "2",
+        "unit": "יחידות"
       },
       {
         "name": "בצל",
         "amount": "1",
-        "unit": "כוס"
+        "unit": "יחידה"
       }
     ],
     "instructions": [
@@ -11366,23 +11366,23 @@
     "ingredients": [
       {
         "name": "עדשים שחורות מונבטות",
-        "amount": "1",
-        "unit": "כוס"
+        "amount": "3",
+        "unit": "כוסות"
       },
       {
         "name": "בצל",
-        "amount": "1",
-        "unit": "כוס"
+        "amount": "2",
+        "unit": "יחידה"
       },
       {
         "name": "שמן זית",
-        "amount": "1",
-        "unit": "כוס"
+        "amount": "4",
+        "unit": "כפות"
       },
       {
         "name": "לימון",
-        "amount": "1",
-        "unit": "כוס"
+        "amount": "1/2",
+        "unit": "יחידה"
       }
     ],
     "instructions": [
@@ -11424,23 +11424,23 @@
     "ingredients": [
       {
         "name": "קישואים",
-        "amount": "1",
-        "unit": "כוס"
+        "amount": "2",
+        "unit": "יחידות"
       },
       {
         "name": "עדשים ירוקות מונבטות",
-        "amount": "1",
-        "unit": "כוס"
+        "amount": "1.5",
+        "unit": "כוסות"
       },
       {
         "name": "ביצים",
-        "amount": "1",
-        "unit": "כוס"
+        "amount": "2",
+        "unit": "יחידות"
       },
       {
         "name": "גבינת פטה",
-        "amount": "1",
-        "unit": "כוס"
+        "amount": "100",
+        "unit": "גרם"
       }
     ],
     "instructions": [
@@ -11482,23 +11482,23 @@
     "ingredients": [
       {
         "name": "שעועית לבנה מונבטת",
-        "amount": "1",
-        "unit": "כוס"
+        "amount": "3",
+        "unit": "כוסות"
       },
       {
         "name": "שום",
-        "amount": "1",
-        "unit": "כוס"
+        "amount": "5",
+        "unit": "שיניים"
       },
       {
         "name": "שמן זית",
-        "amount": "1",
-        "unit": "כוס"
+        "amount": "4",
+        "unit": "כפות"
       },
       {
         "name": "מלח",
-        "amount": "1",
-        "unit": "כוס"
+        "amount": "1/2",
+        "unit": "כפית"
       }
     ],
     "instructions": [
@@ -11541,23 +11541,23 @@
     "ingredients": [
       {
         "name": "עדשים ירוקות מונבטות",
-        "amount": "1",
-        "unit": "כוס"
+        "amount": "1.5",
+        "unit": "כוסות"
       },
       {
         "name": "בצל",
         "amount": "1",
-        "unit": "כוס"
+        "unit": "יחידה"
       },
       {
         "name": "גזר",
-        "amount": "1",
-        "unit": "כוס"
+        "amount": "2",
+        "unit": "יחידות"
       },
       {
         "name": "ביצים",
-        "amount": "1",
-        "unit": "כוס"
+        "amount": "2",
+        "unit": "יחידות"
       }
     ],
     "instructions": [
@@ -11599,7 +11599,7 @@
       {
         "name": "שיבולת שועל",
         "amount": "1",
-        "unit": "יחידה"
+        "unit": "כוס"
       },
       {
         "name": "בננה",
@@ -11608,13 +11608,13 @@
       },
       {
         "name": "קינמון",
-        "amount": "1",
-        "unit": "יחידה"
+        "amount": "1/2",
+        "unit": "כפית"
       },
       {
         "name": "סילאן",
-        "amount": "1",
-        "unit": "יחידה"
+        "amount": "2",
+        "unit": "כפות"
       }
     ],
     "instructions": [
@@ -11657,23 +11657,23 @@
     "ingredients": [
       {
         "name": "תמרים",
-        "amount": "1",
-        "unit": "יחידה"
+        "amount": "5",
+        "unit": "יחידות"
       },
       {
         "name": "אגוזי מלך",
-        "amount": "1",
-        "unit": "יחידה"
+        "amount": "1/4",
+        "unit": "כוס"
       },
       {
         "name": "שקדים",
-        "amount": "1",
-        "unit": "יחידה"
+        "amount": "1/4",
+        "unit": "כוס"
       },
       {
         "name": "קקאו",
-        "amount": "1",
-        "unit": "יחידה"
+        "amount": "2",
+        "unit": "כפות"
       }
     ],
     "instructions": [
@@ -11716,23 +11716,23 @@
     "ingredients": [
       {
         "name": "טחינה",
-        "amount": "1",
-        "unit": "יחידה"
+        "amount": "3",
+        "unit": "כפות"
       },
       {
         "name": "דבש",
-        "amount": "1",
-        "unit": "יחידה"
+        "amount": "2",
+        "unit": "כפות"
       },
       {
         "name": "קמח שקדים",
         "amount": "1",
-        "unit": "יחידה"
+        "unit": "כוס"
       },
       {
         "name": "ביצים",
-        "amount": "1",
-        "unit": "יחידה"
+        "amount": "2",
+        "unit": "יחידות"
       }
     ],
     "instructions": [
@@ -11774,23 +11774,23 @@
     "ingredients": [
       {
         "name": "קמח כוסמין",
-        "amount": "1",
-        "unit": "יחידה"
+        "amount": "1.5",
+        "unit": "כוסות"
       },
       {
         "name": "שוקולד",
-        "amount": "1",
-        "unit": "יחידה"
+        "amount": "50",
+        "unit": "גרם"
       },
       {
         "name": "סוכר קוקוס",
-        "amount": "1",
-        "unit": "יחידה"
+        "amount": "2",
+        "unit": "כפות"
       },
       {
         "name": "שמן זית",
-        "amount": "1",
-        "unit": "יחידה"
+        "amount": "2",
+        "unit": "כפות"
       }
     ],
     "instructions": [
@@ -11832,22 +11832,22 @@
       {
         "name": "שיבולת שועל",
         "amount": "1",
-        "unit": "יחידה"
+        "unit": "כוס"
       },
       {
         "name": "חמאת בוטנים",
-        "amount": "1",
-        "unit": "יחידה"
+        "amount": "3",
+        "unit": "כפות"
       },
       {
         "name": "דבש",
-        "amount": "1",
-        "unit": "יחידה"
+        "amount": "2",
+        "unit": "כפות"
       },
       {
         "name": "זרעי צ'יה",
-        "amount": "1",
-        "unit": "יחידה"
+        "amount": "2",
+        "unit": "כפות"
       }
     ],
     "instructions": [
@@ -11890,22 +11890,22 @@
       {
         "name": "קמח שקדים",
         "amount": "1",
-        "unit": "יחידה"
+        "unit": "כוס"
       },
       {
         "name": "מייפל",
-        "amount": "1",
-        "unit": "יחידה"
+        "amount": "2",
+        "unit": "כפות"
       },
       {
         "name": "ביצים",
-        "amount": "1",
-        "unit": "יחידה"
+        "amount": "2",
+        "unit": "יחידות"
       },
       {
         "name": "תמצית וניל",
         "amount": "1",
-        "unit": "יחידה"
+        "unit": "כפית"
       }
     ],
     "instructions": [
@@ -11948,22 +11948,22 @@
       {
         "name": "אבקת חלבון",
         "amount": "1",
-        "unit": "יחידה"
+        "unit": "כף מדידה"
       },
       {
         "name": "שיבולת שועל",
         "amount": "1",
-        "unit": "יחידה"
+        "unit": "כוס"
       },
       {
         "name": "חמאת בוטנים",
-        "amount": "1",
-        "unit": "יחידה"
+        "amount": "3",
+        "unit": "כפות"
       },
       {
         "name": "קקאו",
-        "amount": "1",
-        "unit": "יחידה"
+        "amount": "2",
+        "unit": "כפות"
       }
     ],
     "instructions": [
@@ -12006,22 +12006,22 @@
       {
         "name": "שיבולת שועל",
         "amount": "1",
-        "unit": "יחידה"
+        "unit": "כוס"
       },
       {
         "name": "שומשום",
-        "amount": "1",
-        "unit": "יחידה"
+        "amount": "2",
+        "unit": "כפות"
       },
       {
         "name": "סילאן",
-        "amount": "1",
-        "unit": "יחידה"
+        "amount": "2",
+        "unit": "כפות"
       },
       {
         "name": "שמן זית",
-        "amount": "1",
-        "unit": "יחידה"
+        "amount": "2",
+        "unit": "כפות"
       }
     ],
     "instructions": [
@@ -12063,22 +12063,22 @@
     "ingredients": [
       {
         "name": "קוקוס",
-        "amount": "1",
-        "unit": "יחידה"
+        "amount": "1/2",
+        "unit": "כוס"
       },
       {
         "name": "ביצים",
-        "amount": "1",
-        "unit": "יחידה"
+        "amount": "2",
+        "unit": "יחידות"
       },
       {
         "name": "מייפל",
-        "amount": "1",
-        "unit": "יחידה"
+        "amount": "2",
+        "unit": "כפות"
       },
       {
         "name": "לימון",
-        "amount": "1",
+        "amount": "1/2",
         "unit": "יחידה"
       }
     ],
@@ -12122,22 +12122,22 @@
       {
         "name": "אורז",
         "amount": "1",
-        "unit": "יחידה"
+        "unit": "כוס"
       },
       {
         "name": "שוקולד",
-        "amount": "1",
-        "unit": "יחידה"
+        "amount": "50",
+        "unit": "גרם"
       },
       {
         "name": "חמאת בוטנים",
-        "amount": "1",
-        "unit": "יחידה"
+        "amount": "3",
+        "unit": "כפות"
       },
       {
         "name": "דבש",
-        "amount": "1",
-        "unit": "יחידה"
+        "amount": "2",
+        "unit": "כפות"
       }
     ],
     "instructions": [
@@ -12179,22 +12179,22 @@
       {
         "name": "גבינה לבנה",
         "amount": "1",
-        "unit": "יחידה"
+        "unit": "גביע (250 גרם)"
       },
       {
         "name": "יוגורט",
         "amount": "1",
-        "unit": "יחידה"
+        "unit": "גביע (150 גרם)"
       },
       {
         "name": "ביצים",
-        "amount": "1",
-        "unit": "יחידה"
+        "amount": "2",
+        "unit": "יחידות"
       },
       {
         "name": "קמח שקדים",
         "amount": "1",
-        "unit": "יחידה"
+        "unit": "כוס"
       }
     ],
     "instructions": [
@@ -12236,23 +12236,23 @@
     "ingredients": [
       {
         "name": "זרעי צ'יה",
-        "amount": "1",
-        "unit": "יחידה"
+        "amount": "2",
+        "unit": "כפות"
       },
       {
         "name": "חלב",
         "amount": "1",
-        "unit": "יחידה"
+        "unit": "כוס"
       },
       {
         "name": "אבקת חלבון",
         "amount": "1",
-        "unit": "יחידה"
+        "unit": "כף מדידה"
       },
       {
         "name": "קקאו",
-        "amount": "1",
-        "unit": "יחידה"
+        "amount": "2",
+        "unit": "כפות"
       }
     ],
     "instructions": [
@@ -12294,23 +12294,23 @@
     "ingredients": [
       {
         "name": "חמאת בוטנים",
-        "amount": "1",
-        "unit": "יחידה"
+        "amount": "3",
+        "unit": "כפות"
       },
       {
         "name": "קקאו",
-        "amount": "1",
-        "unit": "יחידה"
+        "amount": "2",
+        "unit": "כפות"
       },
       {
         "name": "סילאן",
-        "amount": "1",
-        "unit": "יחידה"
+        "amount": "2",
+        "unit": "כפות"
       },
       {
         "name": "אגוזים",
-        "amount": "1",
-        "unit": "יחידה"
+        "amount": "1/4",
+        "unit": "כוס"
       }
     ],
     "instructions": [
@@ -12353,23 +12353,23 @@
     "ingredients": [
       {
         "name": "קוקוס",
-        "amount": "1",
-        "unit": "יחידה"
+        "amount": "1/2",
+        "unit": "כוס"
       },
       {
         "name": "שוקולד",
-        "amount": "1",
-        "unit": "יחידה"
+        "amount": "50",
+        "unit": "גרם"
       },
       {
         "name": "סילאן",
-        "amount": "1",
-        "unit": "יחידה"
+        "amount": "2",
+        "unit": "כפות"
       },
       {
         "name": "רסק תפוחים",
-        "amount": "1",
-        "unit": "יחידה"
+        "amount": "1/2",
+        "unit": "כוס"
       }
     ],
     "instructions": [
@@ -12413,22 +12413,22 @@
       {
         "name": "שיבולת שועל",
         "amount": "1",
-        "unit": "יחידה"
+        "unit": "כוס"
       },
       {
         "name": "אוכמניות",
-        "amount": "1",
-        "unit": "יחידה"
+        "amount": "1/2",
+        "unit": "כוס"
       },
       {
         "name": "סילאן",
-        "amount": "1",
-        "unit": "יחידה"
+        "amount": "2",
+        "unit": "כפות"
       },
       {
         "name": "שמן זית",
-        "amount": "1",
-        "unit": "יחידה"
+        "amount": "2",
+        "unit": "כפות"
       }
     ],
     "instructions": [
@@ -12472,7 +12472,7 @@
       {
         "name": "קמח",
         "amount": "1",
-        "unit": "יחידה"
+        "unit": "כוס"
       },
       {
         "name": "תפוחים",
@@ -12481,18 +12481,18 @@
       },
       {
         "name": "קינמון",
-        "amount": "1",
-        "unit": "יחידה"
+        "amount": "1/2",
+        "unit": "כפית"
       },
       {
         "name": "סילאן",
-        "amount": "1",
-        "unit": "יחידה"
+        "amount": "2",
+        "unit": "כפות"
       },
       {
         "name": "שמן זית",
-        "amount": "1",
-        "unit": "יחידה"
+        "amount": "2",
+        "unit": "כפות"
       }
     ],
     "instructions": [
@@ -12534,23 +12534,23 @@
     "ingredients": [
       {
         "name": "טחינה",
-        "amount": "1",
-        "unit": "יחידה"
+        "amount": "3",
+        "unit": "כפות"
       },
       {
         "name": "סילאן",
-        "amount": "1",
-        "unit": "יחידה"
+        "amount": "2",
+        "unit": "כפות"
       },
       {
         "name": "פיסטוק",
-        "amount": "1",
-        "unit": "יחידה"
+        "amount": "2",
+        "unit": "כפות"
       },
       {
         "name": "קמח שקדים",
         "amount": "1",
-        "unit": "יחידה"
+        "unit": "כוס"
       }
     ],
     "instructions": [
@@ -12592,22 +12592,22 @@
     "ingredients": [
       {
         "name": "קוקוס",
-        "amount": "1",
-        "unit": "יחידה"
+        "amount": "1/2",
+        "unit": "כוס"
       },
       {
         "name": "שקדים",
-        "amount": "1",
-        "unit": "יחידה"
+        "amount": "1/4",
+        "unit": "כוס"
       },
       {
         "name": "סילאן",
-        "amount": "1",
-        "unit": "יחידה"
+        "amount": "2",
+        "unit": "כפות"
       },
       {
         "name": "לימון",
-        "amount": "1",
+        "amount": "1/2",
         "unit": "יחידה"
       }
     ],
@@ -12652,22 +12652,22 @@
       {
         "name": "שיבולת שועל",
         "amount": "1",
-        "unit": "יחידה"
+        "unit": "כוס"
       },
       {
         "name": "חמוציות",
-        "amount": "1",
-        "unit": "יחידה"
+        "amount": "1/4",
+        "unit": "כוס"
       },
       {
         "name": "סילאן",
-        "amount": "1",
-        "unit": "יחידה"
+        "amount": "2",
+        "unit": "כפות"
       },
       {
         "name": "שקדים",
-        "amount": "1",
-        "unit": "יחידה"
+        "amount": "1/4",
+        "unit": "כוס"
       }
     ],
     "instructions": [
@@ -12710,22 +12710,22 @@
       {
         "name": "גרנולה",
         "amount": "1",
-        "unit": "יחידה"
+        "unit": "כוס"
       },
       {
         "name": "סילאן",
-        "amount": "1",
-        "unit": "יחידה"
+        "amount": "2",
+        "unit": "כפות"
       },
       {
         "name": "ביצים",
-        "amount": "1",
-        "unit": "יחידה"
+        "amount": "2",
+        "unit": "יחידות"
       },
       {
         "name": "טחינה",
-        "amount": "1",
-        "unit": "יחידה"
+        "amount": "3",
+        "unit": "כפות"
       }
     ],
     "instructions": [
@@ -12766,23 +12766,23 @@
     "ingredients": [
       {
         "name": "תמרים",
-        "amount": "1",
-        "unit": "יחידה"
+        "amount": "5",
+        "unit": "יחידות"
       },
       {
         "name": "קקאו",
-        "amount": "1",
-        "unit": "יחידה"
+        "amount": "2",
+        "unit": "כפות"
       },
       {
         "name": "אגוזים",
-        "amount": "1",
-        "unit": "יחידה"
+        "amount": "1/4",
+        "unit": "כוס"
       },
       {
         "name": "קוקוס",
-        "amount": "1",
-        "unit": "יחידה"
+        "amount": "1/2",
+        "unit": "כוס"
       }
     ],
     "instructions": [
@@ -12825,23 +12825,23 @@
     "ingredients": [
       {
         "name": "שוקולד",
-        "amount": "1",
-        "unit": "יחידה"
+        "amount": "50",
+        "unit": "גרם"
       },
       {
         "name": "שקדים",
-        "amount": "1",
-        "unit": "יחידה"
+        "amount": "1/4",
+        "unit": "כוס"
       },
       {
         "name": "שמן זית",
-        "amount": "1",
-        "unit": "יחידה"
+        "amount": "2",
+        "unit": "כפות"
       },
       {
         "name": "מלח",
-        "amount": "1",
-        "unit": "יחידה"
+        "amount": "1/2",
+        "unit": "כפית"
       }
     ],
     "instructions": [
@@ -12884,23 +12884,23 @@
     "ingredients": [
       {
         "name": "חמאת בוטנים",
-        "amount": "1",
-        "unit": "יחידה"
+        "amount": "3",
+        "unit": "כפות"
       },
       {
         "name": "שוקולד",
-        "amount": "1",
-        "unit": "יחידה"
+        "amount": "50",
+        "unit": "גרם"
       },
       {
         "name": "דבש",
-        "amount": "1",
-        "unit": "יחידה"
+        "amount": "2",
+        "unit": "כפות"
       },
       {
         "name": "שמן קוקוס",
         "amount": "1",
-        "unit": "יחידה"
+        "unit": "כף"
       }
     ],
     "instructions": [
@@ -12941,23 +12941,23 @@
     "ingredients": [
       {
         "name": "גזר",
-        "amount": "1",
-        "unit": "יחידה"
+        "amount": "2",
+        "unit": "יחידות"
       },
       {
         "name": "שיבולת שועל",
         "amount": "1",
-        "unit": "יחידה"
+        "unit": "כוס"
       },
       {
         "name": "סילאן",
-        "amount": "1",
-        "unit": "יחידה"
+        "amount": "2",
+        "unit": "כפות"
       },
       {
         "name": "שמן זית",
-        "amount": "1",
-        "unit": "יחידה"
+        "amount": "2",
+        "unit": "כפות"
       }
     ],
     "instructions": [
@@ -13000,22 +13000,22 @@
       {
         "name": "קינואה",
         "amount": "1",
-        "unit": "יחידה"
+        "unit": "כוס"
       },
       {
         "name": "דבש",
-        "amount": "1",
-        "unit": "יחידה"
+        "amount": "2",
+        "unit": "כפות"
       },
       {
         "name": "שקדים",
-        "amount": "1",
-        "unit": "יחידה"
+        "amount": "1/4",
+        "unit": "כוס"
       },
       {
         "name": "חמאת בוטנים",
-        "amount": "1",
-        "unit": "יחידה"
+        "amount": "3",
+        "unit": "כפות"
       }
     ],
     "instructions": [
@@ -13056,23 +13056,23 @@
     "ingredients": [
       {
         "name": "טחינה",
-        "amount": "1",
-        "unit": "יחידה"
+        "amount": "3",
+        "unit": "כפות"
       },
       {
         "name": "פיסטוק",
-        "amount": "1",
-        "unit": "יחידה"
+        "amount": "2",
+        "unit": "כפות"
       },
       {
         "name": "מייפל",
-        "amount": "1",
-        "unit": "יחידה"
+        "amount": "2",
+        "unit": "כפות"
       },
       {
         "name": "קמח שקדים",
         "amount": "1",
-        "unit": "יחידה"
+        "unit": "כוס"
       }
     ],
     "instructions": [
@@ -13115,23 +13115,23 @@
     "ingredients": [
       {
         "name": "תמרים",
-        "amount": "1",
-        "unit": "יחידה"
+        "amount": "5",
+        "unit": "יחידות"
       },
       {
         "name": "חמאת בוטנים",
-        "amount": "1",
-        "unit": "יחידה"
+        "amount": "3",
+        "unit": "כפות"
       },
       {
         "name": "שומשום",
-        "amount": "1",
-        "unit": "יחידה"
+        "amount": "2",
+        "unit": "כפות"
       },
       {
         "name": "אגוזים",
-        "amount": "1",
-        "unit": "יחידה"
+        "amount": "1/4",
+        "unit": "כוס"
       }
     ],
     "instructions": [
@@ -13175,22 +13175,22 @@
       {
         "name": "חלב",
         "amount": "1",
-        "unit": "יחידה"
+        "unit": "כוס"
       },
       {
         "name": "קורנפלור",
-        "amount": "1",
-        "unit": "יחידה"
+        "amount": "2",
+        "unit": "כפות"
       },
       {
         "name": "מייפל",
-        "amount": "1",
-        "unit": "יחידה"
+        "amount": "2",
+        "unit": "כפות"
       },
       {
         "name": "פירות יער",
-        "amount": "1",
-        "unit": "יחידה"
+        "amount": "1/2",
+        "unit": "כוס"
       }
     ],
     "instructions": [
@@ -13236,18 +13236,18 @@
       },
       {
         "name": "קמח כוסמין",
-        "amount": "1",
-        "unit": "יחידה"
+        "amount": "1.5",
+        "unit": "כוסות"
       },
       {
         "name": "ביצים",
-        "amount": "1",
-        "unit": "יחידה"
+        "amount": "2",
+        "unit": "יחידות"
       },
       {
         "name": "שמן זית",
-        "amount": "1",
-        "unit": "יחידה"
+        "amount": "2",
+        "unit": "כפות"
       }
     ],
     "instructions": [
@@ -13290,22 +13290,22 @@
       {
         "name": "גרגירי חומוס מונבטים",
         "amount": "1",
-        "unit": "יחידה"
+        "unit": "כוס"
       },
       {
         "name": "שוקולד",
-        "amount": "1",
-        "unit": "יחידה"
+        "amount": "50",
+        "unit": "גרם"
       },
       {
         "name": "סילאן",
-        "amount": "1",
-        "unit": "יחידה"
+        "amount": "2",
+        "unit": "כפות"
       },
       {
         "name": "טחינה",
-        "amount": "1",
-        "unit": "יחידה"
+        "amount": "3",
+        "unit": "כפות"
       }
     ],
     "instructions": [
