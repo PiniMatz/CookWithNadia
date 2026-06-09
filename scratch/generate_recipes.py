@@ -16,7 +16,7 @@ def get_specific_image(name, default_img):
         if any(x in name_lower for x in ["מתוק", "בננה", "אוכמניות", "שוקולד"]):
             return "src/images/pastry.png"
         # Savory muffins (maloach, cheese, olive, vegetables/lentils)
-        return "src/images/broccoli_quiche.png"
+        return "src/images/savory_muffins.png"
 
     # 4. Oats / Porridge / Muesli / Chia
     if "צ'יה" in name_lower or "פודינג" in name_lower:
@@ -81,7 +81,7 @@ def get_specific_image(name, default_img):
     if "שקשוקה" in name_lower:
         if is_vegan:
             # Vegan shakshuka can't show eggs!
-            return "src/images/tofu_quinoa_bowl.png"
+            return "src/images/vegan_shakshuka.png"
         if any(x in name_lower for x in ["ירוק", "ירוקה", "תרד"]):
             return "src/images/shakshuka_green.png"
         return "src/images/shakshuka.png"
@@ -120,7 +120,7 @@ def get_specific_image(name, default_img):
     # 18. Eggs (Vegetarian only, since we checked meat/chicken and vegan before)
     if any(x in name_lower for x in ["אומלט", "חביתה", "מקושקשת", "ביצה", "ביצים", "עין"]):
         if is_vegan:
-            return "src/images/tofu_quinoa_bowl.png" # Scrambled tofu
+            return "src/images/scrambled_tofu.png" # Scrambled tofu
         return "src/images/scrambled_eggs.png"
 
     # 19. Vegetarian / Vegan Main Dishes & Legumes

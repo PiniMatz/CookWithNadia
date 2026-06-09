@@ -152,7 +152,7 @@ def audit_mapping(eng_name, image, name_heb):
         "oatmeal_porridge.png", "chia_pudding.png", "red_lentil_soup.png", 
         "soup_green.png", "green_beans.png", "bean_stew.png", "lentil_stew.png", 
         "roasted_vegetables.png", "falafel_plate.png", "pasta_red.png", 
-        "mushroom_pasta.png", "pastry.png"
+        "mushroom_pasta.png", "pastry.png", "scrambled_tofu.png", "vegan_shakshuka.png"
     ]
     
     # 1. Vegan Check
@@ -257,7 +257,7 @@ def audit_mapping(eng_name, image, name_heb):
             if image not in ["pastry.png", "pancake.png"]:
                 return f"FAIL: Sweet muffin mapped to non-pastry image '{image}'"
         elif any(x in name_lower for x in ["מלוח", "גבינה", "זיתים", "ירקות"]):
-            if image not in ["broccoli_quiche.png"]:
+            if image not in ["savory_muffins.png"]:
                 return f"FAIL: Savory muffin mapped to non-quiche image '{image}'"
 
     # 9. Toast / Sandwich Check
@@ -285,6 +285,27 @@ def audit_mapping(eng_name, image, name_heb):
     if "קציצות עדשים" in name_lower:
         if image not in ["lentil_stew.png", "bean_stew.png"]:
             return f"FAIL: Lentil patties stew mapped to non-stew image '{image}'"
+
+    # 11. Shakshuka Check
+    if "שקשוקה" in name_lower:
+        if is_vegan:
+            if image not in ["vegan_shakshuka.png"]:
+                return f"FAIL: Vegan shakshuka mapped to '{image}'"
+        elif any(x in name_lower for x in ["ירוק", "ירוקה", "תרד"]):
+            if image not in ["shakshuka_green.png"]:
+                return f"FAIL: Green shakshuka mapped to '{image}'"
+        else:
+            if image not in ["shakshuka.png"]:
+                return f"FAIL: Shakshuka mapped to '{image}'"
+
+    # 12. Scrambled Egg / Tofu scramble Check
+    if any(x in name_lower for x in ["מקושקשת", "אומלט", "חביתה"]):
+        if is_vegan:
+            if image not in ["scrambled_tofu.png"]:
+                return f"FAIL: Vegan scramble mapped to '{image}'"
+        else:
+            if image not in ["scrambled_eggs.png", "broccoli_quiche.png"]:
+                return f"FAIL: Egg scramble/omelette mapped to '{image}'"
 
     return "PASS"
 
