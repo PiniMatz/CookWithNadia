@@ -5,7 +5,19 @@ def get_specific_image(name, default_img):
     name_lower = name.lower()
     
     # 0. Custom image bypass (if it's already a specific snack image asset, use it directly)
-    if default_img in ["banana_oat_cookies.png", "date_nut_bars.png", "tahini_cookies.png", "spelt_chocolate_chip_cookies.png", "peanut_butter_oat_bars.png", "sugar_free_almond_cookies.png", "protein_energy_balls.png", "granola_squares.png", "coconut_lemon_cookies.png", "puffed_rice_chocolate_bars.png"]:
+    if default_img in [
+        "banana_oat_cookies.png", "date_nut_bars.png", "tahini_cookies.png", 
+        "spelt_chocolate_chip_cookies.png", "peanut_butter_oat_bars.png", 
+        "sugar_free_almond_cookies.png", "protein_energy_balls.png", 
+        "granola_squares.png", "coconut_lemon_cookies.png", "puffed_rice_chocolate_bars.png",
+        "protein_cheesecake.png", "chocolate_chia_pudding.png", "pb_cocoa_cookies.png",
+        "coconut_chocolate_cookies.png", "oat_blueberry_squares.png", "apple_cinnamon_cookies.png",
+        "halva_pistachio_cookies.png", "lemon_coconut_balls.png", "oat_cranberry_bars.png",
+        "granola_silan_cookies.png", "healthy_chocolate_balls.png", "chocolate_almond_bark.png",
+        "pb_chocolate_squares.png", "oat_carrot_cookies.png", "puffed_quinoa_bars.png",
+        "tahini_pistachio_cookies.png", "date_pb_sesame_bars.png", "vanilla_berry_pudding.png",
+        "spelt_banana_cake.png", "chickpea_chocolate_clusters.png"
+    ]:
         if default_img.startswith("http") or default_img.startswith("src/"):
             return default_img
         return f"src/images/{default_img}"
@@ -762,7 +774,27 @@ snack_items = [
     ("כדורי אנרגיה קקאו ובוטנים עשירים בחלבון", "אבקת חלבון,שיבולת שועל,חמאת בוטנים,קקאו", "אבקת חלבון", 110, 8, 12, 4, "protein_energy_balls.png", ["צמחוני", "חלבון גבוה"]),
     ("ריבועי גרנולה אפויים עם שומשום וסילאן", "שיבולת שועל,שומשום,סילאן,שמן זית", "שיבולת שועל", 140, 3, 22, 5, "granola_squares.png", ["טבעוני", "צמחוני"]),
     ("עוגיות קוקוס ולימון בריאות וקלות", "קוקוס,ביצים,מייפל,לימון", "קוקוס", 90, 2, 8, 6, "coconut_lemon_cookies.png", ["צמחוני", "קל"]),
-    ("חטיף אורז תפוח ושוקולד מריר בריא", "אורז,שוקולד,חמאת בוטנים,דבש", "שוקולד", 130, 2, 16, 7, "puffed_rice_chocolate_bars.png", ["צמחוני"])
+    ("חטיף אורז תפוח ושוקולד מריר בריא", "אורז,שוקולד,חמאת בוטנים,דבש", "שוקולד", 130, 2, 16, 7, "puffed_rice_chocolate_bars.png", ["צמחוני"]),
+    ("עוגת גבינה אישית עשירה בחלבון", "גבינה לבנה,יוגורט,ביצים,קמח שקדים", "גבינה לבנה", 190, 18, 12, 8, "protein_cheesecake.png", ["צמחוני", "חלבון גבוה"]),
+    ("פודינג שוקולד וחלבון מזרעי צ'יה", "זרעי צ'יה,חלב,אבקת חלבון,קקאו", "זרעי צ'יה", 210, 16, 14, 8, "chocolate_chia_pudding.png", ["צמחוני", "חלבון גבוה"]),
+    ("עוגיות חמאת בוטנים וקקאו ללא סוכר", "חמאת בוטנים,קקאו,סילאן,אגוזים", "חמאת בוטנים", 150, 4, 18, 7, "pb_cocoa_cookies.png", ["טבעוני", "צמחוני", "ללא סוכר"]),
+    ("עוגיות קוקוס ושוקולד מריר ללא גלוטן", "קוקוס,שוקולד,סילאן,רסק תפוחים", "קוקוס", 130, 2, 16, 8, "coconut_chocolate_cookies.png", ["טבעוני", "צמחוני", "ללא גלוטן"]),
+    ("ריבועי שיבולת שועל ואוכמניות אפויים", "שיבולת שועל,אוכמניות,סילאן,שמן זית", "שיבולת שועל", 140, 3, 24, 4, "oat_blueberry_squares.png", ["טבעוני", "צמחוני"]),
+    ("עוגיות תפוחים וקינמון נימוחות", "קמח,תפוחים,קינמון,סילאן,שמן זית", "תפוחים", 110, 2, 22, 3, "apple_cinnamon_cookies.png", ["טבעוני", "צמחוני"]),
+    ("עוגיות חלבה ופיסטוק בריאות", "טחינה,סילאן,פיסטוק,קמח שקדים", "טחינה", 160, 4, 14, 10, "halva_pistachio_cookies.png", ["טבעוני", "צמחוני"]),
+    ("כדורי אנרגיה לימון וקוקוס מרעננים", "קוקוס,שקדים,סילאן,לימון", "קוקוס", 120, 3, 14, 7, "lemon_coconut_balls.png", ["טבעוני", "צמחוני", "מהיר"]),
+    ("חטיף שיבולת שועל וחמוציות ביתי", "שיבולת שועל,חמוציות,סילאן,שקדים", "שיבולת שועל", 150, 3, 26, 4, "oat_cranberry_bars.png", ["טבעוני", "צמחוני"]),
+    ("עוגיות גרנולה וסילאן פריכות", "גרנולה,סילאן,ביצים,טחינה", "גרנולה", 130, 4, 18, 5, "granola_silan_cookies.png", ["צמחוני"]),
+    ("כדורי שוקולד בריאים מתמרים וקקאו", "תמרים,קקאו,אגוזים,קוקוס", "תמרים", 110, 2, 18, 4, "healthy_chocolate_balls.png", ["טבעוני", "צמחוני", "ללא סוכר"]),
+    ("חטיף שוקולד מריר עם שקדים ומלח גס", "שוקולד,שקדים,שמן זית,מלח", "שוקולד", 170, 3, 12, 12, "chocolate_almond_bark.png", ["טבעוני", "צמחוני", "דל פחמימה"]),
+    ("ריבועי חמאת בוטנים ושוקולד מריר בריאים", "חמאת בוטנים,שוקולד,דבש,שמן קוקוס", "חמאת בוטנים", 190, 5, 14, 13, "pb_chocolate_squares.png", ["צמחוני"]),
+    ("עוגיות גזר ושיבולת שועל רכות", "גזר,שיבולת שועל,סילאן,שמן זית", "שיבולת שועל", 110, 3, 20, 3, "oat_carrot_cookies.png", ["טבעוני", "צמחוני"]),
+    ("חטיף קינואה תפוחה ודבש ביתי", "קינואה,דבש,שקדים,חמאת בוטנים", "קינואה", 140, 4, 22, 5, "puffed_quinoa_bars.png", ["צמחוני"]),
+    ("עוגיות טחינה ופיסטוק ללא סוכר", "טחינה,פיסטוק,מייפל,קמח שקדים", "טחינה", 150, 4, 12, 10, "tahini_pistachio_cookies.png", ["טבעוני", "צמחוני", "ללא סוכר"]),
+    ("חטיף תמרים, חמאת בוטנים ושומשום", "תמרים,חמאת בוטנים,שומשום,אגוזים", "תמרים", 160, 4, 22, 7, "date_pb_sesame_bars.png", ["טבעוני", "צמחוני", "ללא סוכר"]),
+    ("פודינג וניל בריא עם פירות יער", "חלב,קורנפלור,מייפל,פירות יער", "חלב", 180, 5, 28, 4, "vanilla_berry_pudding.png", ["צמחוני"]),
+    ("עוגת בננה מקמח כוסמין ללא סוכר", "בננה,קמח כוסמין,ביצים,שמן זית", "בננה", 160, 4, 26, 5, "spelt_banana_cake.png", ["צמחוני", "ללא סוכר"]),
+    ("חטיף שוקולד וגרגירי חומוס מונבטים פריכים", "גרגירי חומוס מונבטים,שוקולד,סילאן,טחינה", "גרגירי חומוס מונבטים", 160, 5, 20, 7, "chickpea_chocolate_clusters.png", ["טבעוני", "צמחוני"])
 ]
 
 # Generate and add snack recipes (ביניים)
