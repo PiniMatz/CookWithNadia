@@ -422,7 +422,7 @@ body {
 }
 
 .meal-filters-grid {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
 }
 
 .time-filters-grid {

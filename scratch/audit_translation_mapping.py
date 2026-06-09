@@ -77,6 +77,12 @@ HEB_TO_ENG = {
     "מוזלי": "muesli",
     "גרנולה": "granola",
     "יוגורט": "yogurt",
+    "עוגיות": "cookies",
+    "חטיף": "snack bar",
+    "חטיפי": "snack bars",
+    "אנרגיה": "energy",
+    "כדורי": "balls",
+    "ביניים": "mid-day snack",
     "קיש": "quiche",
     "פשטידה": "pie",
     "פשטידת": "pie",
@@ -152,7 +158,8 @@ def audit_mapping(eng_name, image, name_heb):
         "oatmeal_porridge.png", "chia_pudding.png", "red_lentil_soup.png", 
         "soup_green.png", "green_beans.png", "bean_stew.png", "lentil_stew.png", 
         "roasted_vegetables.png", "falafel_plate.png", "pasta_red.png", 
-        "mushroom_pasta.png", "pastry.png", "scrambled_tofu.png", "vegan_shakshuka.png"
+        "mushroom_pasta.png", "pastry.png", "scrambled_tofu.png", "vegan_shakshuka.png",
+        "healthy_cookies.png", "energy_bars.png"
     ]
     
     # 1. Vegan Check
@@ -306,6 +313,15 @@ def audit_mapping(eng_name, image, name_heb):
         else:
             if image not in ["scrambled_eggs.png", "broccoli_quiche.png"]:
                 return f"FAIL: Egg scramble/omelette mapped to '{image}'"
+
+    # 13. Snacks Check
+    if any(x in name_lower for x in ["עוגיות", "חטיף", "חטיפי", "כדורי אנרגיה"]):
+        if any(x in name_lower for x in ["עוגיות", "קוקוס"]):
+            if image not in ["healthy_cookies.png"]:
+                return f"FAIL: Cookie recipe mapped to non-cookie image '{image}'"
+        else:
+            if image not in ["energy_bars.png"]:
+                return f"FAIL: Snack bar recipe mapped to non-bar image '{image}'"
 
     return "PASS"
 

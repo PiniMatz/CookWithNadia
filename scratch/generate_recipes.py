@@ -18,6 +18,12 @@ def get_specific_image(name, default_img):
         # Savory muffins (maloach, cheese, olive, vegetables/lentils)
         return "src/images/savory_muffins.png"
 
+    # 3b. Cookies & Snack Bars
+    if any(x in name_lower for x in ["עוגיות", "חטיף", "חטיפי", "כדורי אנרגיה"]):
+        if any(x in name_lower for x in ["עוגיות", "קוקוס"]):
+            return "src/images/healthy_cookies.png"
+        return "src/images/energy_bars.png"
+
     # 4. Oats / Porridge / Muesli / Chia
     if "צ'יה" in name_lower or "פודינג" in name_lower:
         return "src/images/chia_pudding.png"
@@ -737,6 +743,48 @@ for idx, item in enumerate(sprouted_items):
         "tags": tags + ["קטניות מונבטות", "בריא"]
     })
 
+# ==========================================
+# 5. SNACK RECIPES (ביניים) - 10 Recipes
+# ==========================================
+snack_items = [
+    ("עוגיות שיבולת שועל ובננה בריאות", "שיבולת שועל,בננה,קינמון,סילאן", "שיבולת שועל", 120, 3, 22, 2, "healthy_cookies.png", ["טבעוני", "צמחוני", "ללא סוכר"]),
+    ("חטיפי אנרגיה מתמרים ואגוזים", "תמרים,אגוזי מלך,שקדים,קקאו", "תמרים", 150, 4, 18, 7, "energy_bars.png", ["טבעוני", "צמחוני", "ללא סוכר"]),
+    ("עוגיות טחינה ודבש ללא גלוטן", "טחינה,דבש,קמח שקדים,ביצים", "טחינה", 160, 5, 12, 11, "healthy_cookies.png", ["צמחוני", "ללא גלוטן"]),
+    ("עוגיות שוקולד צ'יפס מקמח כוסמין", "קמח כוסמין,שוקולד,סוכר קוקוס,שמן זית", "קמח כוסמין", 140, 3, 18, 6, "healthy_cookies.png", ["צמחוני"]),
+    ("חטיף שיבולת שועל וחמאת בוטנים", "שיבולת שועל,חמאת בוטנים,דבש,זרעי צ'יה", "חמאת בוטנים", 180, 6, 20, 9, "energy_bars.png", ["צמחוני", "חלבון גבוה"]),
+    ("עוגיות שקדים נימוחות ללא סוכר", "קמח שקדים,מייפל,ביצים,תמצית וניל", "קמח שקדים", 130, 4, 10, 8, "healthy_cookies.png", ["צמחוני", "ללא סוכר"]),
+    ("כדורי אנרגיה קקאו ובוטנים עשירים בחלבון", "אבקת חלבון,שיבולת שועל,חמאת בוטנים,קקאו", "אבקת חלבון", 110, 8, 12, 4, "energy_bars.png", ["צמחוני", "חלבון גבוה"]),
+    ("ריבועי גרנולה אפויים עם שומשום וסילאן", "שיבולת שועל,שומשום,סילאן,שמן זית", "שיבולת שועל", 140, 3, 22, 5, "energy_bars.png", ["טבעוני", "צמחוני"]),
+    ("עוגיות קוקוס ולימון בריאות וקלות", "קוקוס,ביצים,מייפל,לימון", "קוקוס", 90, 2, 8, 6, "healthy_cookies.png", ["צמחוני", "קל"]),
+    ("חטיף אורז תפוח ושוקולד מריר בריא", "אורז,שוקולד,חמאת בוטנים,דבש", "שוקולד", 130, 2, 16, 7, "energy_bars.png", ["צמחוני"])
+]
+
+# Generate and add snack recipes (ביניים)
+for idx, item in enumerate(snack_items):
+    name, ing_list, primary, cals, prot, carb, fat, img, tags = item
+    ing_split = ing_list.split(",")
+    ingredients_objs = [{"name": x, "amount": "1", "unit": "יחידה"} for x in ing_split]
+    
+    recipes.append({
+        "id": 500 + idx,
+        "name": name,
+        "description": f"חטיף בריא, מזין וטעים המשלב {name} שמתאים במיוחד לצד הקפה של אחר הצהריים.",
+        "category": "ביניים",
+        "prepTime": 10, "cookTime": 15, "totalTime": 25,
+        "difficulty": "קל", "portions": 6,
+        "calories": cals, "protein": prot, "carbs": carb, "fat": fat,
+        "matchableIngredients": ing_split + [primary],
+        "ingredients": ingredients_objs,
+        "instructions": [
+            f"מערבבים בקערה את כל המצרכים: {', '.join(ing_split)}.",
+            "יוצרים עוגיות או משטחים בתבנית ומעצבים לחטיפים.",
+            "אופים בתנור שחומם מראש או מצננים במקרר עד להתייצבות.",
+            "מאחסנים בקופסה אטומה ומגישים לצד קפה חם."
+        ],
+        "image": get_specific_image(name, img),
+        "tags": tags + ["נשנוש", "בריא"]
+    })
+
 # Helper function to classify protein types
 def get_protein_type(recipe):
     name = recipe["name"].lower()
@@ -780,3 +828,4 @@ print(f"Low-carb count: {len([r for r in recipes if r['carbs'] <= 20])}")
 print(f"High-protein count: {len([r for r in recipes if r['protein'] >= 30])}")
 print(f"Both (low-carb + high-protein) count: {len([r for r in recipes if r['carbs'] <= 20 and r['protein'] >= 30])}")
 print(f"Lentils/Legumes count: {len([r for r in recipes if any('מונבט' in m or 'עדשים' in m for m in r['matchableIngredients'])])}")
+print(f"Snack count: {len([r for r in recipes if 'ביניים' in r['category']])}")
