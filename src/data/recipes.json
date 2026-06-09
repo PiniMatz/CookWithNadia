@@ -909,7 +909,7 @@
       "מערבבים או מבשלים את החומרים במחבת או סיר לפי סוג המנה.",
       "מתבלים במלח ופלפל ומגישים מיד חם לשולחן."
     ],
-    "image": "https://images.unsplash.com/photo-1504754524776-8f4f37790ca0?w=600&auto=format&fit=crop&q=80",
+    "image": "src/images/shakshuka_green.png",
     "tags": [
       "צמחוני",
       "דל פחמימה"
@@ -970,7 +970,7 @@
       "מערבבים או מבשלים את החומרים במחבת או סיר לפי סוג המנה.",
       "מתבלים במלח ופלפל ומגישים מיד חם לשולחן."
     ],
-    "image": "https://images.unsplash.com/photo-1528207776546-365bb710ee93?w=600&auto=format&fit=crop&q=80",
+    "image": "src/images/pancake.png",
     "tags": [
       "חלבון גבוה",
       "מהיר",
@@ -1032,7 +1032,7 @@
       "מערבבים או מבשלים את החומרים במחבת או סיר לפי סוג המנה.",
       "מתבלים במלח ופלפל ומגישים מיד חם לשולחן."
     ],
-    "image": "https://images.unsplash.com/photo-1551248429-40975aa4de74?w=600&auto=format&fit=crop&q=80",
+    "image": "src/images/oatmeal_porridge.png",
     "tags": [
       "מהיר",
       "צמחוני",
@@ -1088,7 +1088,7 @@
       "מערבבים או מבשלים את החומרים במחבת או סיר לפי סוג המנה.",
       "מתבלים במלח ופלפל ומגישים מיד חם לשולחן."
     ],
-    "image": "https://images.unsplash.com/photo-1488477181946-6428a0291777?w=600&auto=format&fit=crop&q=80",
+    "image": "src/images/muesli_yogurt.png",
     "tags": [
       "מהיר",
       "קל",
@@ -1144,7 +1144,7 @@
       "מערבבים או מבשלים את החומרים במחבת או סיר לפי סוג המנה.",
       "מתבלים במלח ופלפל ומגישים מיד חם לשולחן."
     ],
-    "image": "https://images.unsplash.com/photo-1504754524776-8f4f37790ca0?w=600&auto=format&fit=crop&q=80",
+    "image": "src/images/scrambled_eggs.png",
     "tags": [
       "חלבון גבוה",
       "דל פחמימה",
@@ -1200,7 +1200,7 @@
       "מערבבים או מבשלים את החומרים במחבת או סיר לפי סוג המנה.",
       "מתבלים במלח ופלפל ומגישים מיד חם לשולחן."
     ],
-    "image": "https://images.unsplash.com/photo-1533089860892-a7c6f0a88666?w=600&auto=format&fit=crop&q=80",
+    "image": "src/images/caprese_toast.png",
     "tags": [
       "צמחוני",
       "מהיר"
@@ -1255,7 +1255,7 @@
       "מערבבים או מבשלים את החומרים במחבת או סיר לפי סוג המנה.",
       "מתבלים במלח ופלפל ומגישים מיד חם לשולחן."
     ],
-    "image": "https://images.unsplash.com/photo-1498654896293-37aacf113fd9?w=600&auto=format&fit=crop&q=80",
+    "image": "src/images/scrambled_eggs.png",
     "tags": [
       "מהיר",
       "צמחוני"
@@ -1310,7 +1310,7 @@
       "מערבבים או מבשלים את החומרים במחבת או סיר לפי סוג המנה.",
       "מתבלים במלח ופלפל ומגישים מיד חם לשולחן."
     ],
-    "image": "https://images.unsplash.com/photo-1528735602780-2552fd46c7af?w=600&auto=format&fit=crop&q=80",
+    "image": "src/images/grilled_cheese.png",
     "tags": [
       "מהיר",
       "צמחוני"
@@ -1365,7 +1365,7 @@
       "מערבבים או מבשלים את החומרים במחבת או סיר לפי סוג המנה.",
       "מתבלים במלח ופלפל ומגישים מיד חם לשולחן."
     ],
-    "image": "https://images.unsplash.com/photo-1498654896293-37aacf113fd9?w=600&auto=format&fit=crop&q=80",
+    "image": "src/images/egg_salad.png",
     "tags": [
       "דל פחמימה",
       "קל"
@@ -1426,7 +1426,7 @@
       "מערבבים או מבשלים את החומרים במחבת או סיר לפי סוג המנה.",
       "מתבלים במלח ופלפל ומגישים מיד חם לשולחן."
     ],
-    "image": "src/images/salad_fresh.png",
+    "image": "src/images/tuna_salad.png",
     "tags": [
       "חלבון גבוה",
       "דל פחמימה"
@@ -1487,7 +1487,7 @@
       "מערבבים או מבשלים את החומרים במחבת או סיר לפי סוג המנה.",
       "מתבלים במלח ופלפל ומגישים מיד חם לשולחן."
     ],
-    "image": "src/images/tofu_quinoa_bowl.png",
+    "image": "src/images/smoothie_bowl.png",
     "tags": [
       "טבעוני",
       "צמחוני",
@@ -1543,7 +1543,7 @@
       "מערבבים או מבשלים את החומרים במחבת או סיר לפי סוג המנה.",
       "מתבלים במלח ופלפל ומגישים מיד חם לשולחן."
     ],
-    "image": "https://images.unsplash.com/photo-1608039829572-78524f79c4c7?w=600&auto=format&fit=crop&q=80",
+    "image": "src/images/pastry.png",
     "tags": [
       "צמחוני"
     ],
@@ -1597,7 +1597,7 @@
       "מערבבים או מבשלים את החומרים במחבת או סיר לפי סוג המנה.",
       "מתבלים במלח ופלפל ומגישים מיד חם לשולחן."
     ],
-    "image": "https://images.unsplash.com/photo-1540420773420-3366772f4999?w=600&auto=format&fit=crop&q=80",
+    "image": "src/images/labneh_dip.png",
     "tags": [
       "צמחוני",
       "דל פחמימה"
@@ -1706,7 +1706,7 @@
       "מערבבים או מבשלים את החומרים במחבת או סיר לפי סוג המנה.",
       "מתבלים במלח ופלפל ומגישים מיד חם לשולחן."
     ],
-    "image": "https://images.unsplash.com/photo-1505253716362-afaea1d3d1af?w=600&auto=format&fit=crop&q=80",
+    "image": "src/images/chia_pudding.png",
     "tags": [
       "טבעוני",
       "צמחוני",
@@ -1768,7 +1768,7 @@
       "מערבבים או מבשלים את החומרים במחבת או סיר לפי סוג המנה.",
       "מתבלים במלח ופלפל ומגישים מיד חם לשולחן."
     ],
-    "image": "https://images.unsplash.com/photo-1528735602780-2552fd46c7af?w=600&auto=format&fit=crop&q=80",
+    "image": "src/images/pancake.png",
     "tags": [
       "צמחוני",
       "מתוק"
@@ -1823,7 +1823,7 @@
       "מערבבים או מבשלים את החומרים במחבת או סיר לפי סוג המנה.",
       "מתבלים במלח ופלפל ומגישים מיד חם לשולחן."
     ],
-    "image": "https://images.unsplash.com/photo-1554520735-0a6b8b6ce8b7?w=600&auto=format&fit=crop&q=80",
+    "image": "src/images/scrambled_eggs.png",
     "tags": [
       "צמחוני"
     ],
@@ -1883,7 +1883,7 @@
       "מערבבים או מבשלים את החומרים במחבת או סיר לפי סוג המנה.",
       "מתבלים במלח ופלפל ומגישים מיד חם לשולחן."
     ],
-    "image": "https://images.unsplash.com/photo-1498654896293-37aacf113fd9?w=600&auto=format&fit=crop&q=80",
+    "image": "src/images/scrambled_eggs.png",
     "tags": [
       "צמחוני"
     ],
@@ -1937,7 +1937,7 @@
       "מערבבים או מבשלים את החומרים במחבת או סיר לפי סוג המנה.",
       "מתבלים במלח ופלפל ומגישים מיד חם לשולחן."
     ],
-    "image": "https://images.unsplash.com/photo-1498654896293-37aacf113fd9?w=600&auto=format&fit=crop&q=80",
+    "image": "src/images/salad_fresh.png",
     "tags": [
       "צמחוני",
       "דל פחמימה"
@@ -1992,7 +1992,7 @@
       "מערבבים או מבשלים את החומרים במחבת או סיר לפי סוג המנה.",
       "מתבלים במלח ופלפל ומגישים מיד חם לשולחן."
     ],
-    "image": "https://images.unsplash.com/photo-1509440159596-0249088772ff?w=600&auto=format&fit=crop&q=80",
+    "image": "src/images/pastry.png",
     "tags": [
       "צמחוני",
       "דל קלוריות"
@@ -2047,7 +2047,7 @@
       "מערבבים או מבשלים את החומרים במחבת או סיר לפי סוג המנה.",
       "מתבלים במלח ופלפל ומגישים מיד חם לשולחן."
     ],
-    "image": "https://images.unsplash.com/photo-1498654896293-37aacf113fd9?w=600&auto=format&fit=crop&q=80",
+    "image": "src/images/scrambled_eggs.png",
     "tags": [
       "צמחוני",
       "מהיר"
@@ -2102,7 +2102,7 @@
       "מערבבים או מבשלים את החומרים במחבת או סיר לפי סוג המנה.",
       "מתבלים במלח ופלפל ומגישים מיד חם לשולחן."
     ],
-    "image": "https://images.unsplash.com/photo-1608039829572-78524f79c4c7?w=600&auto=format&fit=crop&q=80",
+    "image": "src/images/pastry.png",
     "tags": [
       "צמחוני"
     ],
@@ -2156,7 +2156,7 @@
       "מערבבים או מבשלים את החומרים במחבת או סיר לפי סוג המנה.",
       "מתבלים במלח ופלפל ומגישים מיד חם לשולחן."
     ],
-    "image": "https://images.unsplash.com/photo-1540420773420-3366772f4999?w=600&auto=format&fit=crop&q=80",
+    "image": "src/images/salad_fresh.png",
     "tags": [
       "צמחוני",
       "דל פחמימה"
@@ -2211,7 +2211,7 @@
       "מערבבים או מבשלים את החומרים במחבת או סיר לפי סוג המנה.",
       "מתבלים במלח ופלפל ומגישים מיד חם לשולחן."
     ],
-    "image": "https://images.unsplash.com/photo-1488477181946-6428a0291777?w=600&auto=format&fit=crop&q=80",
+    "image": "src/images/muesli_yogurt.png",
     "tags": [
       "צמחוני"
     ],
@@ -2265,7 +2265,7 @@
       "מערבבים או מבשלים את החומרים במחבת או סיר לפי סוג המנה.",
       "מתבלים במלח ופלפל ומגישים מיד חם לשולחן."
     ],
-    "image": "src/images/tofu_quinoa_bowl.png",
+    "image": "src/images/smoothie_bowl.png",
     "tags": [
       "חלבון גבוה",
       "מהיר"
@@ -2369,7 +2369,7 @@
       "מערבבים או מבשלים את החומרים במחבת או סיר לפי סוג המנה.",
       "מתבלים במלח ופלפל ומגישים מיד חם לשולחן."
     ],
-    "image": "https://images.unsplash.com/photo-1608039829572-78524f79c4c7?w=600&auto=format&fit=crop&q=80",
+    "image": "src/images/pastry.png",
     "tags": [
       "צמחוני"
     ],
@@ -2429,7 +2429,7 @@
       "מערבבים או מבשלים את החומרים במחבת או סיר לפי סוג המנה.",
       "מתבלים במלח ופלפל ומגישים מיד חם לשולחן."
     ],
-    "image": "https://images.unsplash.com/photo-1551248429-40975aa4de74?w=600&auto=format&fit=crop&q=80",
+    "image": "src/images/oatmeal_porridge.png",
     "tags": [
       "צמחוני",
       "חם"
@@ -2484,7 +2484,7 @@
       "מערבבים או מבשלים את החומרים במחבת או סיר לפי סוג המנה.",
       "מתבלים במלח ופלפל ומגישים מיד חם לשולחן."
     ],
-    "image": "https://images.unsplash.com/photo-1528207776546-365bb710ee93?w=600&auto=format&fit=crop&q=80",
+    "image": "src/images/pancake.png",
     "tags": [
       "צמחוני",
       "בריא"
@@ -2545,7 +2545,7 @@
       "מערבבים או מבשלים את החומרים במחבת או סיר לפי סוג המנה.",
       "מתבלים במלח ופלפל ומגישים מיד חם לשולחן."
     ],
-    "image": "https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?w=600&auto=format&fit=crop&q=80",
+    "image": "src/images/pancake.png",
     "tags": [
       "צמחוני",
       "מתוק"
@@ -2600,7 +2600,7 @@
       "מערבבים או מבשלים את החומרים במחבת או סיר לפי סוג המנה.",
       "מתבלים במלח ופלפל ומגישים מיד חם לשולחן."
     ],
-    "image": "https://images.unsplash.com/photo-1498654896293-37aacf113fd9?w=600&auto=format&fit=crop&q=80",
+    "image": "src/images/scrambled_eggs.png",
     "tags": [
       "מהיר",
       "דל פחמימה"
@@ -2655,7 +2655,7 @@
       "מערבבים או מבשלים את החומרים במחבת או סיר לפי סוג המנה.",
       "מתבלים במלח ופלפל ומגישים מיד חם לשולחן."
     ],
-    "image": "https://images.unsplash.com/photo-1528735602780-2552fd46c7af?w=600&auto=format&fit=crop&q=80",
+    "image": "src/images/baked_salmon.png",
     "tags": [
       "חלבון גבוה"
     ],
@@ -2886,7 +2886,7 @@
       "מערבבים או מבשלים את החומרים במחבת או סיר לפי סוג המנה.",
       "מתבלים במלח ופלפל ומגישים מיד חם לשולחן."
     ],
-    "image": "https://images.unsplash.com/photo-1498654896293-37aacf113fd9?w=600&auto=format&fit=crop&q=80",
+    "image": "src/images/scrambled_eggs.png",
     "tags": [
       "טבעוני",
       "צמחוני",
@@ -2942,7 +2942,7 @@
       "מערבבים או מבשלים את החומרים במחבת או סיר לפי סוג המנה.",
       "מתבלים במלח ופלפל ומגישים מיד חם לשולחן."
     ],
-    "image": "https://images.unsplash.com/photo-1498654896293-37aacf113fd9?w=600&auto=format&fit=crop&q=80",
+    "image": "src/images/scrambled_eggs.png",
     "tags": [
       "דל פחמימה",
       "שומן בריא"
@@ -3003,7 +3003,7 @@
       "מערבבים או מבשלים את החומרים במחבת או סיר לפי סוג המנה.",
       "מתבלים במלח ופלפל ומגישים מיד חם לשולחן."
     ],
-    "image": "https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?w=600&auto=format&fit=crop&q=80",
+    "image": "src/images/pancake.png",
     "tags": [
       "צמחוני"
     ],
@@ -3063,7 +3063,7 @@
       "מערבבים או מבשלים את החומרים במחבת או סיר לפי סוג המנה.",
       "מתבלים במלח ופלפל ומגישים מיד חם לשולחן."
     ],
-    "image": "https://images.unsplash.com/photo-1607958996333-41aef7caefaa?w=600&auto=format&fit=crop&q=80",
+    "image": "src/images/pastry.png",
     "tags": [
       "צמחוני"
     ],
@@ -3111,7 +3111,7 @@
       "מערבבים או מבשלים את החומרים במחבת או סיר לפי סוג המנה.",
       "מתבלים במלח ופלפל ומגישים מיד חם לשולחן."
     ],
-    "image": "https://images.unsplash.com/photo-1528735602780-2552fd46c7af?w=600&auto=format&fit=crop&q=80",
+    "image": "src/images/pizza.png",
     "tags": [
       "מהיר",
       "צמחוני"
@@ -3166,7 +3166,7 @@
       "מערבבים או מבשלים את החומרים במחבת או סיר לפי סוג המנה.",
       "מתבלים במלח ופלפל ומגישים מיד חם לשולחן."
     ],
-    "image": "https://images.unsplash.com/photo-1528207776546-365bb710ee93?w=600&auto=format&fit=crop&q=80",
+    "image": "src/images/pancake.png",
     "tags": [
       "צמחוני",
       "ללא גלוטן",
@@ -3222,7 +3222,7 @@
       "מערבבים או מבשלים את החומרים במחבת או סיר לפי סוג המנה.",
       "מתבלים במלח ופלפל ומגישים מיד חם לשולחן."
     ],
-    "image": "https://images.unsplash.com/photo-1528735602780-2552fd46c7af?w=600&auto=format&fit=crop&q=80",
+    "image": "src/images/caprese_toast.png",
     "tags": [
       "מהיר",
       "צמחוני"
@@ -3344,7 +3344,7 @@
       "מערבבים או מבשלים את החומרים במחבת או סיר לפי סוג המנה.",
       "מתבלים במלח ופלפל ומגישים מיד חם לשולחן."
     ],
-    "image": "src/images/pastry.png",
+    "image": "src/images/caprese_toast.png",
     "tags": [
       "מאוזן"
     ],
@@ -3576,7 +3576,7 @@
       "מבשלים, מטגנים או אופים בתנור עד למידת העשייה המושלמת.",
       "מגישים חם וטרי כחלק מארוחה מאוזנת."
     ],
-    "image": "https://images.unsplash.com/photo-1562967914-608f82629710?w=600&auto=format&fit=crop&q=80",
+    "image": "src/images/pastry.png",
     "tags": [
       "חלבון גבוה",
       "ילדים"
@@ -3741,7 +3741,7 @@
       "מבשלים, מטגנים או אופים בתנור עד למידת העשייה המושלמת.",
       "מגישים חם וטרי כחלק מארוחה מאוזנת."
     ],
-    "image": "https://images.unsplash.com/photo-1529042410759-befb1204b468?w=600&auto=format&fit=crop&q=80",
+    "image": "src/images/burger.png",
     "tags": [
       "חלבון גבוה",
       "דל פחמימה"
@@ -3856,7 +3856,7 @@
       "מבשלים, מטגנים או אופים בתנור עד למידת העשייה המושלמת.",
       "מגישים חם וטרי כחלק מארוחה מאוזנת."
     ],
-    "image": "src/images/chicken_broccoli.png",
+    "image": "src/images/pasta_red.png",
     "tags": [
       "חלבון גבוה",
       "פסטה"
@@ -4081,7 +4081,7 @@
       "מבשלים, מטגנים או אופים בתנור עד למידת העשייה המושלמת.",
       "מגישים חם וטרי כחלק מארוחה מאוזנת."
     ],
-    "image": "https://images.unsplash.com/photo-1529042410759-befb1204b468?w=600&auto=format&fit=crop&q=80",
+    "image": "src/images/burger.png",
     "tags": [
       "חלבון גבוה",
       "דל פחמימה"
@@ -4136,7 +4136,7 @@
       "מבשלים, מטגנים או אופים בתנור עד למידת העשייה המושלמת.",
       "מגישים חם וטרי כחלק מארוחה מאוזנת."
     ],
-    "image": "src/images/burger.png",
+    "image": "src/images/chicken_broccoli.png",
     "tags": [
       "חלבון גבוה",
       "דל פחמימה"
@@ -4405,7 +4405,7 @@
       "מבשלים, מטגנים או אופים בתנור עד למידת העשייה המושלמת.",
       "מגישים חם וטרי כחלק מארוחה מאוזנת."
     ],
-    "image": "src/images/fish_meatballs.png",
+    "image": "src/images/tofu_quinoa_bowl.png",
     "tags": [
       "טבעוני",
       "צמחוני"
@@ -4569,7 +4569,7 @@
       "מבשלים, מטגנים או אופים בתנור עד למידת העשייה המושלמת.",
       "מגישים חם וטרי כחלק מארוחה מאוזנת."
     ],
-    "image": "https://images.unsplash.com/photo-1541832676-9b763b0239ab?w=600&auto=format&fit=crop&q=80",
+    "image": "src/images/bean_stew.png",
     "tags": [
       "חם",
       "חלבון גבוה"
@@ -4624,7 +4624,7 @@
       "מבשלים, מטגנים או אופים בתנור עד למידת העשייה המושלמת.",
       "מגישים חם וטרי כחלק מארוחה מאוזנת."
     ],
-    "image": "src/images/chicken_broccoli.png",
+    "image": "src/images/beef_lasagna.png",
     "tags": [
       "חלבון גבוה"
     ],
@@ -4678,7 +4678,7 @@
       "מבשלים, מטגנים או אופים בתנור עד למידת העשייה המושלמת.",
       "מגישים חם וטרי כחלק מארוחה מאוזנת."
     ],
-    "image": "src/images/lentil_stew.png",
+    "image": "src/images/broccoli_quiche.png",
     "tags": [
       "טבעוני",
       "צמחוני",
@@ -4789,7 +4789,7 @@
       "מבשלים, מטגנים או אופים בתנור עד למידת העשייה המושלמת.",
       "מגישים חם וטרי כחלק מארוחה מאוזנת."
     ],
-    "image": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=600&auto=format&fit=crop&q=80",
+    "image": "src/images/tofu_quinoa_bowl.png",
     "tags": [
       "טבעוני",
       "צמחוני",
@@ -4900,7 +4900,7 @@
       "מבשלים, מטגנים או אופים בתנור עד למידת העשייה המושלמת.",
       "מגישים חם וטרי כחלק מארוחה מאוזנת."
     ],
-    "image": "https://images.unsplash.com/photo-1540420773420-3366772f4999?w=600&auto=format&fit=crop&q=80",
+    "image": "src/images/labneh_dip.png",
     "tags": [
       "טבעוני",
       "צמחוני"
@@ -5009,7 +5009,7 @@
       "מבשלים, מטגנים או אופים בתנור עד למידת העשייה המושלמת.",
       "מגישים חם וטרי כחלק מארוחה מאוזנת."
     ],
-    "image": "https://images.unsplash.com/photo-1525059696034-4967a8e1dca2?w=600&auto=format&fit=crop&q=80",
+    "image": "src/images/burger.png",
     "tags": [
       "צמחוני",
       "בינוני"
@@ -5064,7 +5064,7 @@
       "מבשלים, מטגנים או אופים בתנור עד למידת העשייה המושלמת.",
       "מגישים חם וטרי כחלק מארוחה מאוזנת."
     ],
-    "image": "src/images/beef_stew.png",
+    "image": "src/images/beef_lasagna.png",
     "tags": [
       "חלבון גבוה"
     ],
@@ -5178,7 +5178,7 @@
       "מבשלים, מטגנים או אופים בתנור עד למידת העשייה המושלמת.",
       "מגישים חם וטרי כחלק מארוחה מאוזנת."
     ],
-    "image": "https://images.unsplash.com/photo-1498654896293-37aacf113fd9?w=600&auto=format&fit=crop&q=80",
+    "image": "src/images/scrambled_eggs.png",
     "tags": [
       "צמחוני",
       "מהיר"
@@ -5233,7 +5233,7 @@
       "מבשלים, מטגנים או אופים בתנור עד למידת העשייה המושלמת.",
       "מגישים חם וטרי כחלק מארוחה מאוזנת."
     ],
-    "image": "https://images.unsplash.com/photo-1540420773420-3366772f4999?w=600&auto=format&fit=crop&q=80",
+    "image": "src/images/labneh_dip.png",
     "tags": [
       "חלבון גבוה",
       "דל פחמימה"
@@ -5288,7 +5288,7 @@
       "מבשלים, מטגנים או אופים בתנור עד למידת העשייה המושלמת.",
       "מגישים חם וטרי כחלק מארוחה מאוזנת."
     ],
-    "image": "https://images.unsplash.com/photo-1529042410759-befb1204b468?w=600&auto=format&fit=crop&q=80",
+    "image": "src/images/burger.png",
     "tags": [
       "קלאסי",
       "חלבון גבוה"
@@ -5343,7 +5343,7 @@
       "מבשלים, מטגנים או אופים בתנור עד למידת העשייה המושלמת.",
       "מגישים חם וטרי כחלק מארוחה מאוזנת."
     ],
-    "image": "https://images.unsplash.com/photo-1529042410759-befb1204b468?w=600&auto=format&fit=crop&q=80",
+    "image": "src/images/chicken_broccoli.png",
     "tags": [
       "חלבון גבוה",
       "קל"
@@ -5392,7 +5392,7 @@
       "מבשלים, מטגנים או אופים בתנור עד למידת העשייה המושלמת.",
       "מגישים חם וטרי כחלק מארוחה מאוזנת."
     ],
-    "image": "src/images/lentil_stew.png",
+    "image": "src/images/bean_stew.png",
     "tags": [
       "חלבון גבוה",
       "חם"
@@ -5502,7 +5502,7 @@
       "מבשלים, מטגנים או אופים בתנור עד למידת העשייה המושלמת.",
       "מגישים חם וטרי כחלק מארוחה מאוזנת."
     ],
-    "image": "src/images/chicken_broccoli.png",
+    "image": "src/images/mushroom_pasta.png",
     "tags": [
       "חלבון גבוה",
       "מהיר"
@@ -5675,7 +5675,7 @@
       "מבשלים, מטגנים או אופים בתנור עד למידת העשייה המושלמת.",
       "מגישים חם וטרי כחלק מארוחה מאוזנת."
     ],
-    "image": "src/images/chicken_broccoli.png",
+    "image": "src/images/beef_lasagna.png",
     "tags": [
       "חלבון גבוה",
       "עשיר בפחמימות"
@@ -5730,7 +5730,7 @@
       "מבשלים, מטגנים או אופים בתנור עד למידת העשייה המושלמת.",
       "מגישים חם וטרי כחלק מארוחה מאוזנת."
     ],
-    "image": "src/images/broccoli_quiche.png",
+    "image": "src/images/beef_lasagna.png",
     "tags": [
       "צמחוני"
     ],
@@ -5851,7 +5851,7 @@
       "מבשלים, מטגנים או אופים בתנור עד למידת העשייה המושלמת.",
       "מגישים חם וטרי כחלק מארוחה מאוזנת."
     ],
-    "image": "src/images/mushroom_pasta.png",
+    "image": "src/images/pasta_red.png",
     "tags": [
       "טבעוני",
       "צמחוני",
@@ -5907,7 +5907,7 @@
       "מבשלים, מטגנים או אופים בתנור עד למידת העשייה המושלמת.",
       "מגישים חם וטרי כחלק מארוחה מאוזנת."
     ],
-    "image": "src/images/mushroom_pasta.png",
+    "image": "src/images/pasta_red.png",
     "tags": [
       "צמחוני",
       "מהיר"
@@ -6092,7 +6092,7 @@
       "מבשלים, מטגנים או אופים בתנור עד למידת העשייה המושלמת.",
       "מגישים חם וטרי כחלק מארוחה מאוזנת."
     ],
-    "image": "https://images.unsplash.com/photo-1476718406336-bb5a9690ee2a?w=600&auto=format&fit=crop&q=80",
+    "image": "src/images/soup_green.png",
     "tags": [
       "צמחוני",
       "חם"
@@ -6153,7 +6153,7 @@
       "מבשלים, מטגנים או אופים בתנור עד למידת העשייה המושלמת.",
       "מגישים חם וטרי כחלק מארוחה מאוזנת."
     ],
-    "image": "https://images.unsplash.com/photo-1603105037880-880cd4edfb0d?w=600&auto=format&fit=crop&q=80",
+    "image": "src/images/soup_green.png",
     "tags": [
       "חלבון גבוה",
       "חם"
@@ -6208,7 +6208,7 @@
       "מבשלים, מטגנים או אופים בתנור עד למידת העשייה המושלמת.",
       "מגישים חם וטרי כחלק מארוחה מאוזנת."
     ],
-    "image": "https://images.unsplash.com/photo-1603105037880-880cd4edfb0d?w=600&auto=format&fit=crop&q=80",
+    "image": "src/images/red_lentil_soup.png",
     "tags": [
       "צמחוני",
       "מהיר"
@@ -6269,7 +6269,7 @@
       "מבשלים, מטגנים או אופים בתנור עד למידת העשייה המושלמת.",
       "מגישים חם וטרי כחלק מארוחה מאוזנת."
     ],
-    "image": "https://images.unsplash.com/photo-1476718406336-bb5a9690ee2a?w=600&auto=format&fit=crop&q=80",
+    "image": "src/images/red_lentil_soup.png",
     "tags": [
       "טבעוני",
       "צמחוני",
@@ -6386,7 +6386,7 @@
       "מבשלים, מטגנים או אופים בתנור עד למידת העשייה המושלמת.",
       "מגישים חם וטרי כחלק מארוחה מאוזנת."
     ],
-    "image": "https://images.unsplash.com/photo-1549931319-a545dcf3bc73?w=600&auto=format&fit=crop&q=80",
+    "image": "src/images/pastry.png",
     "tags": [
       "טבעוני",
       "צמחוני"
@@ -6561,7 +6561,7 @@
       "מבשלים, מטגנים או אופים בתנור עד למידת העשייה המושלמת.",
       "מגישים חם וטרי כחלק מארוחה מאוזנת."
     ],
-    "image": "src/images/chicken_broccoli.png",
+    "image": "src/images/burger.png",
     "tags": [
       "חלבון גבוה",
       "מהיר"
@@ -6622,7 +6622,7 @@
       "מבשלים, מטגנים או אופים בתנור עד למידת העשייה המושלמת.",
       "מגישים חם וטרי כחלק מארוחה מאוזנת."
     ],
-    "image": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=600&auto=format&fit=crop&q=80",
+    "image": "src/images/caprese_toast.png",
     "tags": [
       "טבעוני",
       "צמחוני"
@@ -6677,7 +6677,7 @@
       "מבשלים, מטגנים או אופים בתנור עד למידת העשייה המושלמת.",
       "מגישים חם וטרי כחלק מארוחה מאוזנת."
     ],
-    "image": "https://images.unsplash.com/photo-1498654896293-37aacf113fd9?w=600&auto=format&fit=crop&q=80",
+    "image": "src/images/tuna_salad.png",
     "tags": [
       "חלבון גבוה",
       "מאוזן"
@@ -7012,7 +7012,7 @@
       "מבשלים, מטגנים או אופים בתנור עד למידת העשייה המושלמת.",
       "מגישים חם וטרי כחלק מארוחה מאוזנת."
     ],
-    "image": "src/images/beef_lasagna.png",
+    "image": "src/images/broccoli_quiche.png",
     "tags": [
       "צמחוני",
       "דל פחמימה"
@@ -7175,7 +7175,7 @@
       "מבשלים, מטגנים או אופים בתנור עד למידת העשייה המושלמת.",
       "מגישים חם וטרי כחלק מארוחה מאוזנת."
     ],
-    "image": "src/images/mushroom_pasta.png",
+    "image": "src/images/broccoli_quiche.png",
     "tags": [
       "צמחוני",
       "עשיר"
@@ -7290,7 +7290,7 @@
       "מבשלים, מטגנים או אופים בתנור עד למידת העשייה המושלמת.",
       "מגישים חם וטרי כחלק מארוחה מאוזנת."
     ],
-    "image": "https://images.unsplash.com/photo-1533089860892-a7c6f0a88666?w=600&auto=format&fit=crop&q=80",
+    "image": "src/images/pastry.png",
     "tags": [
       "טבעוני",
       "צמחוני",
@@ -7456,7 +7456,7 @@
       "מבשלים, מטגנים או אופים בתנור עד למידת העשייה המושלמת.",
       "מגישים חם וטרי כחלק מארוחה מאוזנת."
     ],
-    "image": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=600&auto=format&fit=crop&q=80",
+    "image": "src/images/falafel_plate.png",
     "tags": [
       "טבעוני",
       "צמחוני"
@@ -7511,7 +7511,7 @@
       "מבשלים, מטגנים או אופים בתנור עד למידת העשייה המושלמת.",
       "מגישים חם וטרי כחלק מארוחה מאוזנת."
     ],
-    "image": "https://images.unsplash.com/photo-1528735602780-2552fd46c7af?w=600&auto=format&fit=crop&q=80",
+    "image": "src/images/burger.png",
     "tags": [
       "בשרי",
       "מהיר"
@@ -7572,7 +7572,7 @@
       "מבשלים, מטגנים או אופים בתנור עד למידת העשייה המושלמת.",
       "מגישים חם וטרי כחלק מארוחה מאוזנת."
     ],
-    "image": "src/images/broccoli_quiche.png",
+    "image": "src/images/pastry.png",
     "tags": [
       "צמחוני"
     ],
@@ -7632,7 +7632,7 @@
       "מבשלים, מטגנים או אופים בתנור עד למידת העשייה המושלמת.",
       "מגישים חם וטרי כחלק מארוחה מאוזנת."
     ],
-    "image": "https://images.unsplash.com/photo-1543339308-43e59d6b73a6?w=600&auto=format&fit=crop&q=80",
+    "image": "src/images/mushroom_pasta.png",
     "tags": [
       "צמחוני",
       "ילדים"
@@ -7687,7 +7687,7 @@
       "מבשלים, מטגנים או אופים בתנור עד למידת העשייה המושלמת.",
       "מגישים חם וטרי כחלק מארוחה מאוזנת."
     ],
-    "image": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=600&auto=format&fit=crop&q=80",
+    "image": "src/images/salad_fresh.png",
     "tags": [
       "טבעוני",
       "צמחוני"
@@ -7742,7 +7742,7 @@
       "מבשלים, מטגנים או אופים בתנור עד למידת העשייה המושלמת.",
       "מגישים חם וטרי כחלק מארוחה מאוזנת."
     ],
-    "image": "https://images.unsplash.com/photo-1540420773420-3366772f4999?w=600&auto=format&fit=crop&q=80",
+    "image": "src/images/salad_fresh.png",
     "tags": [
       "צמחוני",
       "ללא גלוטן"
@@ -8158,7 +8158,7 @@
       "מבשלים, מטגנים או אופים בתנור עד למידת העשייה המושלמת.",
       "מגישים חם וטרי כחלק מארוחה מאוזנת."
     ],
-    "image": "src/images/lentil_stew.png",
+    "image": "src/images/broccoli_quiche.png",
     "tags": [
       "צמחוני",
       "דל קלוריות"
@@ -8219,7 +8219,7 @@
       "מבשלים, מטגנים או אופים בתנור עד למידת העשייה המושלמת.",
       "מגישים חם וטרי כחלק מארוחה מאוזנת."
     ],
-    "image": "src/images/lentil_stew.png",
+    "image": "src/images/green_beans.png",
     "tags": [
       "טבעוני",
       "צמחוני",
@@ -8343,7 +8343,7 @@
       "מבשלים, מטגנים או אופים בתנור עד למידת העשייה המושלמת.",
       "מגישים חם וטרי כחלק מארוחה מאוזנת."
     ],
-    "image": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=600&auto=format&fit=crop&q=80",
+    "image": "src/images/salad_fresh.png",
     "tags": [
       "טבעוני",
       "צמחוני",
@@ -8400,7 +8400,7 @@
       "מבשלים, מטגנים או אופים בתנור עד למידת העשייה המושלמת.",
       "מגישים חם וטרי כחלק מארוחה מאוזנת."
     ],
-    "image": "https://images.unsplash.com/photo-1567375698348-5d9d5ae99de0?w=600&auto=format&fit=crop&q=80",
+    "image": "src/images/green_beans.png",
     "tags": [
       "טבעוני",
       "צמחוני",
@@ -8462,7 +8462,7 @@
       "מבשלים, מטגנים או אופים בתנור עד למידת העשייה המושלמת.",
       "מגישים חם וטרי כחלק מארוחה מאוזנת."
     ],
-    "image": "https://images.unsplash.com/photo-1541832676-9b763b0239ab?w=600&auto=format&fit=crop&q=80",
+    "image": "src/images/bean_stew.png",
     "tags": [
       "חלבון גבוה",
       "חם"
@@ -8523,7 +8523,7 @@
       "מבשלים, מטגנים או אופים בתנור עד למידת העשייה המושלמת.",
       "מגישים חם וטרי כחלק מארוחה מאוזנת."
     ],
-    "image": "src/images/lentil_stew.png",
+    "image": "src/images/bean_stew.png",
     "tags": [
       "טבעוני",
       "צמחוני",
@@ -8649,7 +8649,7 @@
       "משלבים את הקטניות המונבטות בתבשיל או בסלט בשלבי הבישול השונים.",
       "מתבלים במלח, פלפל שחור גרוס ותבלינים מומלצים ומגישים חם."
     ],
-    "image": "src/images/lentil_stew.png",
+    "image": "src/images/broccoli_quiche.png",
     "tags": [
       "טבעוני",
       "צמחוני",
@@ -8951,7 +8951,7 @@
       "משלבים את הקטניות המונבטות בתבשיל או בסלט בשלבי הבישול השונים.",
       "מתבלים במלח, פלפל שחור גרוס ותבלינים מומלצים ומגישים חם."
     ],
-    "image": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=600&auto=format&fit=crop&q=80",
+    "image": "src/images/salad_fresh.png",
     "tags": [
       "טבעוני",
       "צמחוני",
@@ -9010,7 +9010,7 @@
       "משלבים את הקטניות המונבטות בתבשיל או בסלט בשלבי הבישול השונים.",
       "מתבלים במלח, פלפל שחור גרוס ותבלינים מומלצים ומגישים חם."
     ],
-    "image": "src/images/soup_green.png",
+    "image": "src/images/bean_stew.png",
     "tags": [
       "טבעוני",
       "צמחוני",
@@ -9070,7 +9070,7 @@
       "משלבים את הקטניות המונבטות בתבשיל או בסלט בשלבי הבישול השונים.",
       "מתבלים במלח, פלפל שחור גרוס ותבלינים מומלצים ומגישים חם."
     ],
-    "image": "src/images/chicken_broccoli.png",
+    "image": "src/images/beef_meatballs.png",
     "tags": [
       "חלבון גבוה",
       "דל פחמימה",
@@ -9188,7 +9188,7 @@
       "משלבים את הקטניות המונבטות בתבשיל או בסלט בשלבי הבישול השונים.",
       "מתבלים במלח, פלפל שחור גרוס ותבלינים מומלצים ומגישים חם."
     ],
-    "image": "src/images/lentil_stew.png",
+    "image": "src/images/bean_stew.png",
     "tags": [
       "טבעוני",
       "צמחוני",
@@ -9308,7 +9308,7 @@
       "משלבים את הקטניות המונבטות בתבשיל או בסלט בשלבי הבישול השונים.",
       "מתבלים במלח, פלפל שחור גרוס ותבלינים מומלצים ומגישים חם."
     ],
-    "image": "src/images/tofu_quinoa_bowl.png",
+    "image": "src/images/lentil_stew.png",
     "tags": [
       "טבעוני",
       "צמחוני",
@@ -9367,7 +9367,7 @@
       "משלבים את הקטניות המונבטות בתבשיל או בסלט בשלבי הבישול השונים.",
       "מתבלים במלח, פלפל שחור גרוס ותבלינים מומלצים ומגישים חם."
     ],
-    "image": "https://images.unsplash.com/photo-1540420773420-3366772f4999?w=600&auto=format&fit=crop&q=80",
+    "image": "src/images/salad_fresh.png",
     "tags": [
       "טבעוני",
       "צמחוני",
@@ -9486,7 +9486,7 @@
       "משלבים את הקטניות המונבטות בתבשיל או בסלט בשלבי הבישול השונים.",
       "מתבלים במלח, פלפל שחור גרוס ותבלינים מומלצים ומגישים חם."
     ],
-    "image": "src/images/lentil_stew.png",
+    "image": "src/images/tofu_quinoa_bowl.png",
     "tags": [
       "טבעוני",
       "צמחוני",
@@ -9545,7 +9545,7 @@
       "משלבים את הקטניות המונבטות בתבשיל או בסלט בשלבי הבישול השונים.",
       "מתבלים במלח, פלפל שחור גרוס ותבלינים מומלצים ומגישים חם."
     ],
-    "image": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=600&auto=format&fit=crop&q=80",
+    "image": "src/images/salad_fresh.png",
     "tags": [
       "טבעוני",
       "צמחוני",
@@ -9670,7 +9670,7 @@
       "משלבים את הקטניות המונבטות בתבשיל או בסלט בשלבי הבישול השונים.",
       "מתבלים במלח, פלפל שחור גרוס ותבלינים מומלצים ומגישים חם."
     ],
-    "image": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=600&auto=format&fit=crop&q=80",
+    "image": "src/images/falafel_plate.png",
     "tags": [
       "טבעוני",
       "צמחוני",
@@ -9729,7 +9729,7 @@
       "משלבים את הקטניות המונבטות בתבשיל או בסלט בשלבי הבישול השונים.",
       "מתבלים במלח, פלפל שחור גרוס ותבלינים מומלצים ומגישים חם."
     ],
-    "image": "src/images/lentil_stew.png",
+    "image": "src/images/beef_lasagna.png",
     "tags": [
       "צמחוני",
       "קטניות מונבטות",
@@ -9906,7 +9906,7 @@
       "משלבים את הקטניות המונבטות בתבשיל או בסלט בשלבי הבישול השונים.",
       "מתבלים במלח, פלפל שחור גרוס ותבלינים מומלצים ומגישים חם."
     ],
-    "image": "https://images.unsplash.com/photo-1455619452474-d2be8b1e70cd?w=600&auto=format&fit=crop&q=80",
+    "image": "src/images/tofu_quinoa_bowl.png",
     "tags": [
       "טבעוני",
       "צמחוני",
@@ -10024,7 +10024,7 @@
       "משלבים את הקטניות המונבטות בתבשיל או בסלט בשלבי הבישול השונים.",
       "מתבלים במלח, פלפל שחור גרוס ותבלינים מומלצים ומגישים חם."
     ],
-    "image": "src/images/lentil_stew.png",
+    "image": "src/images/broccoli_quiche.png",
     "tags": [
       "טבעוני",
       "צמחוני",
@@ -10089,7 +10089,7 @@
       "משלבים את הקטניות המונבטות בתבשיל או בסלט בשלבי הבישול השונים.",
       "מתבלים במלח, פלפל שחור גרוס ותבלינים מומלצים ומגישים חם."
     ],
-    "image": "src/images/beef_stew.png",
+    "image": "src/images/lentil_stew.png",
     "tags": [
       "טבעוני",
       "צמחוני",
@@ -10149,7 +10149,7 @@
       "משלבים את הקטניות המונבטות בתבשיל או בסלט בשלבי הבישול השונים.",
       "מתבלים במלח, פלפל שחור גרוס ותבלינים מומלצים ומגישים חם."
     ],
-    "image": "https://images.unsplash.com/photo-1540420773420-3366772f4999?w=600&auto=format&fit=crop&q=80",
+    "image": "src/images/salad_fresh.png",
     "tags": [
       "טבעוני",
       "צמחוני",
@@ -10267,7 +10267,7 @@
       "משלבים את הקטניות המונבטות בתבשיל או בסלט בשלבי הבישול השונים.",
       "מתבלים במלח, פלפל שחור גרוס ותבלינים מומלצים ומגישים חם."
     ],
-    "image": "src/images/chicken_broccoli.png",
+    "image": "src/images/beef_meatballs.png",
     "tags": [
       "חלבון גבוה",
       "דל פחמימה",
@@ -10326,7 +10326,7 @@
       "משלבים את הקטניות המונבטות בתבשיל או בסלט בשלבי הבישול השונים.",
       "מתבלים במלח, פלפל שחור גרוס ותבלינים מומלצים ומגישים חם."
     ],
-    "image": "src/images/mushroom_pasta.png",
+    "image": "src/images/pasta_red.png",
     "tags": [
       "טבעוני",
       "צמחוני",
@@ -10385,7 +10385,7 @@
       "משלבים את הקטניות המונבטות בתבשיל או בסלט בשלבי הבישול השונים.",
       "מתבלים במלח, פלפל שחור גרוס ותבלינים מומלצים ומגישים חם."
     ],
-    "image": "src/images/tofu_quinoa_bowl.png",
+    "image": "src/images/bean_stew.png",
     "tags": [
       "טבעוני",
       "צמחוני",
@@ -10445,7 +10445,7 @@
       "משלבים את הקטניות המונבטות בתבשיל או בסלט בשלבי הבישול השונים.",
       "מתבלים במלח, פלפל שחור גרוס ותבלינים מומלצים ומגישים חם."
     ],
-    "image": "src/images/lentil_stew.png",
+    "image": "src/images/tofu_quinoa_bowl.png",
     "tags": [
       "טבעוני",
       "צמחוני",
@@ -10563,7 +10563,7 @@
       "משלבים את הקטניות המונבטות בתבשיל או בסלט בשלבי הבישול השונים.",
       "מתבלים במלח, פלפל שחור גרוס ותבלינים מומלצים ומגישים חם."
     ],
-    "image": "https://images.unsplash.com/photo-1504754524776-8f4f37790ca0?w=600&auto=format&fit=crop&q=80",
+    "image": "src/images/shakshuka_green.png",
     "tags": [
       "צמחוני",
       "חם",
@@ -10622,7 +10622,7 @@
       "משלבים את הקטניות המונבטות בתבשיל או בסלט בשלבי הבישול השונים.",
       "מתבלים במלח, פלפל שחור גרוס ותבלינים מומלצים ומגישים חם."
     ],
-    "image": "src/images/broccoli_quiche.png",
+    "image": "src/images/beef_lasagna.png",
     "tags": [
       "טבעוני",
       "צמחוני",
@@ -10740,7 +10740,7 @@
       "משלבים את הקטניות המונבטות בתבשיל או בסלט בשלבי הבישול השונים.",
       "מתבלים במלח, פלפל שחור גרוס ותבלינים מומלצים ומגישים חם."
     ],
-    "image": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=600&auto=format&fit=crop&q=80",
+    "image": "src/images/salad_fresh.png",
     "tags": [
       "טבעוני",
       "צמחוני",
@@ -10917,7 +10917,7 @@
       "משלבים את הקטניות המונבטות בתבשיל או בסלט בשלבי הבישול השונים.",
       "מתבלים במלח, פלפל שחור גרוס ותבלינים מומלצים ומגישים חם."
     ],
-    "image": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=600&auto=format&fit=crop&q=80",
+    "image": "src/images/salad_fresh.png",
     "tags": [
       "טבעוני",
       "צמחוני",
@@ -10977,7 +10977,7 @@
       "משלבים את הקטניות המונבטות בתבשיל או בסלט בשלבי הבישול השונים.",
       "מתבלים במלח, פלפל שחור גרוס ותבלינים מומלצים ומגישים חם."
     ],
-    "image": "https://images.unsplash.com/photo-1541832676-9b763b0239ab?w=600&auto=format&fit=crop&q=80",
+    "image": "src/images/bean_stew.png",
     "tags": [
       "טבעוני",
       "צמחוני",
@@ -11096,7 +11096,7 @@
       "משלבים את הקטניות המונבטות בתבשיל או בסלט בשלבי הבישול השונים.",
       "מתבלים במלח, פלפל שחור גרוס ותבלינים מומלצים ומגישים חם."
     ],
-    "image": "src/images/chicken_broccoli.png",
+    "image": "src/images/beef_meatballs.png",
     "tags": [
       "חלבון גבוה",
       "קטניות מונבטות",
@@ -11154,7 +11154,7 @@
       "משלבים את הקטניות המונבטות בתבשיל או בסלט בשלבי הבישול השונים.",
       "מתבלים במלח, פלפל שחור גרוס ותבלינים מומלצים ומגישים חם."
     ],
-    "image": "src/images/lentil_stew.png",
+    "image": "src/images/tofu_quinoa_bowl.png",
     "tags": [
       "טבעוני",
       "צמחוני",
@@ -11331,7 +11331,7 @@
       "משלבים את הקטניות המונבטות בתבשיל או בסלט בשלבי הבישול השונים.",
       "מתבלים במלח, פלפל שחור גרוס ותבלינים מומלצים ומגישים חם."
     ],
-    "image": "src/images/lentil_stew.png",
+    "image": "src/images/beef_lasagna.png",
     "tags": [
       "טבעוני",
       "צמחוני",
@@ -11390,7 +11390,7 @@
       "משלבים את הקטניות המונבטות בתבשיל או בסלט בשלבי הבישול השונים.",
       "מתבלים במלח, פלפל שחור גרוס ותבלינים מומלצים ומגישים חם."
     ],
-    "image": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=600&auto=format&fit=crop&q=80",
+    "image": "src/images/salad_fresh.png",
     "tags": [
       "צמחוני",
       "קטניות מונבטות",
@@ -11506,7 +11506,7 @@
       "משלבים את הקטניות המונבטות בתבשיל או בסלט בשלבי הבישול השונים.",
       "מתבלים במלח, פלפל שחור גרוס ותבלינים מומלצים ומגישים חם."
     ],
-    "image": "src/images/lentil_stew.png",
+    "image": "src/images/bean_stew.png",
     "tags": [
       "טבעוני",
       "צמחוני",
@@ -11565,7 +11565,7 @@
       "משלבים את הקטניות המונבטות בתבשיל או בסלט בשלבי הבישול השונים.",
       "מתבלים במלח, פלפל שחור גרוס ותבלינים מומלצים ומגישים חם."
     ],
-    "image": "src/images/broccoli_quiche.png",
+    "image": "src/images/pastry.png",
     "tags": [
       "צמחוני",
       "ללא גלוטן",
