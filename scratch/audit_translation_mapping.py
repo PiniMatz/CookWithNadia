@@ -1,6 +1,10 @@
 # -*- coding: utf-8 -*-
 import json
 import os
+import sys
+
+# Reconfigure stdout to use UTF-8
+sys.stdout.reconfigure(encoding='utf-8')
 
 # Translation dictionary for Hebrew words to English
 HEB_TO_ENG = {
@@ -116,16 +120,13 @@ HEB_TO_ENG = {
 }
 
 def translate_name(name):
-    # Translate phrase-by-phrase or word-by-word
     words = name.lower().split()
     translated = []
     
-    # Try sliding window of 2 words first, then 1 word
     i = 0
     while i < len(words):
         if i < len(words) - 1:
             two_words = f"{words[i]} {words[i+1]}"
-            # remove punctuation
             two_words_clean = "".join([c for c in two_words if c.isalnum() or c.isspace()])
             if two_words_clean in HEB_TO_ENG:
                 translated.append(HEB_TO_ENG[two_words_clean])
@@ -136,181 +137,154 @@ def translate_name(name):
         if word_clean in HEB_TO_ENG:
             translated.append(HEB_TO_ENG[word_clean])
         else:
-            translated.append(f"[{word_clean}]") # show untranslated in brackets
+            translated.append(f"[{word_clean}]")
         i += 1
         
     return " ".join(translated)
 
-# Mapping function (from analyze_recipes.py)
-def propose_mapping(name, category, ingredients):
-    name_lower = name.lower()
-    
-    # 1. Soups (Even if they contain pasta or meat, visually they are soups)
-    if "מרק" in name_lower:
-        if any(x in name_lower for x in ["עדשים כתומות", "עדשים אדומות", "בטטה", "תירס"]):
-            return "red_lentil_soup.png"
-        if "שעועית" in name_lower or "חרירה" in name_lower:
-            return "bean_stew.png"
-        return "soup_green.png"
-
-    # 2. Salads (Egg salad and Tuna salad are visually distinct from Garden salad)
-    if "סלט" in name_lower:
-        if "ביצים" in name_lower:
-            return "egg_salad.png"
-        if "טונה" in name_lower or "ניסואז" in name_lower:
-            return "tuna_salad.png"
-        return "salad_fresh.png"
-
-    # 3. Labneh / Dips / Spreads
-    if any(x in name_lower for x in ["לאבנה", "מטבל", "ממרח", "טחינה"]):
-        return "labneh_dip.png"
-
-    # 4. Smoothies / Shakes
-    if any(x in name_lower for x in ["שייק", "סמוטי"]):
-        return "smoothie_bowl.png"
-
-    # 5. Specific dish overrides
-    if "לזניה" in name_lower or "מוסקה" in name_lower or "פאי רועים" in name_lower:
-        return "beef_lasagna.png"
-    if "פרנץ' טוסט" in name_lower:
-        return "pancake.png"
-    if any(x in name_lower for x in ["פסטה", "רביולי", "ניוקי", "מאק אנד צ'יז"]):
-        if any(x in name_lower for x in ["בולונז", "בשר", "עגבניות", "רוזה"]):
-            return "pasta_red.png"
-        return "mushroom_pasta.png"
-    if "פיצה" in name_lower:
-        return "pizza.png"
-    if "פלאפל" in name_lower:
-        return "falafel_plate.png"
-    if any(x in name_lower for x in ["בורקס", "פוקאצ'ה", "ברוסקטה", "לחם", "פאי בצל"]):
-        return "pastry.png"
-    if "מאפינס" in name_lower:
-        return "pastry.png"
-    if any(x in name_lower for x in ["פנקייק", "קרפ"]):
-        return "pancake.png"
-
-    # 6. Egg Dishes
-    if "שקשוקה" in name_lower:
-        if any(x in name_lower for x in ["ירוק", "ירוקה", "תרד"]):
-            return "shakshuka_green.png"
-        return "shakshuka.png"
-    if any(x in name_lower for x in ["אומלט", "חביתה", "מקושקשת", "ביצה", "ביצים", "סירניקי", "לביבות גבינה"]):
-        return "scrambled_eggs.png"
-
-    # 7. Oats, Porridge, Chia, Yogurt
-    if "צ'יה" in name_lower or "פודינג" in name_lower:
-        return "chia_pudding.png"
-    if "קוואקר" in name_lower or "דייסה" in name_lower or "סולת" in name_lower:
-        return "oatmeal_porridge.png"
-    if any(x in name_lower for x in ["מוזלי", "גרנולה", "יוגורט"]):
-        return "muesli_yogurt.png"
-
-    # 8. Toasts / Sandwiches / Wraps
-    if any(x in name_lower for x in ["טוסט", "כריך", "טורטייה", "פריקסה"]):
-        if "סלמון" in name_lower:
-            return "baked_salmon.png"
-        if any(x in name_lower for x in ["חזה עוף", "נקניק", "בשרי", "פרגית", "עוף"]):
-            return "burger.png"
-        if any(x in name_lower for x in ["זעתר", "צהובה", "גבינה צהובה"]):
-            return "grilled_cheese.png"
-        return "caprese_toast.png"
-
-    # 9. Fish
-    if any(x in name_lower for x in ["דג", "סלמון", "אמנון", "טונה"]):
-        if "קציצות" in name_lower:
-            return "fish_meatballs.png"
-        return "baked_salmon.png"
-
-    # 10. Meat / Poultry
-    is_meat = any(x in name_lower for x in ["בשר", "בקר", "עוף", "פרגית", "פרגיות", "שניצל", "קבב", "המבורגר", "עראייס", "בשרית", "גולאש", "נקניק", "מעורב", "צלי"])
-    if is_meat:
-        if any(x in name_lower for x in ["המבורגר", "עראייס", "נקניק", "שווארמה", "קבב"]):
-            return "burger.png"
-        if any(x in name_lower for x in ["קדיר", "קדירה", "בקר", "צלי", "גולאש"]):
-            return "beef_stew.png"
-        if "קציצות" in name_lower:
-            return "beef_meatballs.png"
-        return "chicken_broccoli.png"
-
-    # 11. Vegetarian / Vegan Main Dishes & Legumes
-    if "שעועית ירוקה" in name_lower:
-        return "green_beans.png"
-    if any(x in name_lower for x in ["שעועית אדומה", "שעועית לבנה", "לובייה"]):
-        return "bean_stew.png"
-    if any(x in name_lower for x in ["קיש", "פשטידה", "פשטידת", "סופלה", "גלילות חציל", "כרובית אפויה", "מוקרם", "מוקרמים", "קציצות"]):
-        return "broccoli_quiche.png"
-    if any(x in name_lower for x in ["ירקות קלויים", "ירקות בתנור", "בטטה אפויה"]):
-        return "roasted_vegetables.png"
-    if any(x in name_lower for x in ["בודהה", "טופו", "קינואה", "כוסמת", "בורגול", "מג'דרה", "אורז", "מוקפץ"]):
-        return "tofu_quinoa_bowl.png"
-    if any(x in name_lower for x in ["עדשים", "קארי", "תבשיל", "דאל", "חציל ממולא", "פלפלים ממולאים"]):
-        if "צ'ילי" in name_lower:
-            return "bean_stew.png"
-        return "lentil_stew.png"
-
-    # Default fallbacks based on category
-    if "בוקר" in category:
-        return "tofu_quinoa_bowl.png"
-    return "salad_fresh.png"
-
 # Audit rules to programmatically check correctness
 def audit_mapping(eng_name, image, name_heb):
-    # Rule 1: No meat/fish images on vegan/vegetarian dishes
-    has_meat_or_fish = any(x in name_heb for x in ["בשר", "בקר", "עוף", "פרגית", "פרגיות", "שניצל", "דג", "סלמון", "אמנון", "טונה", "נקניק", "מעורב", "צלי"])
-    is_vegan_or_veg = (not has_meat_or_fish) and ("vegan" in eng_name or "vegetarian" in eng_name or any(x in name_heb for x in ["טבעוני", "צמחוני", "טופו", "עדשים", "שעועית", "חומוס", "מאש"]))
-    is_meat_image = image in ["burger.png", "beef_stew.png", "chicken_broccoli.png", "fish_meatballs.png", "baked_salmon.png", "beef_lasagna.png", "beef_meatballs.png"]
+    name_lower = name_heb.lower()
     
-    # Exception: lasagna, moussaka, shepherd's pie, and burgers can be vegetarian, but they still look like lasagna or burgers.
-    is_excepted = any(x in eng_name for x in ["lasagna", "moussaka", "shepherd", "burger"])
-    if is_vegan_or_veg and is_meat_image and not is_excepted:
-        # If it's vegan, it shouldn't map to meatballs or baked salmon or chicken
-        if image in ["baked_salmon.png", "chicken_broccoli.png", "beef_stew.png", "beef_meatballs.png"]:
-            return "FAIL: Vegan dish mapped to meat/fish image"
+    # Define Vegan Safe Images
+    VEGAN_SAFE_IMAGES = [
+        "tofu_quinoa_bowl.png", "salad_fresh.png", "smoothie_bowl.png", 
+        "oatmeal_porridge.png", "chia_pudding.png", "red_lentil_soup.png", 
+        "soup_green.png", "green_beans.png", "bean_stew.png", "lentil_stew.png", 
+        "roasted_vegetables.png", "falafel_plate.png", "pasta_red.png", 
+        "mushroom_pasta.png", "pastry.png"
+    ]
+    
+    # 1. Vegan Check
+    is_vegan = "טבעוני" in name_lower or "טבעונית" in name_lower or ("טופו" in name_lower and "ביצה" not in name_lower and "גבינה" not in name_lower)
+    if is_vegan:
+        if image not in VEGAN_SAFE_IMAGES:
+            # Burger is acceptable only if it's explicitly a vegan burger/sandwich, but let's be strict
+            if "burger.png" in image and any(x in name_lower for x in ["כריך", "טוסט", "המבורגר"]):
+                pass
+            else:
+                return f"FAIL: Vegan dish mapped to non-vegan image '{image}'"
+
+    # 2. Vegetarian Check
+    has_meat_or_fish = any(x in name_lower for x in ["בשר", "בקר", "עוף", "פרגית", "פרגיות", "שניצל", "דג", "סלמון", "אמנון", "טונה", "נקניק", "מעורב", "צלי", "גולאש", "שווארמה", "קבב", "עראייס"])
+    is_vegetarian = not has_meat_or_fish
+    if is_vegetarian:
+        meat_fish_images = ["baked_salmon.png", "fish_meatballs.png", "beef_stew.png", "chicken_broccoli.png", "beef_meatballs.png"]
+        if image in meat_fish_images:
+            return f"FAIL: Vegetarian dish mapped to meat/fish image '{image}'"
             
-    # Rule 2: Soup matching
-    if "soup" in eng_name and "soup" not in image and "red_lentil" not in image and "bean_stew" not in image:
-        return "FAIL: Soup dish mapped to non-soup image"
-        
-    # Rule 3: Salad matching
-    if "salad" in eng_name:
-        if "egg_salad" in image and "egg" not in eng_name:
-            return "FAIL: Non-egg salad mapped to egg salad"
-        if "tuna_salad" in image and "tuna" not in eng_name and "niçoise" not in eng_name and "ניסואז" not in name_heb:
-            return "FAIL: Non-tuna salad mapped to tuna salad"
-        if "salad" not in image:
-            return "FAIL: Salad dish mapped to non-salad image"
+    is_pasta = any(x in name_lower for x in ["פסטה", "רביולי", "ניוקי", "מאק אנד צ'יז", "לזניה", "מוסקה", "פאי רועים"])
+    is_soup = "מרק" in name_lower
+    
+    # 3. Chicken / Poultry Check
+    has_chicken = any(x in name_lower for x in ["עוף", "פרגית", "פרגיות", "שניצל", "שווארמה"]) and not is_vegan
+    if has_chicken and not is_pasta and not is_soup:
+        if "סלט" in name_lower:
+            if image not in ["salad_fresh.png"]:
+                return f"FAIL: Chicken salad mapped to '{image}'"
+        elif any(x in name_lower for x in ["טוסט", "כריך", "טורטייה", "המבורגר", "שווארמה"]):
+            if image not in ["burger.png", "chicken_broccoli.png"]:
+                return f"FAIL: Chicken sandwich/toast mapped to '{image}'"
+        else:
+            if image not in ["chicken_broccoli.png"]:
+                return f"FAIL: Chicken dish mapped to non-chicken image '{image}'"
 
-    # Rule 4: Egg matching
-    if any(x in eng_name for x in ["omelette", "scrambled eggs", "egg"]) and "salad" not in eng_name and "eggplant" not in eng_name:
-        if image not in ["scrambled_eggs.png", "shakshuka_green.png", "shakshuka.png", "broccoli_quiche.png"]:
-            return "FAIL: Egg dish mapped to non-egg image"
+    # 4. Beef / Meat Check
+    has_beef = (any(x in name_lower for x in ["בקר", "בשר", "בשרית", "גולאש", "קבב", "עראייס", "נקניק"]) or ("צלי" in name_lower and "עוף" not in name_lower and "פרגית" not in name_lower)) and not is_vegan
+    if has_beef and not is_pasta and not is_soup:
+        if "קציצות" in name_lower:
+            if image not in ["beef_meatballs.png"]:
+                return f"FAIL: Beef meatballs mapped to '{image}'"
+        elif any(x in name_lower for x in ["טוסט", "כריך", "המבורגר", "עראייס", "נקניק", "קבב"]):
+            if image not in ["burger.png", "beef_meatballs.png"]:
+                return f"FAIL: Beef sandwich/burger/kebab mapped to '{image}'"
+        else:
+            if image not in ["beef_stew.png", "beef_meatballs.png"]:
+                return f"FAIL: Beef dish mapped to non-beef image '{image}'"
 
-    # Rule 5: Oats / Porridge
-    if "oatmeal" in eng_name or "porridge" in eng_name:
-        if image != "oatmeal_porridge.png":
-            return "FAIL: Oats/Porridge mapped to non-porridge image"
+    # 5. Fish Check
+    has_fish = any(x in name_lower for x in ["דג", "סלmון", "סלמון", "אמנון", "טונה"])
+    if has_fish and not is_pasta and not is_soup:
+        if "סלט" in name_lower:
+            if image not in ["tuna_salad.png", "salad_fresh.png"]:
+                return f"FAIL: Fish salad mapped to '{image}'"
+        elif "קציצות" in name_lower:
+            if image not in ["fish_meatballs.png"]:
+                return f"FAIL: Fish meatballs mapped to '{image}'"
+        elif any(x in name_lower for x in ["טוסט", "כריך", "טורטייה"]):
+            # Fish sandwiches should map to toast/sandwiches, not baked_salmon plate!
+            if image not in ["caprese_toast.png", "grilled_cheese.png", "burger.png", "tuna_salad.png"]:
+                return f"FAIL: Fish sandwich/toast mapped to '{image}'"
+        else:
+            if image not in ["baked_salmon.png"]:
+                return f"FAIL: Fish dish mapped to non-fish image '{image}'"
 
-    # Rule 6: Smoothie
-    if "smoothie" in eng_name or "shake" in eng_name:
-        if image != "smoothie_bowl.png":
-            return "FAIL: Smoothie mapped to non-smoothie image"
+    # 6. Egg Dish Check
+    has_egg = any(x in name_lower for x in ["חביתה", "אומלט", "מקושקשת", "ביצה", "ביצים", "עין"]) and "חציל" not in name_lower
+    if has_egg and not has_meat_or_fish and not is_vegan and not is_pasta and not is_soup:
+        if "סלט" in name_lower:
+            if "סלט ביצים" in name_lower:
+                if image not in ["egg_salad.png"]:
+                    return f"FAIL: Egg salad mapped to '{image}'"
+            else:
+                # Salad with boiled egg can map to fresh salad
+                if image not in ["salad_fresh.png", "egg_salad.png"]:
+                    return f"FAIL: Egg salad mapped to '{image}'"
+        elif any(x in name_lower for x in ["טוסט", "כריך", "טורטייה"]):
+            if image not in ["caprese_toast.png", "grilled_cheese.png"]:
+                return f"FAIL: Egg sandwich/toast mapped to non-toast image '{image}'"
+        elif "שקשוקה" in name_lower:
+            if image not in ["shakshuka.png", "shakshuka_green.png"]:
+                return f"FAIL: Egg shakshuka mapped to '{image}'"
+        elif any(x in name_lower for x in ["לביבות גבינה", "סירניקי", "פרנץ' טוסט"]):
+            if image not in ["pancake.png"]:
+                return f"FAIL: Sweet egg dish mapped to non-pancake image '{image}'"
+        elif "אבוקדו" in name_lower and "אפוי" in name_lower:
+            pass
+        else:
+            if image not in ["scrambled_eggs.png", "broccoli_quiche.png"]:
+                return f"FAIL: Egg dish mapped to non-egg image '{image}'"
 
-    # Rule 7: Labneh
-    if "labneh" in eng_name:
-        if image != "labneh_dip.png":
-            return "FAIL: Labneh mapped to non-labneh image"
+    # 7. Pancake / Sweet Crepes / Syrniki / French Toast Check
+    is_sweet_pancake_style = any(x in name_lower for x in ["פנקייק", "קרפ", "סירניקי", "לביבות גבינה מתוקות", "פרנץ' טוסט"])
+    if is_sweet_pancake_style:
+        if image not in ["pancake.png", "pastry.png"]:
+            return f"FAIL: Pancake/sweet dish mapped to non-pancake image '{image}'"
 
-    # Rule 8: Fish matching
-    if "fish" in eng_name or "salmon" in eng_name or "tilapia" in eng_name or "tuna" in eng_name:
-        if "salad" not in eng_name and "sandwich" not in eng_name and "wrap" not in eng_name:
-            if image not in ["baked_salmon.png", "fish_meatballs.png", "tuna_salad.png"]:
-                return "FAIL: Fish dish mapped to non-fish image"
+    # 8. Muffins Check
+    if "מאפינס" in name_lower:
+        if any(x in name_lower for x in ["מתוק", "בננה", "אוכמניות", "שוקולד"]):
+            if image not in ["pastry.png", "pancake.png"]:
+                return f"FAIL: Sweet muffin mapped to non-pastry image '{image}'"
+        elif any(x in name_lower for x in ["מלוח", "גבינה", "זיתים", "ירקות"]):
+            if image not in ["broccoli_quiche.png"]:
+                return f"FAIL: Savory muffin mapped to non-quiche image '{image}'"
 
-    # Rule 9: Pasta matching
-    if "pasta" in eng_name or "ravioli" in eng_name or "gnocchi" in eng_name:
-        if "soup" not in eng_name and "salad" not in eng_name:
-            if image not in ["mushroom_pasta.png", "pasta_red.png", "beef_lasagna.png"]:
-                return "FAIL: Pasta dish mapped to non-pasta image"
+    # 9. Toast / Sandwich Check
+    is_sandwich = any(x in name_lower for x in ["טוסט", "כריך", "טורטייה", "פריקסה"])
+    if is_sandwich:
+        # Sweet french toast checked in rule 7.
+        # Meat/poultry sandwich checked in rule 3 & 4.
+        # Fish sandwich checked in rule 5.
+        if not has_meat_or_fish and not is_sweet_pancake_style:
+            if "פיצה" in name_lower:
+                if image not in ["pizza.png", "caprese_toast.png"]:
+                    return f"FAIL: Pizza toast mapped to '{image}'"
+            elif "פריקסה" in name_lower:
+                if image not in ["burger.png", "tuna_salad.png"]:
+                    return f"FAIL: Fricassee mapped to non-sandwich image '{image}'"
+            else:
+                if is_vegan:
+                    if image not in ["tofu_quinoa_bowl.png", "salad_fresh.png", "caprese_toast.png"]:
+                        return f"FAIL: Vegan toast/sandwich mapped to '{image}'"
+                else:
+                    if image not in ["caprese_toast.png", "grilled_cheese.png"]:
+                        return f"FAIL: Toast/sandwich mapped to non-toast image '{image}'"
+
+    # 10. Sprouted Lentil Patties Check
+    if "קציצות עדשים" in name_lower:
+        if image not in ["lentil_stew.png", "bean_stew.png"]:
+            return f"FAIL: Lentil patties stew mapped to non-stew image '{image}'"
 
     return "PASS"
 
@@ -325,7 +299,7 @@ failures = 0
 
 for r in recipes:
     eng_name = translate_name(r["name"])
-    image = propose_mapping(r["name"], r["category"], [i["name"] for i in r["ingredients"]])
+    image = os.path.basename(r["image"])
     status = audit_mapping(eng_name, image, r["name"])
     
     if status.startswith("FAIL"):

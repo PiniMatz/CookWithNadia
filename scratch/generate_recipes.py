@@ -4,7 +4,58 @@ import os
 def get_specific_image(name, default_img):
     name_lower = name.lower()
     
-    # 1. Soups (Even if they contain pasta or meat, visually they are soups)
+    # 1. Vegan Flag
+    is_vegan = "טבעוני" in name_lower or "טבעונית" in name_lower or ("טופו" in name_lower and "ביצה" not in name_lower and "גבינה" not in name_lower)
+    
+    # 2. Sweet / Pancake style Breakfasts
+    if any(x in name_lower for x in ["פנקייק", "קרפ", "סירניקי", "לביבות גבינה מתוקות", "פרנץ' טוסט"]):
+        return "src/images/pancake.png"
+        
+    # 3. Muffins
+    if "מאפינס" in name_lower:
+        if any(x in name_lower for x in ["מתוק", "בננה", "אוכמניות", "שוקולד"]):
+            return "src/images/pastry.png"
+        # Savory muffins (maloach, cheese, olive, vegetables/lentils)
+        return "src/images/broccoli_quiche.png"
+
+    # 4. Oats / Porridge / Muesli / Chia
+    if "צ'יה" in name_lower or "פודינג" in name_lower:
+        return "src/images/chia_pudding.png"
+    if "קוואקר" in name_lower or "דייסה" in name_lower or "סולת" in name_lower:
+        return "src/images/oatmeal_porridge.png"
+    if any(x in name_lower for x in ["מוזלי", "גרנולה", "יוגורט"]):
+        return "src/images/muesli_yogurt.png"
+        
+    # 5. Smoothies / Shakes
+    if any(x in name_lower for x in ["שייק", "סמוטי"]):
+        return "src/images/smoothie_bowl.png"
+
+    # 6. Salads (Must come before other checks if it's a salad)
+    if "סלט" in name_lower:
+        if "ביצים" in name_lower:
+            return "src/images/egg_salad.png"
+        if "טונה" in name_lower or "ניסואז" in name_lower:
+            return "src/images/tuna_salad.png"
+        # Otherwise it's a general fresh salad
+        return "src/images/salad_fresh.png"
+
+    # 7. Pizza / Pizza Toast (Pizza check)
+    if "פיצה" in name_lower:
+        return "src/images/pizza.png"
+        
+    # 8. Lasagna / Moussaka / Shepherd's Pie
+    if "לזניה" in name_lower or "מוסקה" in name_lower or "פאי רועים" in name_lower:
+        if is_vegan:
+            return "src/images/tofu_quinoa_bowl.png" # Vegan-safe substitute for lasagna
+        return "src/images/beef_lasagna.png"
+
+    # 9. Pasta (White / Red)
+    if any(x in name_lower for x in ["פסטה", "רביולי", "ניוקי", "מאק אנד צ'יז"]):
+        if any(x in name_lower for x in ["בולונז", "בשר", "עגבניות", "רוזה"]):
+            return "src/images/pasta_red.png"
+        return "src/images/mushroom_pasta.png"
+
+    # 10. Soups (Soup check)
     if "מרק" in name_lower:
         if any(x in name_lower for x in ["עדשים כתומות", "עדשים אדומות", "בטטה", "תירס"]):
             return "src/images/red_lentil_soup.png"
@@ -12,90 +63,73 @@ def get_specific_image(name, default_img):
             return "src/images/bean_stew.png"
         return "src/images/soup_green.png"
 
-    # 2. Salads (Egg salad and Tuna salad are visually distinct from Garden salad)
-    if "סלט" in name_lower:
-        if "ביצים" in name_lower:
-            return "src/images/egg_salad.png"
-        if "טונה" in name_lower or "ניסואז" in name_lower:
-            return "src/images/tuna_salad.png"
-        return "src/images/salad_fresh.png"
-
-    # 3. Labneh / Dips / Spreads
-    if any(x in name_lower for x in ["לאבנה", "מטבל", "ממרח", "טחינה"]):
-        return "src/images/labneh_dip.png"
-
-    # 4. Smoothies / Shakes
-    if any(x in name_lower for x in ["שייק", "סמוטי"]):
-        return "src/images/smoothie_bowl.png"
-
-    # 5. Specific dish overrides
-    if "לזניה" in name_lower or "מוסקה" in name_lower or "פאי רועים" in name_lower:
-        return "src/images/beef_lasagna.png"
-    if "פרנץ' טוסט" in name_lower:
-        return "src/images/pancake.png"
-    if any(x in name_lower for x in ["פסטה", "רביולי", "ניוקי", "מאק אנד צ'יז"]):
-        if any(x in name_lower for x in ["בולונז", "בשר", "עגבניות", "רוזה"]):
-            return "src/images/pasta_red.png"
-        return "src/images/mushroom_pasta.png"
-    if "פיצה" in name_lower:
-        return "src/images/pizza.png"
-    if "פלאפל" in name_lower:
-        return "src/images/falafel_plate.png"
-    if any(x in name_lower for x in ["בורקס", "פוקאצ'ה", "ברוסקטה", "לחם", "פאי בצל"]):
-        return "src/images/pastry.png"
-    if "מאפינס" in name_lower:
-        return "src/images/pastry.png"
-    if any(x in name_lower for x in ["פנקייק", "קרפ"]):
-        return "src/images/pancake.png"
-
-    # 6. Egg Dishes
-    if "שקשוקה" in name_lower:
-        if any(x in name_lower for x in ["ירוק", "ירוקה", "תרד"]):
-            return "src/images/shakshuka_green.png"
-        return "src/images/shakshuka.png"
-    if any(x in name_lower for x in ["אומלט", "חביתה", "מקושקשת", "ביצה", "ביצים", "סירניקי", "לביבות גבינה"]):
-        return "src/images/scrambled_eggs.png"
-
-    # 7. Oats, Porridge, Chia, Yogurt
-    if "צ'יה" in name_lower or "פודינג" in name_lower:
-        return "src/images/chia_pudding.png"
-    if "קוואקר" in name_lower or "דייסה" in name_lower or "סולת" in name_lower:
-        return "src/images/oatmeal_porridge.png"
-    if any(x in name_lower for x in ["מוזלי", "גרנולה", "יוגורט"]):
-        return "src/images/muesli_yogurt.png"
-
-    # 8. Toasts / Sandwiches / Wraps
+    # 11. Toasts / Sandwiches / Wraps / Fricassee
     if any(x in name_lower for x in ["טוסט", "כריך", "טורטייה", "פריקסה"]):
-        if "סלמון" in name_lower:
-            return "src/images/baked_salmon.png"
-        if any(x in name_lower for x in ["חזה עוף", "נקניק", "בשרי", "פרגית", "עוף"]):
+        if is_vegan:
+            return "src/images/tofu_quinoa_bowl.png" # Vegan-safe sandwich
+        if "פריקסה" in name_lower:
+            return "src/images/burger.png" # Fricassee is a sandwich roll
+        if "סלמון" in name_lower or "טונה" in name_lower:
+            return "src/images/caprese_toast.png" # Fish toast
+        if any(x in name_lower for x in ["חזה עוף", "נקניק", "בשרי", "פרגית", "עוף", "בשר", "בקר"]):
             return "src/images/burger.png"
         if any(x in name_lower for x in ["זעתר", "צהובה", "גבינה צהובה"]):
             return "src/images/grilled_cheese.png"
         return "src/images/caprese_toast.png"
 
-    # 9. Fish
-    if any(x in name_lower for x in ["דג", "סלמון", "אמנון", "טונה"]):
+    # 12. Shakshuka
+    if "שקשוקה" in name_lower:
+        if is_vegan:
+            # Vegan shakshuka can't show eggs!
+            return "src/images/tofu_quinoa_bowl.png"
+        if any(x in name_lower for x in ["ירוק", "ירוקה", "תרד"]):
+            return "src/images/shakshuka_green.png"
+        return "src/images/shakshuka.png"
+
+    # 13. Falafel
+    if "פלאפל" in name_lower:
+        return "src/images/falafel_plate.png"
+
+    # 14. Fish (salmon, tilapia, tuna)
+    has_fish = any(x in name_lower for x in ["דג", "סלמון", "אמנון", "טונה"])
+    if has_fish:
         if "קציצות" in name_lower:
             return "src/images/fish_meatballs.png"
         return "src/images/baked_salmon.png"
 
-    # 10. Meat / Poultry
-    is_meat = any(x in name_lower for x in ["בשר", "בקר", "עוף", "פרגית", "פרגיות", "שניצל", "קבב", "המבורגר", "עראייס", "בשרית", "גולאש", "נקניק", "מעורב", "צלי"])
-    if is_meat:
-        if any(x in name_lower for x in ["המבורגר", "עראייס", "נקניק", "שווארמה", "קבב"]):
-            return "src/images/burger.png"
-        if any(x in name_lower for x in ["קדיר", "קדירה", "בקר", "צלי", "גולאש"]):
-            return "src/images/beef_stew.png"
+    # 15. Chicken / Poultry (Must be checked before pastries to avoid breadcrumbs matching bread)
+    has_chicken = any(x in name_lower for x in ["עוף", "פרגית", "פרגיות", "שניצל", "שווארמה"])
+    if has_chicken and not is_vegan:
         if "קציצות" in name_lower:
-            return "src/images/beef_meatballs.png"
+            return "src/images/chicken_broccoli.png"
         return "src/images/chicken_broccoli.png"
 
-    # 11. Vegetarian / Vegan Main Dishes & Legumes
+    # 16. Beef / Meat
+    has_beef = any(x in name_lower for x in ["בקר", "בשר", "בשרית", "גולאש", "קבב", "עראייס", "נקניק"]) or ("צלי" in name_lower and "עוף" not in name_lower and "פרגית" not in name_lower)
+    if has_beef and not is_vegan:
+        if "קציצות" in name_lower:
+            return "src/images/beef_meatballs.png"
+        if any(x in name_lower for x in ["המבורגר", "עראייס", "נקניק", "שווארמה", "קבב"]):
+            return "src/images/burger.png"
+        return "src/images/beef_stew.png"
+
+    # 17. Pastries / Savory Bakes (Burekas, bread, foccacia)
+    if any(x in name_lower for x in ["בורקס", "פוקאצ'ה", "ברוסקטה", "לחם", "פאי בצל", "ברוקולי אפויה", "כרובית אפויה"]):
+        return "src/images/pastry.png"
+
+    # 18. Eggs (Vegetarian only, since we checked meat/chicken and vegan before)
+    if any(x in name_lower for x in ["אומלט", "חביתה", "מקושקשת", "ביצה", "ביצים", "עין"]):
+        if is_vegan:
+            return "src/images/tofu_quinoa_bowl.png" # Scrambled tofu
+        return "src/images/scrambled_eggs.png"
+
+    # 19. Vegetarian / Vegan Main Dishes & Legumes
     if "שעועית ירוקה" in name_lower:
         return "src/images/green_beans.png"
-    if any(x in name_lower for x in ["שעועית אדומה", "שעועית לבנה", "לובייה"]):
+    if any(x in name_lower for x in ["שעועית אדומה", "שעועית לבנה", "לובייה", "צ'ילי"]):
         return "src/images/bean_stew.png"
+    if "קציצות עדשים" in name_lower or "קציצות טופו" in name_lower:
+        return "src/images/lentil_stew.png"
     if any(x in name_lower for x in ["קיש", "פשטידה", "פשטידת", "סופלה", "גלילות חציל", "כרובית אפויה", "מוקרם", "מוקרמים", "קציצות"]):
         return "src/images/broccoli_quiche.png"
     if any(x in name_lower for x in ["ירקות קלויים", "ירקות בתנור", "בטטה אפויה"]):
@@ -103,9 +137,11 @@ def get_specific_image(name, default_img):
     if any(x in name_lower for x in ["בודהה", "טופו", "קינואה", "כוסמת", "בורגול", "מג'דרה", "אורז", "מוקפץ"]):
         return "src/images/tofu_quinoa_bowl.png"
     if any(x in name_lower for x in ["עדשים", "קארי", "תבשיל", "דאל", "חציל ממולא", "פלפלים ממולאים"]):
-        if "צ'ילי" in name_lower:
-            return "src/images/bean_stew.png"
         return "src/images/lentil_stew.png"
+
+    # 20. Spreads / Dips (Moved below main course/vegan/grain check to avoid conflicts)
+    if any(x in name_lower for x in ["לאבנה", "מטבל", "ממרח", "טחינה"]):
+        return "src/images/labneh_dip.png"
 
     # Fallback to default
     if default_img.startswith("http") or default_img.startswith("src/"):
