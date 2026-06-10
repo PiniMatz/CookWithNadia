@@ -1,0 +1,778 @@
+{
+  "112": {
+    "id": 112,
+    "name_heb": "ממרח לאבנה ביתי עם שמן זית",
+    "image_name": "homemade_labneh_spread",
+    "prompt": "Creamy homemade labneh spread with a swirl of extra virgin olive oil, sprinkled with zaatar and wild sumac, served in a rustic ceramic bowl with warm pita bread on the side, Mediterranean style, food photography, close-up, 4k",
+    "status": "completed",
+    "image_path": "src/images/homemade_labneh_spread.png"
+  },
+  "123": {
+    "id": 123,
+    "name_heb": "גרנולה שוקולד ובוטנים פריכה",
+    "image_name": "chocolate_peanut_granola",
+    "prompt": "Crispy golden baked chocolate and peanut granola with whole roasted peanuts, dark chocolate chunks, rolled oats, served in a breakfast bowl with cold almond milk, food photography, elegant styling, 4k",
+    "status": "completed",
+    "image_path": "src/images/chocolate_peanut_granola.png"
+  },
+  "124": {
+    "id": 124,
+    "name_heb": "שייק חלבון בננה, תמר ושיבולת שועל",
+    "image_name": "banana_date_protein_shake",
+    "prompt": "Thick creamy banana, date, and oat protein shake in a tall elegant glass, garnished with a sprinkle of cinnamon and a date slice on the rim, morning light, food photography, close-up, 4k",
+    "status": "completed",
+    "image_path": "src/images/banana_date_protein_shake.png"
+  },
+  "113": {
+    "id": 113,
+    "name_heb": "פריטטה תפוחי אדמה ופטרוזיליה",
+    "image_name": "potato_frittata",
+    "prompt": "Golden baked potato and parsley frittata sliced in a cast iron skillet, garnished with fresh chopped herbs, steam rising, cozy kitchen setting, food photography, 4k",
+    "status": "completed",
+    "image_path": "src/images/potato_frittata.png"
+  },
+  "117": {
+    "id": 117,
+    "name_heb": "ביצים עלומות בסגנון בנדיקט",
+    "image_name": "eggs_benedict",
+    "prompt": "Two perfectly poached eggs Benedict on toasted English muffins, topped with rich glossy yellow Hollandaise sauce and chives, runny egg yolk slow motion, elegant brunch, food photography, 4k",
+    "status": "completed",
+    "image_path": "src/images/eggs_benedict.png"
+  },
+  "118": {
+    "id": 118,
+    "name_heb": "סלט אבוקדו לימוני וביצה קשה",
+    "image_name": "avocado_egg_salad",
+    "prompt": "Fresh lemon avocado and hard-boiled egg salad with red onion and microgreens, served in a glass bowl, healthy vibrant colors, food photography, close-up, 4k",
+    "status": "completed",
+    "image_path": "src/images/avocado_egg_salad.png"
+  },
+  "131": {
+    "id": 131,
+    "name_heb": "כריך סלמון מעושן וגבינת שמנת",
+    "image_name": "salmon_cream_cheese_sandwich",
+    "prompt": "Gourmet smoked salmon and cream cheese sandwich on artisanal sourdough bread, with capers, dill, and thinly sliced red onion, elegant plating, food photography, 4k",
+    "status": "completed",
+    "image_path": "src/images/salmon_cream_cheese_sandwich.png"
+  },
+  "133": {
+    "id": 133,
+    "name_heb": "סלט פטריות חם עם גבינת פטה",
+    "image_name": "warm_mushroom_salad",
+    "prompt": "Warm sautéed mushroom salad with crumbled Greek feta cheese, roasted pine nuts, fresh baby spinach, olive oil dressing, food photography, close-up, 4k",
+    "status": "completed",
+    "image_path": "src/images/warm_mushroom_salad.png"
+  },
+  "136": {
+    "id": 136,
+    "name_heb": "חצי אבוקדו אפוי בתנור עם ביצה",
+    "image_name": "baked_avocado_egg",
+    "prompt": "Two baked avocado halves filled with cooked eggs and topped with crispy herbs, black pepper, and chili flakes, rustic wood table, food photography, 4k",
+    "status": "completed",
+    "image_path": "src/images/baked_avocado_egg.png"
+  },
+  "141": {
+    "id": 141,
+    "name_heb": "כריך חביתת גבינה ירוקה קלאסי",
+    "image_name": "green_omelet_sandwich",
+    "prompt": "Classic green herb omelet sandwich with melted goat cheese inside a fresh whole wheat baguette, food photography, close-up, 4k",
+    "status": "completed",
+    "image_path": "src/images/green_omelet_sandwich.png"
+  },
+  "143": {
+    "id": 143,
+    "name_heb": "פריקסה תוניסאי אפוי וקליל",
+    "image_name": "baked_tunisian_fricassee",
+    "prompt": "Golden baked Tunisian fricassee buns, stuffed with tuna, boiled egg, olives, potato, and harissa, authentic presentation, food photography, 4k",
+    "status": "completed",
+    "image_path": "src/images/baked_tunisian_fricassee.png"
+  },
+  "146": {
+    "id": 146,
+    "name_heb": "סלט חסה עשיר עם מלפפון וצנונית",
+    "image_name": "lettuce_radish_salad",
+    "prompt": "Crisp green lettuce salad with cucumber slices, thin radish rounds, green onion, drizzled with olive oil and lemon vinaigrette, fresh look, food photography, 4k",
+    "status": "completed",
+    "image_path": "src/images/lettuce_radish_salad.png"
+  },
+  "225": {
+    "id": 225,
+    "name_heb": "סלט עוף קר במיונז ובצל ירוק",
+    "image_name": "cold_chicken_salad",
+    "prompt": "Creamy cold chicken salad with mayonnaise, celery, and green onions, served on a bed of fresh greens, food photography, 4k",
+    "status": "completed",
+    "image_path": "src/images/cold_chicken_salad.png"
+  },
+  "231": {
+    "id": 231,
+    "name_heb": "אורז מטוגן סיני עשיר עם ירקות וביצה",
+    "image_name": "chinese_fried_rice",
+    "prompt": "Wok-fried Chinese rice with scrambled eggs, green peas, carrots, green onions, and soy sauce, steaming hot, food photography, 4k",
+    "status": "completed",
+    "image_path": "src/images/chinese_fried_rice.png"
+  },
+  "255": {
+    "id": 255,
+    "name_heb": "טורטייה במילוי חזה עוף וירקות מוקפצים",
+    "image_name": "chicken_veggie_wrap",
+    "prompt": "Toasted tortilla wrap stuffed with grilled chicken breast slices and sautéed bell peppers and onions, cut in half showing colorful filling, food photography, 4k",
+    "status": "completed",
+    "image_path": "src/images/chicken_veggie_wrap.png"
+  },
+  "256": {
+    "id": 256,
+    "name_heb": "טורטייה טבעונית במילוי אבוקדו וירקות",
+    "image_name": "vegan_avocado_wrap",
+    "prompt": "Vibrant vegan wrap filled with sliced avocado, fresh spinach, cucumbers, grated carrots, and garlic tahini sauce, food photography, 4k",
+    "status": "completed",
+    "image_path": "src/images/vegan_avocado_wrap.png"
+  },
+  "258": {
+    "id": 258,
+    "name_heb": "סלט קיסר קלאסי עם רצועות עוף וקרוטונים",
+    "image_name": "caesar_salad",
+    "prompt": "Classic Caesar salad with crisp romaine lettuce, crunchy croutons, shaved parmesan, and creamy dressing, elegant plating, food photography, 4k",
+    "status": "completed",
+    "image_path": "src/images/caesar_salad.png"
+  },
+  "272": {
+    "id": 272,
+    "name_heb": "טוסט נקניק קלאסי עם מיונז ושום",
+    "image_name": "sausage_garlic_toast",
+    "prompt": "Crispy toasted panini sandwich with sliced sausage, melted cheese, garlic aioli, and pickles, cut in half on a wooden board, food photography, 4k",
+    "status": "completed",
+    "image_path": "src/images/sausage_garlic_toast.png"
+  },
+  "275": {
+    "id": 275,
+    "name_heb": "סלט טבולה עשיר עם בורגול והמון ירוקים",
+    "image_name": "tabouli_salad",
+    "prompt": "Traditional Lebanese taboula salad with finely chopped parsley, mint, tomatoes, bulgur, green onions, fresh lemon juice and olive oil, food photography, 4k",
+    "status": "completed",
+    "image_path": "src/images/tabouli_salad.png"
+  },
+  "276": {
+    "id": 276,
+    "name_heb": "סלט סלק אדום מתקתק וגבינת פטה",
+    "image_name": "beetroot_feta_salad",
+    "prompt": "Sweet roasted red beetroot salad with cubed Greek feta cheese, toasted walnuts, and a balsamic reduction drizzle, food photography, 4k",
+    "status": "completed",
+    "image_path": "src/images/beetroot_feta_salad.png"
+  },
+  "286": {
+    "id": 286,
+    "name_heb": "סלט שעועית לבנה קרה עם פטרוזיליה ובצל סגול",
+    "image_name": "white_bean_onion_salad",
+    "prompt": "Cold white bean salad with fresh parsley, chopped red onion, extra virgin olive oil, and lemon zest, Mediterranean style, food photography, 4k",
+    "status": "completed",
+    "image_path": "src/images/white_bean_onion_salad.png"
+  },
+  "290": {
+    "id": 290,
+    "name_heb": "סלט שלוש שעועיות צבעוני ומזין",
+    "image_name": "three_bean_salad",
+    "prompt": "Colorful three bean salad with green beans, wax beans, and red kidney beans, tossed in a sweet vinaigrette, fresh food photography, 4k",
+    "status": "completed",
+    "image_path": "src/images/three_bean_salad.png"
+  },
+  "401": {
+    "id": 401,
+    "name_heb": "סלמון אפוי על מצע עדשים שחורות מונבטות",
+    "image_name": "black_lentil_sweet_potato_salad",
+    "prompt": "Warm black lentil salad with cubes of roasted sweet potato, baby arugula, and a light lemon tahini dressing, food photography, 4k",
+    "status": "completed",
+    "image_path": "src/images/black_lentil_sweet_potato_salad.png"
+  },
+  "412": {
+    "id": 412,
+    "name_heb": "סלט טופו קריספי ועדשים ירוקות מונבטות בטחינה",
+    "image_name": "crispy_tofu_lentil_salad",
+    "prompt": "Crispy pan-seared tofu cubes over a bed of sprouted green lentils, cherry tomatoes, and cucumbers, drizzled with creamy tahini, food photography, 4k",
+    "status": "completed",
+    "image_path": "src/images/crispy_tofu_lentil_salad.png"
+  },
+  "415": {
+    "id": 415,
+    "name_heb": "סלט קינואה חגיגי עם עדשים ירוקות וחמוציות",
+    "image_name": "quinoa_lentil_cranberry_salad",
+    "prompt": "Festive quinoa and green lentil salad with dried cranberries, toasted pumpkin seeds, and orange vinaigrette, food photography, 4k",
+    "status": "completed",
+    "image_path": "src/images/quinoa_lentil_cranberry_salad.png"
+  },
+  "425": {
+    "id": 425,
+    "name_heb": "סלט עדשים ירוקות מונבטות וסלק ברוטב ויניגרט",
+    "image_name": "sprouted_lentil_beetroot_salad",
+    "prompt": "Sprouted green lentil salad with roasted beetroot slices, baby spinach, walnuts, and balsamic vinaigrette, food photography, 4k",
+    "status": "completed",
+    "image_path": "src/images/sprouted_lentil_beetroot_salad.png"
+  },
+  "435": {
+    "id": 435,
+    "name_heb": "סלט עדשים כתומות מונבטות ואגוזי מלך פריכים",
+    "image_name": "orange_lentil_walnut_salad",
+    "prompt": "Sprouted orange lentils tossed with chopped walnuts, fresh parsley, cucumber, and lemon-herb dressing, food photography, 4k",
+    "status": "completed",
+    "image_path": "src/images/orange_lentil_walnut_salad.png"
+  },
+  "438": {
+    "id": 438,
+    "name_heb": "סלט עדשים ירוקות מונבטות חם עם פטריות מוקפצות ושום",
+    "image_name": "warm_sprouted_lentil_mushroom_salad",
+    "prompt": "Warm salad of sprouted green lentils and sautéed wild mushrooms, caramelized garlic, and fresh thyme, food photography, 4k",
+    "status": "completed",
+    "image_path": "src/images/warm_sprouted_lentil_mushroom_salad.png"
+  },
+  "446": {
+    "id": 446,
+    "name_heb": "סלט עדשים שחורות מונבטות, פקאן וגבינה כחולה",
+    "image_name": "black_lentil_blue_cheese_salad",
+    "prompt": "Sprouted black lentil salad with pecans, crumbled blue cheese, and pear slices, elegant plating, food photography, 4k",
+    "status": "completed",
+    "image_path": "src/images/black_lentil_blue_cheese_salad.png"
+  },
+  "115": {
+    "id": 115,
+    "name_heb": "פרנץ' טוסט קלאסי מתוק",
+    "image_name": "sweet_french_toast",
+    "prompt": "Two thick slices of golden sweet French toast, dusted with powdered sugar, topped with fresh berries and drizzled with maple syrup, food photography, 4k",
+    "status": "completed",
+    "image_path": "src/images/sweet_french_toast.png"
+  },
+  "116": {
+    "id": 116,
+    "name_heb": "לביבות גבינה מתוקות (סירניקי)",
+    "image_name": "syrniki_sweet_cheese_pancakes",
+    "prompt": "Traditional golden syrniki (sweet cheese pancakes) stacked on a plate, served with a dollop of sour cream and fresh raspberry sauce, food photography, 4k",
+    "status": "completed",
+    "image_path": "src/images/syrniki_sweet_cheese_pancakes.png"
+  },
+  "137": {
+    "id": 137,
+    "name_heb": "קרפ צרפתי דק עם שוקולד",
+    "image_name": "french_chocolate_crepe",
+    "prompt": "Thin delicate French crepe folded and filled with dark chocolate hazelnut spread, dusted with powdered sugar, food photography, 4k",
+    "status": "completed",
+    "image_path": "src/images/french_chocolate_crepe.png"
+  },
+  "139": {
+    "id": 139,
+    "name_heb": "טוסט פיצה קל ומהיר לבוקר",
+    "image_name": "morning_pizza_toast",
+    "prompt": "Crispy morning pizza toast with melted mozzarella cheese, tomato sauce, oregano, and cherry tomatoes on artisanal bread, food photography, 4k",
+    "status": "completed",
+    "image_path": "src/images/morning_pizza_toast.png"
+  },
+  "202": {
+    "id": 202,
+    "name_heb": "שניצל עוף פריך מצופה פירורי לחם",
+    "image_name": "crispy_chicken_schnitzel",
+    "prompt": "Crispy golden chicken schnitzel coated in panko breadcrumbs, served with a lemon wedge and fresh parsley garnish, food photography, 4k",
+    "status": "pending",
+    "image_path": "src/images/crispy_chicken_schnitzel.png"
+  },
+  "204": {
+    "id": 204,
+    "name_heb": "פילה אמנון עסיסי אפוי בתנור",
+    "image_name": "baked_tilapia_fillet",
+    "prompt": "Flaky oven-baked tilapia fillet seasoned with garlic, lemon slices, and fresh herbs, served on a baking sheet, food photography, 4k",
+    "status": "pending",
+    "image_path": "src/images/baked_tilapia_fillet.png"
+  },
+  "205": {
+    "id": 205,
+    "name_heb": "שווארמה פרגיות ביתית מתובלת היטב",
+    "image_name": "homemade_chicken_shawarma",
+    "prompt": "Seasoned sliced chicken shawarma cooked with onions and middle eastern spices, served on a plate with tahini drizzle, food photography, 4k",
+    "status": "pending",
+    "image_path": "src/images/homemade_chicken_shawarma.png"
+  },
+  "210": {
+    "id": 210,
+    "name_heb": "מג'דרה אורז ועדשים חומות קלאסית",
+    "image_name": "classic_mjadra",
+    "prompt": "Classic Arabic Mujadara with spiced rice and brown lentils, topped with a generous amount of crispy caramelized onions, food photography, 4k",
+    "status": "pending",
+    "image_path": "src/images/classic_mjadra.png"
+  },
+  "224": {
+    "id": 224,
+    "name_heb": "שווארמה טבעונית מפטריות ובצל מקורמל",
+    "image_name": "vegan_mushroom_shawarma",
+    "prompt": "Vegan shawarma made from shredded oyster mushrooms and caramelized onions, seasoned with shawarma spices, food photography, 4k",
+    "status": "pending",
+    "image_path": "src/images/vegan_mushroom_shawarma.png"
+  },
+  "226": {
+    "id": 226,
+    "name_heb": "קינואה עשירה עם ירקות קלויים וטחינה",
+    "image_name": "quinoa_roasted_veg_tahini",
+    "prompt": "Rich quinoa bowl with roasted bell peppers, zucchini, eggplant, and a creamy tahini dressing, food photography, 4k",
+    "status": "pending",
+    "image_path": "src/images/quinoa_roasted_veg_tahini.png"
+  },
+  "234": {
+    "id": 234,
+    "name_heb": "שיפודי פרגיות רכים בתנור",
+    "image_name": "oven_chicken_skewers",
+    "prompt": "Tender grilled chicken skewers seasoned with paprika and cumin, served with roasted tomatoes and onions, food photography, 4k",
+    "status": "pending",
+    "image_path": "src/images/oven_chicken_skewers.png"
+  },
+  "237": {
+    "id": 237,
+    "name_heb": "פסטה עוף ופסטו מהירה ברוטב קרמי",
+    "image_name": "chicken_pesto_pasta",
+    "prompt": "Creamy pesto pasta with grilled chicken breast slices, cherry tomatoes, and fresh basil leaves, elegant plating, food photography, 4k",
+    "status": "pending",
+    "image_path": "src/images/chicken_pesto_pasta.png"
+  },
+  "246": {
+    "id": 246,
+    "name_heb": "מרק מינסטרונה איטלקי עשיר בירקות ופסטה",
+    "image_name": "minestrone_soup",
+    "prompt": "Hearty Italian minestrone soup with rich tomato broth, mixed vegetables, white beans, and small pasta shells, food photography, 4k",
+    "status": "pending",
+    "image_path": "src/images/minestrone_soup.png"
+  },
+  "252": {
+    "id": 252,
+    "name_heb": "פוקאצ'ה איטלקית עם שמן זית וירקות קלויים",
+    "image_name": "italian_focaccia",
+    "prompt": "Thick pillowy Italian focaccia bread dimpled and baked with extra virgin olive oil, sea salt, fresh rosemary, and cherry tomatoes, food photography, 4k",
+    "status": "pending",
+    "image_path": "src/images/italian_focaccia.png"
+  },
+  "259": {
+    "id": 259,
+    "name_heb": "סלט פסטה קר עם פסטו וגבינה בולגרית",
+    "image_name": "cold_pasta_pesto_salad",
+    "prompt": "Cold pasta salad tossed with green basil pesto, cherry tomatoes, and cubes of salty Bulgarian cheese, summer vibe, food photography, 4k",
+    "status": "pending",
+    "image_path": "src/images/cold_pasta_pesto_salad.png"
+  },
+  "265": {
+    "id": 265,
+    "name_heb": "ניוקי תפוחי אדמה בחמאת מרווה ופרמזן",
+    "image_name": "potato_gnocchi_sage_butter",
+    "prompt": "Pan-seared potato gnocchi tossed in brown butter, fresh sage leaves, and grated parmesan cheese, food photography, close-up, 4k",
+    "status": "pending",
+    "image_path": "src/images/potato_gnocchi_sage_butter.png"
+  },
+  "268": {
+    "id": 268,
+    "name_heb": "ברוסקטה עגבניות ושום פריכה מלחם כפרי",
+    "image_name": "tomato_garlic_bruschetta",
+    "prompt": "Crispy grilled rustic bread topped with a mixture of diced ripe tomatoes, garlic, fresh basil, and extra virgin olive oil, food photography, 4k",
+    "status": "pending",
+    "image_path": "src/images/tomato_garlic_bruschetta.png"
+  },
+  "274": {
+    "id": 274,
+    "name_heb": "מאק אנד צ'יז אמריקאי מהיר לילדים",
+    "image_name": "mac_and_cheese",
+    "prompt": "Creamy baked American mac and cheese with a golden bubbly cheddar crust, served in a small bowl, family classic, food photography, 4k",
+    "status": "pending",
+    "image_path": "src/images/mac_and_cheese.png"
+  },
+  "287": {
+    "id": 287,
+    "name_heb": "שעועית ירוקה מוקפצת עם שומשום ושקדים",
+    "image_name": "stir_fried_green_beans",
+    "prompt": "Stir-fried vibrant green beans with toasted sesame seeds and sliced almonds, glistening with sesame oil, food photography, 4k",
+    "status": "pending",
+    "image_path": "src/images/stir_fried_green_beans.png"
+  },
+  "410": {
+    "id": 410,
+    "name_heb": "מוקפץ ירקות וגרגרי חומוס מונבטים בווק",
+    "image_name": "chickpea_veg_stir_fry",
+    "prompt": "Sprouted chickpea and mixed vegetable stir-fry in a wok, seasoned with soy sauce, ginger, and garlic, food photography, 4k",
+    "status": "pending",
+    "image_path": "src/images/chickpea_veg_stir_fry.png"
+  },
+  "420": {
+    "id": 420,
+    "name_heb": "פילה אמנון עם שעועית ירוקה ועדשים ירוקות מונבטות",
+    "image_name": "tilapia_green_beans",
+    "prompt": "Oven-baked tilapia fillet served on a bed of seasoned green beans and sprouted green lentils, clean eating, food photography, 4k",
+    "status": "pending",
+    "image_path": "src/images/tilapia_green_beans.png"
+  },
+  "422": {
+    "id": 422,
+    "name_heb": "בורגול עם עדשים ירוקות מונבטות ובצל מקורמל",
+    "image_name": "bulgur_sprouted_lentils",
+    "prompt": "Coarse bulgur cooked with sprouted green lentils and plenty of caramelized sweet onions, traditional style, food photography, 4k",
+    "status": "pending",
+    "image_path": "src/images/bulgur_sprouted_lentils.png"
+  },
+  "440": {
+    "id": 440,
+    "name_heb": "קדירת פילה סלמון ושעועית מאש מונבטת בקארי",
+    "image_name": "salmon_mung_bean_curry",
+    "prompt": "Oven-baked salmon fillet simmering in a rich coconut curry sauce with sprouted mung beans and bell peppers, food photography, 4k",
+    "status": "pending",
+    "image_path": "src/images/salmon_mung_bean_curry.png"
+  },
+  "119": {
+    "id": 119,
+    "name_heb": "מאפינס בננה בריא ומהיר",
+    "image_name": "healthy_banana_muffins",
+    "prompt": "Golden-brown healthy banana muffins made with whole wheat flour, showing a soft crumb, bakery style, food photography, 4k",
+    "status": "pending",
+    "image_path": "src/images/healthy_banana_muffins.png"
+  },
+  "138": {
+    "id": 138,
+    "name_heb": "מאפינס אוכמניות ויוגורט רך",
+    "image_name": "blueberry_yogurt_muffins",
+    "prompt": "Moist blueberry muffins made with Greek yogurt, studded with bursting fresh blueberries, food photography, close-up, 4k",
+    "status": "pending",
+    "image_path": "src/images/blueberry_yogurt_muffins.png"
+  },
+  "144": {
+    "id": 144,
+    "name_heb": "מאפינס שוקולד צ'יפס רך",
+    "image_name": "chocolate_chip_muffins",
+    "prompt": "Decadent bakery-style chocolate chip muffins with a dome top, loaded with dark chocolate chips, food photography, 4k",
+    "status": "pending",
+    "image_path": "src/images/chocolate_chip_muffins.png"
+  },
+  "269": {
+    "id": 269,
+    "name_heb": "כרובית אפויה בפירורי לחם בתנור",
+    "image_name": "baked_cauliflower_breadcrumbs",
+    "prompt": "Crispy oven-baked cauliflower florets coated in golden seasoned breadcrumbs, served with a tahini dip, food photography, 4k",
+    "status": "pending",
+    "image_path": "src/images/baked_cauliflower_breadcrumbs.png"
+  },
+  "437": {
+    "id": 437,
+    "name_heb": "בורקס דפי אורז במילוי עדשים כתומות מונבטות ופטריות",
+    "image_name": "rice_paper_borekas",
+    "prompt": "Crispy baked rice paper borekas filled with sprouted orange lentils and wild mushrooms, sprinkled with sesame seeds, food photography, 4k",
+    "status": "pending",
+    "image_path": "src/images/rice_paper_borekas.png"
+  },
+  "443": {
+    "id": 443,
+    "name_heb": "קערת גרגירי חומוס מונבטים וירקות שורש קלויים בתנור",
+    "image_name": "chickpea_roasted_root_veg",
+    "prompt": "Sprouted chickpeas roasted in the oven with sweet potato, carrot, and parsnip cubes, tossed with olive oil and herbs, food photography, 4k",
+    "status": "pending",
+    "image_path": "src/images/chickpea_roasted_root_veg.png"
+  },
+  "449": {
+    "id": 449,
+    "name_heb": "מאפינס עדשים ירוקות מונבטות וירקות גינה ללא גלוטן",
+    "image_name": "savory_lentil_muffins",
+    "prompt": "Savory gluten-free muffins made with sprouted green lentils, grated zucchini, and garden vegetables, food photography, 4k",
+    "status": "pending",
+    "image_path": "src/images/savory_lentil_muffins.png"
+  },
+  "211": {
+    "id": 211,
+    "name_heb": "קבב בקר ביתי צלוי בגריל",
+    "image_name": "grilled_beef_kebab",
+    "prompt": "Juicy grilled beef kebabs seasoned with parsley and onion, served with charred onions and tomatoes on a wooden platter, food photography, 4k",
+    "status": "pending",
+    "image_path": "src/images/grilled_beef_kebab.png"
+  },
+  "222": {
+    "id": 222,
+    "name_heb": "קציצות עדשים ירוקות וקינואה אפויות בתנור",
+    "image_name": "baked_lentil_quinoa_patties",
+    "prompt": "Golden baked green lentil and quinoa patties served with a side of lemon tahini sauce, healthy vegan, food photography, 4k",
+    "status": "pending",
+    "image_path": "src/images/baked_lentil_quinoa_patties.png"
+  },
+  "233": {
+    "id": 233,
+    "name_heb": "עראייס בקר בפיתה פריך מהתנור",
+    "image_name": "beef_arais",
+    "prompt": "Crispy grilled pita bread pockets stuffed with spiced minced beef (Arais), cut into quarters, glistening with beef juices, food photography, 4k",
+    "status": "pending",
+    "image_path": "src/images/beef_arais.png"
+  },
+  "262": {
+    "id": 262,
+    "name_heb": "קציצות טונה אפויות בתנור וקלות להכנה",
+    "image_name": "baked_tuna_patties",
+    "prompt": "Crispy baked tuna patties with green herbs, served with a side of garlic-herb dip and lemon, food photography, 4k",
+    "status": "pending",
+    "image_path": "src/images/baked_tuna_patties.png"
+  },
+  "8": {
+    "id": 8,
+    "name_heb": "קציצות דגים ברוטב עגבניות פיקנטי",
+    "image_name": "vegetarian_lentil_meatballs",
+    "prompt": "Vegetarian green lentil meatballs simmering in a thick, rich marinara tomato sauce, garnished with fresh basil, food photography, 4k",
+    "status": "pending",
+    "image_path": "src/images/vegetarian_lentil_meatballs.png"
+  },
+  "400": {
+    "id": 400,
+    "name_heb": "קציצות עדשים ירוקות מונבטות ברוטב קארי פיקנטי",
+    "image_name": "sprouted_lentil_curry_patties",
+    "prompt": "Pan-seared sprouted green lentil patties seasoned with aromatic yellow curry spices, food photography, 4k",
+    "status": "pending",
+    "image_path": "src/images/sprouted_lentil_curry_patties.png"
+  },
+  "407": {
+    "id": 407,
+    "name_heb": "קציצות עוף רכות עם עדשים כתומות מונבטות",
+    "image_name": "chicken_lentil_patties",
+    "prompt": "Soft baked chicken patties mixed with sprouted orange lentils, parsley, and garlic, kid-friendly, food photography, 4k",
+    "status": "pending",
+    "image_path": "src/images/chicken_lentil_patties.png"
+  },
+  "423": {
+    "id": 423,
+    "name_heb": "קציצות טופו ועדשים כתומות מונבטות אפויות ללא שמן",
+    "image_name": "baked_tofu_lentil_patties",
+    "prompt": "Baked tofu and sprouted orange lentil patties, golden crust, served on a platter, oil-free healthy, food photography, 4k",
+    "status": "pending",
+    "image_path": "src/images/baked_tofu_lentil_patties.png"
+  },
+  "427": {
+    "id": 427,
+    "name_heb": "קציצות פרגיות ועדשים ירוקות מונבטות בתנור",
+    "image_name": "chicken_thigh_lentil_patties",
+    "prompt": "Oven-baked chicken thigh patties mixed with sprouted green lentils and finely chopped onion, food photography, 4k",
+    "status": "pending",
+    "image_path": "src/images/chicken_thigh_lentil_patties.png"
+  },
+  "402": {
+    "id": 402,
+    "name_heb": "קדירת פרגיות וגרגרי חומוס מונבטים עשירה",
+    "image_name": "chicken_thigh_chickpea_stew",
+    "prompt": "Rich winter stew with tender chicken thighs, sprouted chickpeas, carrots, and warm spices, food photography, 4k",
+    "status": "pending",
+    "image_path": "src/images/chicken_thigh_chickpea_stew.png"
+  },
+  "434": {
+    "id": 434,
+    "name_heb": "קציצות עדשים כתומות מונבטות וקישואים בריאות",
+    "image_name": "orange_lentil_zucchini_patties",
+    "prompt": "Sprouted orange lentil and grated zucchini patties, pan-seared until golden, food photography, 4k",
+    "status": "pending",
+    "image_path": "src/images/orange_lentil_zucchini_patties.png"
+  },
+  "447": {
+    "id": 447,
+    "name_heb": "קציצות קישואים אפויות עם עדשים ירוקות מונבטות",
+    "image_name": "zucchini_lentil_patties",
+    "prompt": "Baked zucchini patties mixed with sprouted green lentils and parmesan cheese, crispy edges, food photography, 4k",
+    "status": "pending",
+    "image_path": "src/images/zucchini_lentil_patties.png"
+  },
+  "206": {
+    "id": 206,
+    "name_heb": "חזה עוף עסיסי ברוטב דבש וחרדל",
+    "image_name": "honey_mustard_chicken",
+    "prompt": "Juicy chicken breast glazed in a glossy honey mustard sauce, roasted to perfection, food photography, 4k",
+    "status": "pending",
+    "image_path": "src/images/honey_mustard_chicken.png"
+  },
+  "208": {
+    "id": 208,
+    "name_heb": "קוסקוס מהיר עם מרק ירקות עשיר",
+    "image_name": "couscous_vegetable_soup",
+    "prompt": "Fluffy steamed couscous served with a rich, yellow vegetable soup loaded with pumpkin, zucchini, and carrots, food photography, 4k",
+    "status": "pending",
+    "image_path": "src/images/couscous_vegetable_soup.png"
+  },
+  "209": {
+    "id": 209,
+    "name_heb": "עוף בתנור עם תפוחי אדמה ושום",
+    "image_name": "oven_roasted_chicken_potatoes",
+    "prompt": "Oven-roasted chicken thighs with crispy golden skin, baked with baby potatoes, garlic cloves, and rosemary, food photography, 4k",
+    "status": "pending",
+    "image_path": "src/images/oven_roasted_chicken_potatoes.png"
+  },
+  "212": {
+    "id": 212,
+    "name_heb": "מעורב ירושלמי עשיר בתבלינים",
+    "image_name": "jerusalem_mixed_grill",
+    "prompt": "Traditional Jerusalem mixed grill (Meurav Yerushalmi) with chicken thighs, hearts, and livers cooked with onions and warm spices, food photography, 4k",
+    "status": "pending",
+    "image_path": "src/images/jerusalem_mixed_grill.png"
+  },
+  "216": {
+    "id": 216,
+    "name_heb": "פלפלים ממולאים קלאסיים באורז ובשר",
+    "image_name": "meat_stuffed_peppers",
+    "prompt": "Classic bell peppers stuffed with minced beef and rice, slow-cooked in a rich red tomato sauce, food photography, 4k",
+    "status": "pending",
+    "image_path": "src/images/meat_stuffed_peppers.png"
+  },
+  "217": {
+    "id": 217,
+    "name_heb": "פלפלים ממולאים צמחוניים עם אורז ועדשים כתומות",
+    "image_name": "vegetarian_stuffed_peppers",
+    "prompt": "Vegetarian bell peppers stuffed with rice, sprouted orange lentils, and herbs, baked in a savory tomato broth, food photography, 4k",
+    "status": "pending",
+    "image_path": "src/images/vegetarian_stuffed_peppers.png"
+  },
+  "218": {
+    "id": 218,
+    "name_heb": "כרעי עוף עם אורז בתנור בסיר אחד",
+    "image_name": "one_pot_chicken_rice",
+    "prompt": "One-pot roasted chicken thighs cooked directly over a bed of seasoned spiced rice, family style, food photography, 4k",
+    "status": "pending",
+    "image_path": "src/images/one_pot_chicken_rice.png"
+  },
+  "221": {
+    "id": 221,
+    "name_heb": "פאי רועים אנגלי עם בשר ובטטה",
+    "image_name": "shepherds_pie",
+    "prompt": "Classic English shepherd's pie with a layer of minced beef and vegetables, topped with piped, golden-baked mashed sweet potato, food photography, 4k",
+    "status": "pending",
+    "image_path": "src/images/shepherds_pie.png"
+  },
+  "229": {
+    "id": 229,
+    "name_heb": "מוסקה חצילים ובשר בקר מסורתית",
+    "image_name": "eggplant_moussaka",
+    "prompt": "Traditional Greek moussaka with layers of baked eggplant, seasoned minced beef, and a golden top layer, food photography, 4k",
+    "status": "pending",
+    "image_path": "src/images/eggplant_moussaka.png"
+  },
+  "230": {
+    "id": 230,
+    "name_heb": "סטייק פרגית במרינדה עשירה של סילאן",
+    "image_name": "silan_chicken_steak",
+    "prompt": "Tender chicken thigh steak glazed in a sweet dark silan (date honey) and soy marinade, pan-seared, food photography, 4k",
+    "status": "pending",
+    "image_path": "src/images/silan_chicken_steak.png"
+  },
+  "236": {
+    "id": 236,
+    "name_heb": "קדירת פרגיות וירקות שורש לחורף",
+    "image_name": "chicken_root_veg_stew",
+    "prompt": "Hearty winter stew with chicken thighs, sweet potatoes, carrots, and parsnips, simmered in a rich broth, food photography, 4k",
+    "status": "pending",
+    "image_path": "src/images/chicken_root_veg_stew.png"
+  },
+  "241": {
+    "id": 241,
+    "name_heb": "לזניה צמחונית עשירה עם תרד ומוצרלה",
+    "image_name": "vegetarian_spinach_lasagna",
+    "prompt": "Rich vegetarian lasagna layered with spinach, ricotta, mozzarella, and marinara sauce, bubbling golden crust, food photography, 4k",
+    "status": "pending",
+    "image_path": "src/images/vegetarian_spinach_lasagna.png"
+  },
+  "247": {
+    "id": 247,
+    "name_heb": "מרק בצל צרפתי מוקרם עם לחם וגבינה",
+    "image_name": "french_onion_soup",
+    "prompt": "Rich French onion soup topped with a slice of toasted baguette and a thick layer of melted, browned Gruyere cheese, food photography, 4k",
+    "status": "pending",
+    "image_path": "src/images/french_onion_soup.png"
+  },
+  "248": {
+    "id": 248,
+    "name_heb": "מרק עוף ואטריות קלאסי ומנחם",
+    "image_name": "chicken_noodle_soup",
+    "prompt": "Clear, golden chicken noodle soup with carrots, celery, fresh dill, and tender shredded chicken, comforting bowl, food photography, 4k",
+    "status": "pending",
+    "image_path": "src/images/chicken_noodle_soup.png"
+  },
+  "261": {
+    "id": 261,
+    "name_heb": "חציל ממולא בשר ואורז ברוטב עגבניות בתנור",
+    "image_name": "meat_stuffed_eggplant",
+    "prompt": "Oven-baked eggplant halves stuffed with spiced minced beef and pine nuts, baked in a rich tomato sauce, food photography, 4k",
+    "status": "pending",
+    "image_path": "src/images/meat_stuffed_eggplant.png"
+  },
+  "263": {
+    "id": 263,
+    "name_heb": "גלילות חציל במילוי גבינות ותרד בתנור",
+    "image_name": "eggplant_spinach_cheese_rolls",
+    "prompt": "Baked eggplant rolls filled with spinach and a mixture of cheeses, swimming in red tomato sauce, food photography, 4k",
+    "status": "pending",
+    "image_path": "src/images/eggplant_spinach_cheese_rolls.png"
+  },
+  "281": {
+    "id": 281,
+    "name_heb": "צלי עוף וירקות שורש בסיר אחד",
+    "image_name": "one_pot_roasted_chicken_veg",
+    "prompt": "One-pot roast chicken legs cooked with baby carrots, onions, and root vegetables, rustic and steaming, food photography, 4k",
+    "status": "pending",
+    "image_path": "src/images/one_pot_roasted_chicken_veg.png"
+  },
+  "282": {
+    "id": 282,
+    "name_heb": "אורז ופרגיות עשיר ומקורי בסיר",
+    "image_name": "chicken_thighs_rice_pot",
+    "prompt": "Fragrant basmati rice cooked in a single pot with seasoned chicken thighs and middle eastern spices, food photography, 4k",
+    "status": "pending",
+    "image_path": "src/images/chicken_thighs_rice_pot.png"
+  },
+  "411": {
+    "id": 411,
+    "name_heb": "דלעת ערמונים ממולאת בעדשים שחורות מונבטות וסילאן",
+    "image_name": "stuffed_acorn_squash",
+    "prompt": "Baked acorn squash halves stuffed with sprouted black lentils, walnuts, dried cranberries, and a touch of silan, food photography, 4k",
+    "status": "pending",
+    "image_path": "src/images/stuffed_acorn_squash.png"
+  },
+  "418": {
+    "id": 418,
+    "name_heb": "מוסקה צמחונית עשירה עם עדשים ירוקות מונבטות",
+    "image_name": "vegetarian_moussaka",
+    "prompt": "Vegetarian moussaka layered with baked eggplant and a savory sprouted green lentil sauce, topped with cheese, food photography, 4k",
+    "status": "pending",
+    "image_path": "src/images/vegetarian_moussaka.png"
+  },
+  "419": {
+    "id": 419,
+    "name_heb": "מרק עדשים שחורות מונבטות וערמונים סמיך ומפנק",
+    "image_name": "black_lentil_chestnut_soup",
+    "prompt": "Thick, comforting black lentil soup cooked with roasted chestnuts and root vegetables, garnished with fresh thyme, food photography, 4k",
+    "status": "pending",
+    "image_path": "src/images/black_lentil_chestnut_soup.png"
+  },
+  "433": {
+    "id": 433,
+    "name_heb": "לזניה טבעונית בריאה עם עדשים ירוקות מונבטות ותרד",
+    "image_name": "vegan_spinach_lasagna",
+    "prompt": "Vegan spinach lasagna layered with sprouted green lentils, fresh spinach, tofu ricotta, and vegan cheese, food photography, 4k",
+    "status": "pending",
+    "image_path": "src/images/vegan_spinach_lasagna.png"
+  },
+  "445": {
+    "id": 445,
+    "name_heb": "פאי רועים טבעוני עם עדשים ירוקות מונבטות ופירה בטטה",
+    "image_name": "vegan_shepherds_pie",
+    "prompt": "Hearty vegan shepherd's pie with sprouted green lentils and mixed vegetables, topped with smooth mashed sweet potato, food photography, 4k",
+    "status": "pending",
+    "image_path": "src/images/vegan_shepherds_pie.png"
+  },
+  "266": {
+    "id": 266,
+    "name_heb": "תפוחי אדמה מוקרמים בשמנת ופטריות בתבנית",
+    "image_name": "scalloped_potatoes_mushrooms",
+    "prompt": "Thinly sliced potatoes baked in a rich cream sauce with wild mushrooms, garlic, and bubbly golden cheese, food photography, 4k",
+    "status": "pending",
+    "image_path": "src/images/scalloped_potatoes_mushrooms.png"
+  },
+  "278": {
+    "id": 278,
+    "name_heb": "סופלה תפוחי אדמה וגבינות עשיר ומנחם",
+    "image_name": "potato_cheese_souffle",
+    "prompt": "Fluffy, light potato and cheese soufflé baked in a ramekin, golden rise and airy texture, food photography, 4k",
+    "status": "pending",
+    "image_path": "src/images/potato_cheese_souffle.png"
+  },
+  "232": {
+    "id": 232,
+    "name_heb": "סנייה בקר ברוטב טחינה וצנוברים",
+    "image_name": "beef_siniya",
+    "prompt": "Minced beef baked in a skillet under a thick layer of warm tahini paste, pine nuts, and parsley, traditional Arabic Siniya, food photography, 4k",
+    "status": "pending",
+    "image_path": "src/images/beef_siniya.png"
+  }
+}
