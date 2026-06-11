@@ -276,7 +276,7 @@
     "name_heb": "פילה אמנון עסיסי אפוי בתנור",
     "image_name": "baked_tilapia_fillet",
     "prompt": "Flaky oven-baked tilapia fillet seasoned with garlic, lemon slices, and fresh herbs, served on a baking sheet, food photography, 4k",
-    "status": "pending",
+    "status": "completed",
     "image_path": "src/images/baked_tilapia_fillet.png"
   },
   "205": {
@@ -284,7 +284,7 @@
     "name_heb": "שווארמה פרגיות ביתית מתובלת היטב",
     "image_name": "homemade_chicken_shawarma",
     "prompt": "Seasoned sliced chicken shawarma cooked with onions and middle eastern spices, served on a plate with tahini drizzle, food photography, 4k",
-    "status": "pending",
+    "status": "completed",
     "image_path": "src/images/homemade_chicken_shawarma.png"
   },
   "210": {
@@ -292,7 +292,7 @@
     "name_heb": "מג'דרה אורז ועדשים חומות קלאסית",
     "image_name": "classic_mjadra",
     "prompt": "Classic Arabic Mujadara with spiced rice and brown lentils, topped with a generous amount of crispy caramelized onions, food photography, 4k",
-    "status": "pending",
+    "status": "completed",
     "image_path": "src/images/classic_mjadra.png"
   },
   "224": {
@@ -300,7 +300,7 @@
     "name_heb": "שווארמה טבעונית מפטריות ובצל מקורמל",
     "image_name": "vegan_mushroom_shawarma",
     "prompt": "Vegan shawarma made from shredded oyster mushrooms and caramelized onions, seasoned with shawarma spices, food photography, 4k",
-    "status": "pending",
+    "status": "completed",
     "image_path": "src/images/vegan_mushroom_shawarma.png"
   },
   "226": {
@@ -308,7 +308,7 @@
     "name_heb": "קינואה עשירה עם ירקות קלויים וטחינה",
     "image_name": "quinoa_roasted_veg_tahini",
     "prompt": "Rich quinoa bowl with roasted bell peppers, zucchini, eggplant, and a creamy tahini dressing, food photography, 4k",
-    "status": "pending",
+    "status": "completed",
     "image_path": "src/images/quinoa_roasted_veg_tahini.png"
   },
   "234": {
@@ -316,7 +316,7 @@
     "name_heb": "שיפודי פרגיות רכים בתנור",
     "image_name": "oven_chicken_skewers",
     "prompt": "Tender grilled chicken skewers seasoned with paprika and cumin, served with roasted tomatoes and onions, food photography, 4k",
-    "status": "pending",
+    "status": "completed",
     "image_path": "src/images/oven_chicken_skewers.png"
   },
   "237": {
@@ -324,7 +324,7 @@
     "name_heb": "פסטה עוף ופסטו מהירה ברוטב קרמי",
     "image_name": "chicken_pesto_pasta",
     "prompt": "Creamy pesto pasta with grilled chicken breast slices, cherry tomatoes, and fresh basil leaves, elegant plating, food photography, 4k",
-    "status": "pending",
+    "status": "completed",
     "image_path": "src/images/chicken_pesto_pasta.png"
   },
   "246": {
@@ -332,7 +332,7 @@
     "name_heb": "מרק מינסטרונה איטלקי עשיר בירקות ופסטה",
     "image_name": "minestrone_soup",
     "prompt": "Hearty Italian minestrone soup with rich tomato broth, mixed vegetables, white beans, and small pasta shells, food photography, 4k",
-    "status": "pending",
+    "status": "completed",
     "image_path": "src/images/minestrone_soup.png"
   },
   "252": {
@@ -340,7 +340,7 @@
     "name_heb": "פוקאצ'ה איטלקית עם שמן זית וירקות קלויים",
     "image_name": "italian_focaccia",
     "prompt": "Thick pillowy Italian focaccia bread dimpled and baked with extra virgin olive oil, sea salt, fresh rosemary, and cherry tomatoes, food photography, 4k",
-    "status": "pending",
+    "status": "completed",
     "image_path": "src/images/italian_focaccia.png"
   },
   "259": {
@@ -348,7 +348,7 @@
     "name_heb": "סלט פסטה קר עם פסטו וגבינה בולגרית",
     "image_name": "cold_pasta_pesto_salad",
     "prompt": "Cold pasta salad tossed with green basil pesto, cherry tomatoes, and cubes of salty Bulgarian cheese, summer vibe, food photography, 4k",
-    "status": "pending",
+    "status": "completed",
     "image_path": "src/images/cold_pasta_pesto_salad.png"
   },
   "265": {
@@ -356,7 +356,7 @@
     "name_heb": "ניוקי תפוחי אדמה בחמאת מרווה ופרמזן",
     "image_name": "potato_gnocchi_sage_butter",
     "prompt": "Pan-seared potato gnocchi tossed in brown butter, fresh sage leaves, and grated parmesan cheese, food photography, close-up, 4k",
-    "status": "pending",
+    "status": "completed",
     "image_path": "src/images/potato_gnocchi_sage_butter.png"
   },
   "268": {
@@ -364,7 +364,7 @@
     "name_heb": "ברוסקטה עגבניות ושום פריכה מלחם כפרי",
     "image_name": "tomato_garlic_bruschetta",
     "prompt": "Crispy grilled rustic bread topped with a mixture of diced ripe tomatoes, garlic, fresh basil, and extra virgin olive oil, food photography, 4k",
-    "status": "pending",
+    "status": "completed",
     "image_path": "src/images/tomato_garlic_bruschetta.png"
   },
   "274": {
@@ -372,7 +372,7 @@
     "name_heb": "מאק אנד צ'יז אמריקאי מהיר לילדים",
     "image_name": "mac_and_cheese",
     "prompt": "Creamy baked American mac and cheese with a golden bubbly cheddar crust, served in a small bowl, family classic, food photography, 4k",
-    "status": "pending",
+    "status": "completed",
     "image_path": "src/images/mac_and_cheese.png"
   },
   "287": {
@@ -380,7 +380,7 @@
     "name_heb": "שעועית ירוקה מוקפצת עם שומשום ושקדים",
     "image_name": "stir_fried_green_beans",
     "prompt": "Stir-fried vibrant green beans with toasted sesame seeds and sliced almonds, glistening with sesame oil, food photography, 4k",
-    "status": "pending",
+    "status": "completed",
     "image_path": "src/images/stir_fried_green_beans.png"
   },
   "410": {
@@ -388,7 +388,7 @@
     "name_heb": "מוקפץ ירקות וגרגרי חומוס מונבטים בווק",
     "image_name": "chickpea_veg_stir_fry",
     "prompt": "Sprouted chickpea and mixed vegetable stir-fry in a wok, seasoned with soy sauce, ginger, and garlic, food photography, 4k",
-    "status": "pending",
+    "status": "completed",
     "image_path": "src/images/chickpea_veg_stir_fry.png"
   },
   "420": {

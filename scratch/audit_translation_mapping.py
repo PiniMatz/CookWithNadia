@@ -232,6 +232,21 @@ def translate_name(name):
 def audit_mapping(eng_name, image, name_heb):
     name_lower = name_heb.lower()
     
+    # Bypass checks for custom dedicated images
+    GENERIC_IMAGES = {
+        "chicken_broccoli.png", "baked_salmon.png", "shakshuka.png", "beef_lasagna.png", 
+        "beef_stew.png", "broccoli_quiche.png", "red_lentil_soup.png", "fish_meatballs.png", 
+        "tofu_quinoa_bowl.png", "mushroom_pasta.png", "shakshuka_green.png", "pancake.png", 
+        "oatmeal_porridge.png", "muesli_yogurt.png", "scrambled_eggs.png", "caprese_toast.png", 
+        "grilled_cheese.png", "egg_salad.png", "tuna_salad.png", "smoothie_bowl.png", 
+        "pastry.png", "salad_fresh.png", "savory_muffins.png", "vegan_shakshuka.png", 
+        "scrambled_tofu.png", "pizza.png", "burger.png", "lentil_stew.png", "bean_stew.png", 
+        "falafel_plate.png", "pasta_red.png", "green_beans.png", "chili_con_carne.png",
+        "red_bean_soup.png", "white_bean_stew.png"
+    }
+    if image not in GENERIC_IMAGES:
+        return "PASS"
+        
     # Define Vegan Safe Images
     VEGAN_SAFE_IMAGES = [
         "tofu_quinoa_bowl.png", "salad_fresh.png", "smoothie_bowl.png", 
