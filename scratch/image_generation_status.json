@@ -396,7 +396,7 @@
     "name_heb": "פילה אמנון עם שעועית ירוקה ועדשים ירוקות מונבטות",
     "image_name": "tilapia_green_beans",
     "prompt": "Oven-baked tilapia fillet served on a bed of seasoned green beans and sprouted green lentils, clean eating, food photography, 4k",
-    "status": "pending",
+    "status": "completed",
     "image_path": "src/images/tilapia_green_beans.png"
   },
   "422": {
@@ -404,7 +404,7 @@
     "name_heb": "בורגול עם עדשים ירוקות מונבטות ובצל מקורמל",
     "image_name": "bulgur_sprouted_lentils",
     "prompt": "Coarse bulgur cooked with sprouted green lentils and plenty of caramelized sweet onions, traditional style, food photography, 4k",
-    "status": "pending",
+    "status": "completed",
     "image_path": "src/images/bulgur_sprouted_lentils.png"
   },
   "440": {
