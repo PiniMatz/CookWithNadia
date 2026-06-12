@@ -412,7 +412,7 @@
     "name_heb": "קדירת פילה סלמון ושעועית מאש מונבטת בקארי",
     "image_name": "salmon_mung_bean_curry",
     "prompt": "Oven-baked salmon fillet simmering in a rich coconut curry sauce with sprouted mung beans and bell peppers, food photography, 4k",
-    "status": "pending",
+    "status": "completed",
     "image_path": "src/images/salmon_mung_bean_curry.png"
   },
   "119": {
@@ -420,7 +420,7 @@
     "name_heb": "מאפינס בננה בריא ומהיר",
     "image_name": "healthy_banana_muffins",
     "prompt": "Golden-brown healthy banana muffins made with whole wheat flour, showing a soft crumb, bakery style, food photography, 4k",
-    "status": "pending",
+    "status": "completed",
     "image_path": "src/images/healthy_banana_muffins.png"
   },
   "138": {
@@ -428,7 +428,7 @@
     "name_heb": "מאפינס אוכמניות ויוגורט רך",
     "image_name": "blueberry_yogurt_muffins",
     "prompt": "Moist blueberry muffins made with Greek yogurt, studded with bursting fresh blueberries, food photography, close-up, 4k",
-    "status": "pending",
+    "status": "completed",
     "image_path": "src/images/blueberry_yogurt_muffins.png"
   },
   "144": {
@@ -436,7 +436,7 @@
     "name_heb": "מאפינס שוקולד צ'יפס רך",
     "image_name": "chocolate_chip_muffins",
     "prompt": "Decadent bakery-style chocolate chip muffins with a dome top, loaded with dark chocolate chips, food photography, 4k",
-    "status": "pending",
+    "status": "completed",
     "image_path": "src/images/chocolate_chip_muffins.png"
   },
   "269": {
@@ -444,7 +444,7 @@
     "name_heb": "כרובית אפויה בפירורי לחם בתנור",
     "image_name": "baked_cauliflower_breadcrumbs",
     "prompt": "Crispy oven-baked cauliflower florets coated in golden seasoned breadcrumbs, served with a tahini dip, food photography, 4k",
-    "status": "pending",
+    "status": "completed",
     "image_path": "src/images/baked_cauliflower_breadcrumbs.png"
   },
   "437": {
@@ -452,7 +452,7 @@
     "name_heb": "בורקס דפי אורז במילוי עדשים כתומות מונבטות ופטריות",
     "image_name": "rice_paper_borekas",
     "prompt": "Crispy baked rice paper borekas filled with sprouted orange lentils and wild mushrooms, sprinkled with sesame seeds, food photography, 4k",
-    "status": "pending",
+    "status": "completed",
     "image_path": "src/images/rice_paper_borekas.png"
   },
   "443": {
@@ -460,7 +460,7 @@
     "name_heb": "קערת גרגירי חומוס מונבטים וירקות שורש קלויים בתנור",
     "image_name": "chickpea_roasted_root_veg",
     "prompt": "Sprouted chickpeas roasted in the oven with sweet potato, carrot, and parsnip cubes, tossed with olive oil and herbs, food photography, 4k",
-    "status": "pending",
+    "status": "completed",
     "image_path": "src/images/chickpea_roasted_root_veg.png"
   },
   "449": {
@@ -468,7 +468,7 @@
     "name_heb": "מאפינס עדשים ירוקות מונבטות וירקות גינה ללא גלוטן",
     "image_name": "savory_lentil_muffins",
     "prompt": "Savory gluten-free muffins made with sprouted green lentils, grated zucchini, and garden vegetables, food photography, 4k",
-    "status": "pending",
+    "status": "completed",
     "image_path": "src/images/savory_lentil_muffins.png"
   },
   "211": {
@@ -476,7 +476,7 @@
     "name_heb": "קבב בקר ביתי צלוי בגריל",
     "image_name": "grilled_beef_kebab",
     "prompt": "Juicy grilled beef kebabs seasoned with parsley and onion, served with charred onions and tomatoes on a wooden platter, food photography, 4k",
-    "status": "pending",
+    "status": "completed",
     "image_path": "src/images/grilled_beef_kebab.png"
   },
   "222": {
@@ -484,7 +484,7 @@
     "name_heb": "קציצות עדשים ירוקות וקינואה אפויות בתנור",
     "image_name": "baked_lentil_quinoa_patties",
     "prompt": "Golden baked green lentil and quinoa patties served with a side of lemon tahini sauce, healthy vegan, food photography, 4k",
-    "status": "pending",
+    "status": "completed",
     "image_path": "src/images/baked_lentil_quinoa_patties.png"
   },
   "233": {
@@ -492,7 +492,7 @@
     "name_heb": "עראייס בקר בפיתה פריך מהתנור",
     "image_name": "beef_arais",
     "prompt": "Crispy grilled pita bread pockets stuffed with spiced minced beef (Arais), cut into quarters, glistening with beef juices, food photography, 4k",
-    "status": "pending",
+    "status": "completed",
     "image_path": "src/images/beef_arais.png"
   },
   "262": {
@@ -500,7 +500,7 @@
     "name_heb": "קציצות טונה אפויות בתנור וקלות להכנה",
     "image_name": "baked_tuna_patties",
     "prompt": "Crispy baked tuna patties with green herbs, served with a side of garlic-herb dip and lemon, food photography, 4k",
-    "status": "pending",
+    "status": "completed",
     "image_path": "src/images/baked_tuna_patties.png"
   },
   "8": {
@@ -508,7 +508,7 @@
     "name_heb": "קציצות דגים ברוטב עגבניות פיקנטי",
     "image_name": "vegetarian_lentil_meatballs",
     "prompt": "Vegetarian green lentil meatballs simmering in a thick, rich marinara tomato sauce, garnished with fresh basil, food photography, 4k",
-    "status": "pending",
+    "status": "completed",
     "image_path": "src/images/vegetarian_lentil_meatballs.png"
   },
   "400": {
@@ -516,7 +516,7 @@
     "name_heb": "קציצות עדשים ירוקות מונבטות ברוטב קארי פיקנטי",
     "image_name": "sprouted_lentil_curry_patties",
     "prompt": "Pan-seared sprouted green lentil patties seasoned with aromatic yellow curry spices, food photography, 4k",
-    "status": "pending",
+    "status": "completed",
     "image_path": "src/images/sprouted_lentil_curry_patties.png"
   },
   "407": {
@@ -524,7 +524,7 @@
     "name_heb": "קציצות עוף רכות עם עדשים כתומות מונבטות",
     "image_name": "chicken_lentil_patties",
     "prompt": "Soft baked chicken patties mixed with sprouted orange lentils, parsley, and garlic, kid-friendly, food photography, 4k",
-    "status": "pending",
+    "status": "completed",
     "image_path": "src/images/chicken_lentil_patties.png"
   },
   "423": {
@@ -532,7 +532,7 @@
     "name_heb": "קציצות טופו ועדשים כתומות מונבטות אפויות ללא שמן",
     "image_name": "baked_tofu_lentil_patties",
     "prompt": "Baked tofu and sprouted orange lentil patties, golden crust, served on a platter, oil-free healthy, food photography, 4k",
-    "status": "pending",
+    "status": "completed",
     "image_path": "src/images/baked_tofu_lentil_patties.png"
   },
   "427": {
@@ -540,7 +540,7 @@
     "name_heb": "קציצות פרגיות ועדשים ירוקות מונבטות בתנור",
     "image_name": "chicken_thigh_lentil_patties",
     "prompt": "Oven-baked chicken thigh patties mixed with sprouted green lentils and finely chopped onion, food photography, 4k",
-    "status": "pending",
+    "status": "completed",
     "image_path": "src/images/chicken_thigh_lentil_patties.png"
   },
   "402": {
