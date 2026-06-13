@@ -676,7 +676,7 @@
     "name_heb": "מרק עוף ואטריות קלאסי ומנחם",
     "image_name": "chicken_noodle_soup",
     "prompt": "Clear, golden chicken noodle soup with carrots, celery, fresh dill, and tender shredded chicken, comforting bowl, food photography, 4k",
-    "status": "pending",
+    "status": "completed",
     "image_path": "src/images/chicken_noodle_soup.png"
   },
   "261": {
@@ -684,7 +684,7 @@
     "name_heb": "חציל ממולא בשר ואורז ברוטב עגבניות בתנור",
     "image_name": "meat_stuffed_eggplant",
     "prompt": "Oven-baked eggplant halves stuffed with spiced minced beef and pine nuts, baked in a rich tomato sauce, food photography, 4k",
-    "status": "pending",
+    "status": "completed",
     "image_path": "src/images/meat_stuffed_eggplant.png"
   },
   "263": {
@@ -692,7 +692,7 @@
     "name_heb": "גלילות חציל במילוי גבינות ותרד בתנור",
     "image_name": "eggplant_spinach_cheese_rolls",
     "prompt": "Baked eggplant rolls filled with spinach and a mixture of cheeses, swimming in red tomato sauce, food photography, 4k",
-    "status": "pending",
+    "status": "completed",
     "image_path": "src/images/eggplant_spinach_cheese_rolls.png"
   },
   "281": {
