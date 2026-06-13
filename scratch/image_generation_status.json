@@ -700,7 +700,7 @@
     "name_heb": "צלי עוף וירקות שורש בסיר אחד",
     "image_name": "one_pot_roasted_chicken_veg",
     "prompt": "One-pot roast chicken legs cooked with baby carrots, onions, and root vegetables, rustic and steaming, food photography, 4k",
-    "status": "pending",
+    "status": "completed",
     "image_path": "src/images/one_pot_roasted_chicken_veg.png"
   },
   "282": {
@@ -708,7 +708,7 @@
     "name_heb": "אורז ופרגיות עשיר ומקורי בסיר",
     "image_name": "chicken_thighs_rice_pot",
     "prompt": "Fragrant basmati rice cooked in a single pot with seasoned chicken thighs and middle eastern spices, food photography, 4k",
-    "status": "pending",
+    "status": "completed",
     "image_path": "src/images/chicken_thighs_rice_pot.png"
   },
   "411": {
@@ -716,7 +716,7 @@
     "name_heb": "דלעת ערמונים ממולאת בעדשים שחורות מונבטות וסילאן",
     "image_name": "stuffed_acorn_squash",
     "prompt": "Baked acorn squash halves stuffed with sprouted black lentils, walnuts, dried cranberries, and a touch of silan, food photography, 4k",
-    "status": "pending",
+    "status": "completed",
     "image_path": "src/images/stuffed_acorn_squash.png"
   },
   "418": {
@@ -724,7 +724,7 @@
     "name_heb": "מוסקה צמחונית עשירה עם עדשים ירוקות מונבטות",
     "image_name": "vegetarian_moussaka",
     "prompt": "Vegetarian moussaka layered with baked eggplant and a savory sprouted green lentil sauce, topped with cheese, food photography, 4k",
-    "status": "pending",
+    "status": "completed",
     "image_path": "src/images/vegetarian_moussaka.png"
   },
   "419": {
@@ -732,7 +732,7 @@
     "name_heb": "מרק עדשים שחורות מונבטות וערמונים סמיך ומפנק",
     "image_name": "black_lentil_chestnut_soup",
     "prompt": "Thick, comforting black lentil soup cooked with roasted chestnuts and root vegetables, garnished with fresh thyme, food photography, 4k",
-    "status": "pending",
+    "status": "completed",
     "image_path": "src/images/black_lentil_chestnut_soup.png"
   },
   "433": {
