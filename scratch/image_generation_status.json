@@ -556,7 +556,7 @@
     "name_heb": "קציצות עדשים כתומות מונבטות וקישואים בריאות",
     "image_name": "orange_lentil_zucchini_patties",
     "prompt": "Sprouted orange lentil and grated zucchini patties, pan-seared until golden, food photography, 4k",
-    "status": "pending",
+    "status": "completed",
     "image_path": "src/images/orange_lentil_zucchini_patties.png"
   },
   "447": {
@@ -564,7 +564,7 @@
     "name_heb": "קציצות קישואים אפויות עם עדשים ירוקות מונבטות",
     "image_name": "zucchini_lentil_patties",
     "prompt": "Baked zucchini patties mixed with sprouted green lentils and parmesan cheese, crispy edges, food photography, 4k",
-    "status": "pending",
+    "status": "completed",
     "image_path": "src/images/zucchini_lentil_patties.png"
   },
   "206": {
@@ -572,7 +572,7 @@
     "name_heb": "חזה עוף עסיסי ברוטב דבש וחרדל",
     "image_name": "honey_mustard_chicken",
     "prompt": "Juicy chicken breast glazed in a glossy honey mustard sauce, roasted to perfection, food photography, 4k",
-    "status": "pending",
+    "status": "completed",
     "image_path": "src/images/honey_mustard_chicken.png"
   },
   "208": {
@@ -580,7 +580,7 @@
     "name_heb": "קוסקוס מהיר עם מרק ירקות עשיר",
     "image_name": "couscous_vegetable_soup",
     "prompt": "Fluffy steamed couscous served with a rich, yellow vegetable soup loaded with pumpkin, zucchini, and carrots, food photography, 4k",
-    "status": "pending",
+    "status": "completed",
     "image_path": "src/images/couscous_vegetable_soup.png"
   },
   "209": {
@@ -588,7 +588,7 @@
     "name_heb": "עוף בתנור עם תפוחי אדמה ושום",
     "image_name": "oven_roasted_chicken_potatoes",
     "prompt": "Oven-roasted chicken thighs with crispy golden skin, baked with baby potatoes, garlic cloves, and rosemary, food photography, 4k",
-    "status": "pending",
+    "status": "completed",
     "image_path": "src/images/oven_roasted_chicken_potatoes.png"
   },
   "212": {
@@ -596,7 +596,7 @@
     "name_heb": "מעורב ירושלמי עשיר בתבלינים",
     "image_name": "jerusalem_mixed_grill",
     "prompt": "Traditional Jerusalem mixed grill (Meurav Yerushalmi) with chicken thighs, hearts, and livers cooked with onions and warm spices, food photography, 4k",
-    "status": "pending",
+    "status": "completed",
     "image_path": "src/images/jerusalem_mixed_grill.png"
   },
   "216": {
@@ -604,7 +604,7 @@
     "name_heb": "פלפלים ממולאים קלאסיים באורז ובשר",
     "image_name": "meat_stuffed_peppers",
     "prompt": "Classic bell peppers stuffed with minced beef and rice, slow-cooked in a rich red tomato sauce, food photography, 4k",
-    "status": "pending",
+    "status": "completed",
     "image_path": "src/images/meat_stuffed_peppers.png"
   },
   "217": {
@@ -612,7 +612,7 @@
     "name_heb": "פלפלים ממולאים צמחוניים עם אורז ועדשים כתומות",
     "image_name": "vegetarian_stuffed_peppers",
     "prompt": "Vegetarian bell peppers stuffed with rice, sprouted orange lentils, and herbs, baked in a savory tomato broth, food photography, 4k",
-    "status": "pending",
+    "status": "completed",
     "image_path": "src/images/vegetarian_stuffed_peppers.png"
   },
   "218": {
@@ -620,7 +620,7 @@
     "name_heb": "כרעי עוף עם אורז בתנור בסיר אחד",
     "image_name": "one_pot_chicken_rice",
     "prompt": "One-pot roasted chicken thighs cooked directly over a bed of seasoned spiced rice, family style, food photography, 4k",
-    "status": "pending",
+    "status": "completed",
     "image_path": "src/images/one_pot_chicken_rice.png"
   },
   "221": {
@@ -628,7 +628,7 @@
     "name_heb": "פאי רועים אנגלי עם בשר ובטטה",
     "image_name": "shepherds_pie",
     "prompt": "Classic English shepherd's pie with a layer of minced beef and vegetables, topped with piped, golden-baked mashed sweet potato, food photography, 4k",
-    "status": "pending",
+    "status": "completed",
     "image_path": "src/images/shepherds_pie.png"
   },
   "229": {
@@ -636,7 +636,7 @@
     "name_heb": "מוסקה חצילים ובשר בקר מסורתית",
     "image_name": "eggplant_moussaka",
     "prompt": "Traditional Greek moussaka with layers of baked eggplant, seasoned minced beef, and a golden top layer, food photography, 4k",
-    "status": "pending",
+    "status": "completed",
     "image_path": "src/images/eggplant_moussaka.png"
   },
   "230": {
@@ -644,7 +644,7 @@
     "name_heb": "סטייק פרגית במרינדה עשירה של סילאן",
     "image_name": "silan_chicken_steak",
     "prompt": "Tender chicken thigh steak glazed in a sweet dark silan (date honey) and soy marinade, pan-seared, food photography, 4k",
-    "status": "pending",
+    "status": "completed",
     "image_path": "src/images/silan_chicken_steak.png"
   },
   "236": {
@@ -652,7 +652,7 @@
     "name_heb": "קדירת פרגיות וירקות שורש לחורף",
     "image_name": "chicken_root_veg_stew",
     "prompt": "Hearty winter stew with chicken thighs, sweet potatoes, carrots, and parsnips, simmered in a rich broth, food photography, 4k",
-    "status": "pending",
+    "status": "completed",
     "image_path": "src/images/chicken_root_veg_stew.png"
   },
   "241": {
@@ -660,7 +660,7 @@
     "name_heb": "לזניה צמחונית עשירה עם תרד ומוצרלה",
     "image_name": "vegetarian_spinach_lasagna",
     "prompt": "Rich vegetarian lasagna layered with spinach, ricotta, mozzarella, and marinara sauce, bubbling golden crust, food photography, 4k",
-    "status": "pending",
+    "status": "completed",
     "image_path": "src/images/vegetarian_spinach_lasagna.png"
   },
   "247": {
@@ -668,7 +668,7 @@
     "name_heb": "מרק בצל צרפתי מוקרם עם לחם וגבינה",
     "image_name": "french_onion_soup",
     "prompt": "Rich French onion soup topped with a slice of toasted baguette and a thick layer of melted, browned Gruyere cheese, food photography, 4k",
-    "status": "pending",
+    "status": "completed",
     "image_path": "src/images/french_onion_soup.png"
   },
   "248": {
