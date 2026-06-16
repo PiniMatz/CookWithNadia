@@ -740,7 +740,7 @@
     "name_heb": "לזניה טבעונית בריאה עם עדשים ירוקות מונבטות ותרד",
     "image_name": "vegan_spinach_lasagna",
     "prompt": "Vegan spinach lasagna layered with sprouted green lentils, fresh spinach, tofu ricotta, and vegan cheese, food photography, 4k",
-    "status": "pending",
+    "status": "completed",
     "image_path": "src/images/vegan_spinach_lasagna.png"
   },
   "445": {
@@ -748,7 +748,7 @@
     "name_heb": "פאי רועים טבעוני עם עדשים ירוקות מונבטות ופירה בטטה",
     "image_name": "vegan_shepherds_pie",
     "prompt": "Hearty vegan shepherd's pie with sprouted green lentils and mixed vegetables, topped with smooth mashed sweet potato, food photography, 4k",
-    "status": "pending",
+    "status": "completed",
     "image_path": "src/images/vegan_shepherds_pie.png"
   },
   "266": {
@@ -756,7 +756,7 @@
     "name_heb": "תפוחי אדמה מוקרמים בשמנת ופטריות בתבנית",
     "image_name": "scalloped_potatoes_mushrooms",
     "prompt": "Thinly sliced potatoes baked in a rich cream sauce with wild mushrooms, garlic, and bubbly golden cheese, food photography, 4k",
-    "status": "pending",
+    "status": "completed",
     "image_path": "src/images/scalloped_potatoes_mushrooms.png"
   },
   "278": {
@@ -764,7 +764,7 @@
     "name_heb": "סופלה תפוחי אדמה וגבינות עשיר ומנחם",
     "image_name": "potato_cheese_souffle",
     "prompt": "Fluffy, light potato and cheese soufflé baked in a ramekin, golden rise and airy texture, food photography, 4k",
-    "status": "pending",
+    "status": "completed",
     "image_path": "src/images/potato_cheese_souffle.png"
   },
   "232": {
@@ -772,7 +772,7 @@
     "name_heb": "סנייה בקר ברוטב טחינה וצנוברים",
     "image_name": "beef_siniya",
     "prompt": "Minced beef baked in a skillet under a thick layer of warm tahini paste, pine nuts, and parsley, traditional Arabic Siniya, food photography, 4k",
-    "status": "pending",
+    "status": "completed",
     "image_path": "src/images/beef_siniya.png"
   }
 }
